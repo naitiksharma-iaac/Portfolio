@@ -1,0 +1,13 @@
+project-references/REclaimedREconfiguredREimagined/Milling[[:space:]]02.mp4 filter=lfs diff=lfs merge=lfs -text
+project-references/REclaimedREconfiguredREimagined/showroom-over-time.gif filter=lfs diff=lfs merge=lfs -text
+project-references/tectonics-of-stock-assemblies/TECTONICS[[:space:]]OF[[:space:]]STOCK[[:space:]]ASSEMBLIES.pptx filter=lfs diff=lfs merge=lfs -text
+project-references/tectonics-of-stock-assemblies/VID20260509172223.mp4 filter=lfs diff=lfs merge=lfs -text
+project-references/tectonics-of-stock-assemblies/ezgif.com-video-to-gif-converter[[:space:]](18).gif filter=lfs diff=lfs merge=lfs -text
+static-portfolio/assets/projects/reclaimed-reconfigured-reimagined/showroom-over-time.gif filter=lfs diff=lfs merge=lfs -text
+tmp/tectonics-deck/ppt/media/image48.gif filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.pptx filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.3dm filter=lfs diff=lfs merge=lfs -text
+*.3dmbak filter=lfs diff=lfs merge=lfs -text
