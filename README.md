@@ -26,3 +26,7 @@ npm run dev
 5. Add, remove or reorder the project’s `blocks`. The detail page is created automatically.
 
 No TypeScript is used in this project.
+
+## Deploy to Hostinger
+
+Run `npm run build`, then upload the contents of `out/` to `public_html`. See [deployment.md](deployment.md) for the complete Hostinger checklist.

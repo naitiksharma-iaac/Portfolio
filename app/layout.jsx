@@ -1,35 +1,31 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { site } from "../content/site";
-import { headers } from "next/headers";
 import "./globals.css";
 
-export async function generateMetadata() {
-  const requestHeaders = await headers();
-  const host = requestHeaders.get("x-forwarded-host") || requestHeaders.get("host") || "localhost:3000";
-  const protocol = requestHeaders.get("x-forwarded-proto") || (host.startsWith("localhost") ? "http" : "https");
-  const imageUrl = `${protocol}://${host}/og.png`;
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
 
-  return {
-    title: {
-      default: `${site.name} — Computational Architecture`,
-      template: `%s — ${site.name}`,
-    },
+export const metadata = {
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: `${site.name} — Computational Architecture`,
+    template: `%s — ${site.name}`,
+  },
+  description: site.description,
+  openGraph: {
+    title: `${site.name} — Computational Architecture`,
     description: site.description,
-    openGraph: {
-      title: `${site.name} — Computational Architecture`,
-      description: site.description,
-      type: "website",
-      images: [{ url: imageUrl, width: 1536, height: 1024, alt: `${site.name}, Computational Architecture` }],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: `${site.name} — Computational Architecture`,
-      description: site.description,
-      images: [imageUrl],
-    },
-  };
-}
+    type: "website",
+    url: "/",
+    images: [{ url: "/og.png", width: 1536, height: 1024, alt: `${site.name}, Computational Architecture` }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${site.name} — Computational Architecture`,
+    description: site.description,
+    images: ["/og.png"],
+  },
+};
 
 export default function RootLayout({ children }) {
   return (
