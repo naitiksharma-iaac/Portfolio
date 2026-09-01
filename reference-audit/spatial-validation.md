@@ -1,5 +1,7 @@
 # Spatial prototype validation
 
+> Historical note: the header coordinates below describe the earlier fixed-canvas prototype. They were superseded by the viewport-based global header correction in `global-header-correction.md`. Project composition measurements remain preserved here.
+
 ## Reference viewport: 1346×917
 
 The corrected homepage uses a fixed 1062px centered canvas. At 1346px, its left edge is 142px. Adding the CSS-relative coordinates reproduces every supplied desktop x-coordinate:

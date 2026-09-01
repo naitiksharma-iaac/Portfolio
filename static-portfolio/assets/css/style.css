@@ -101,42 +101,46 @@ video {
 
 .home-stage,
 .home-canvas {
-  height: 1240px;
+  height: 1176px;
 }
 
-.spatial-header {
-  position: absolute;
+.site-header {
+  position: relative;
   z-index: 20;
-  top: 0;
-  left: 0;
-  width: var(--canvas-width);
-  height: 46px;
+  width: 100%;
+  height: 64px;
 }
 
-.spatial-name {
+.site-name,
+.site-contact,
+.site-bio {
   position: absolute;
+  white-space: nowrap;
+}
+
+.site-name {
   top: 0;
-  left: 428px;
-  width: 110px;
+  left: 49%;
+  transform: translateX(-50%);
   font-size: 13px;
   font-weight: 400;
   line-height: 15px;
 }
 
-.spatial-nav a {
-  position: absolute;
-  top: 26px;
+.site-contact,
+.site-bio {
+  top: 28px;
   font-size: 11px;
   font-weight: 400;
   line-height: 14px;
 }
 
-.spatial-contact {
-  left: 141px;
+.site-contact {
+  left: 17%;
 }
 
-.spatial-bio {
-  left: 784px;
+.site-bio {
+  left: 77%;
 }
 
 .project-composition {
@@ -169,85 +173,85 @@ video {
 }
 
 .project-a-small {
-  top: 66px;
+  top: 2px;
   left: 136px;
   width: 121px;
 }
 
 .project-a-drawing {
-  top: 72px;
+  top: 8px;
   left: 258px;
   width: 233px;
 }
 
 .project-a-main {
-  top: 65px;
+  top: 1px;
   left: 497px;
   width: 360px;
 }
 
 .project-a-meta {
-  top: 67px;
+  top: 3px;
   left: 870px;
   width: 115px;
 }
 
 .project-b-meta {
-  top: 359px;
+  top: 295px;
   left: 0;
   width: 90px;
 }
 
 .project-b-main {
-  top: 357px;
+  top: 293px;
   left: 100px;
   width: 443px;
 }
 
 .project-b-secondary {
-  top: 362px;
+  top: 298px;
   left: 548px;
   width: 189px;
 }
 
 .project-c-left {
-  top: 658px;
+  top: 594px;
   left: 247px;
   width: 307px;
 }
 
 .project-c-right {
-  top: 648px;
+  top: 584px;
   left: 565px;
   width: 294px;
 }
 
 .project-c-meta {
-  top: 649px;
+  top: 585px;
   left: 873px;
   width: 115px;
 }
 
 .project-d-meta {
-  top: 950px;
+  top: 886px;
   left: 70px;
   width: 105px;
 }
 
 .project-d-main {
-  top: 938px;
+  top: 874px;
   left: 205px;
   width: 360px;
 }
 
 .project-d-secondary {
-  top: 972px;
+  top: 908px;
   left: 580px;
   width: 210px;
 }
 
 .project-d-tertiary {
-  top: 931px;
+  top: 867px;
   left: 800px;
   width: 180px;
 }
@@ -255,12 +259,12 @@ video {
 /* Static project page: intentionally spatial, not an article column. */
 .project-stage,
 .project-canvas {
-  height: 2300px;
+  height: 2236px;
 }
 
 .project-page-title {
   position: absolute;
-  top: 82px;
+  top: 18px;
   left: 370px;
   width: 250px;
   font-size: 13px;
@@ -270,7 +274,7 @@ video {
 
 .project-page-meta {
   position: absolute;
-  top: 84px;
+  top: 20px;
   left: 760px;
   width: 170px;
   color: var(--quiet-ink);
@@ -321,66 +325,66 @@ video {
 }
 
 .charge-intro {
-  top: 160px;
+  top: 96px;
   left: 142px;
 }
 
 .charge-hero {
-  top: 145px;
+  top: 81px;
   left: 470px;
   width: 450px;
 }
 
 .charge-copy-form {
-  top: 475px;
+  top: 411px;
   left: 165px;
 }
 
 .charge-minimal {
-  top: 430px;
+  top: 366px;
   left: 505px;
   width: 360px;
 }
 
 .charge-radiation {
-  top: 760px;
+  top: 696px;
   left: 130px;
   width: 440px;
 }
 
 .charge-copy-environment {
-  top: 780px;
+  top: 716px;
   left: 650px;
   width: 225px;
 }
 
 .charge-site {
-  top: 1030px;
+  top: 966px;
   left: 410px;
   width: 500px;
 }
 
 .charge-copy-structure {
-  top: 1385px;
+  top: 1321px;
   left: 700px;
   width: 230px;
 }
 
 .charge-structure {
-  top: 1360px;
+  top: 1296px;
   left: 120px;
   width: 520px;
 }
 
 .charge-final {
-  top: 1740px;
+  top: 1676px;
   left: 310px;
   width: 650px;
 }
 
 .project-credits {
   position: absolute;
-  top: 2110px;
+  top: 2046px;
   left: 110px;
   width: 340px;
   color: var(--quiet-ink);
@@ -410,7 +414,7 @@ video {
 
 .back-to-main {
   position: absolute;
-  top: 2220px;
+  top: 2156px;
   left: 870px;
   font-size: 11px;
   line-height: 14px;
@@ -426,7 +430,7 @@ video {
 
 .text-page-content {
   width: 360px;
-  padding-top: 118px;
+  padding-top: 54px;
   margin-left: 300px;
 }
 
@@ -457,60 +461,59 @@ video {
 @media (max-width: 1120px) {
   .scaled-stage { width: 956px; }
   .spatial-canvas { transform: scale(0.9); }
-  .home-stage { height: 1116px; }
-  .project-stage { height: 2070px; }
+  .home-stage { height: 1058px; }
+  .project-stage { height: 2012px; }
   .text-page { width: calc(100% - 48px); }
 }
 
 @media (max-width: 980px) {
   .scaled-stage { width: 850px; }
   .spatial-canvas { transform: scale(0.8); }
-  .home-stage { height: 992px; }
-  .project-stage { height: 1840px; }
+  .home-stage { height: 941px; }
+  .project-stage { height: 1789px; }
 }
 
 @media (max-width: 870px) {
   .scaled-stage { width: 743px; }
   .spatial-canvas { transform: scale(0.7); }
-  .home-stage { height: 868px; }
-  .project-stage { height: 1610px; }
+  .home-stage { height: 823px; }
+  .project-stage { height: 1565px; }
   .text-page-content { margin-left: 24%; }
 }
 
 @media (max-width: 760px) {
   .scaled-stage { width: 637px; }
   .spatial-canvas { transform: scale(0.6); }
-  .home-stage { height: 744px; }
-  .project-stage { height: 1380px; }
+  .home-stage { height: 706px; }
+  .project-stage { height: 1342px; }
 }
 
 @media (max-width: 650px) {
   .scaled-stage { width: 531px; }
   .spatial-canvas { transform: scale(0.5); }
-  .home-stage { height: 620px; }
-  .project-stage { height: 1150px; }
+  .home-stage { height: 588px; }
+  .project-stage { height: 1118px; }
   .text-page { width: calc(100% - 32px); }
-  .text-page .spatial-header { transform: scale(0.5); transform-origin: top left; }
-  .text-page-content { width: min(360px, 100%); padding-top: 76px; margin-left: 0; }
+  .text-page-content { width: min(360px, 100%); padding-top: 28px; margin-left: 0; }
 }
 
 @media (max-width: 540px) {
   .scaled-stage { width: 446px; }
   .spatial-canvas { transform: scale(0.42); }
-  .home-stage { height: 521px; }
-  .project-stage { height: 966px; }
+  .home-stage { height: 494px; }
+  .project-stage { height: 939px; }
 }
 
 @media (max-width: 460px) {
   .scaled-stage { width: 372px; }
   .spatial-canvas { transform: scale(0.35); }
-  .home-stage { height: 434px; }
-  .project-stage { height: 805px; }
+  .home-stage { height: 412px; }
+  .project-stage { height: 783px; }
 }
 
 @media (max-width: 390px) {
   .scaled-stage { width: 329px; }
   .spatial-canvas { transform: scale(0.31); }
-  .home-stage { height: 385px; }
-  .project-stage { height: 713px; }
+  .home-stage { height: 365px; }
+  .project-stage { height: 693px; }
 }

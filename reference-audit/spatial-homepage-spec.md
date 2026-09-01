@@ -1,5 +1,7 @@
 # Spatial homepage correction specification
 
+> Historical note: the fixed-canvas header geometry in this document has been superseded by `global-header-correction.md`. The project-composition geometry remains preserved.
+
 The corrected homepage is governed by the user-supplied Maria Yablonina screenshot at approximately 1346×917, not by the earlier vertical-list fallback.
 
 ## Browser status

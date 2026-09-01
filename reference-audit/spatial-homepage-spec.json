@@ -1,6 +1,7 @@
 {
   "reference": "https://www.mariayablonina.com/",
   "auditDate": "2026-09-01",
+  "status": "homepage project geometry retained; header geometry superseded by global-header-correction.md",
   "authority": "user-supplied screenshot geometry",
   "referenceViewport": { "width": 1346, "height": 917 },
   "liveBrowserAvailable": false,
