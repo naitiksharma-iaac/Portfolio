@@ -1,0 +1,49 @@
+:root {
+  --reference-font: Arial, Helvetica, sans-serif;
+  --reference-page-background: #ffffff;
+  --reference-text-color: #111111;
+  --reference-link-color: inherit;
+
+  --reference-page-top: 36px;
+  --reference-page-right: 48px;
+  --reference-page-bottom: 72px;
+  --reference-page-left: 48px;
+
+  --reference-name-size: 18px;
+  --reference-name-line-height: 21.6px;
+  --reference-nav-size: 14px;
+  --reference-nav-line-height: 20.3px;
+  --reference-index-title-size: 15px;
+  --reference-index-title-line-height: 20.3px;
+  --reference-index-meta-size: 13px;
+  --reference-index-meta-line-height: 18.85px;
+  --reference-project-title-size: 18px;
+  --reference-project-title-line-height: 21.6px;
+  --reference-project-meta-size: 13px;
+  --reference-project-meta-line-height: 18.85px;
+  --reference-body-size: 14px;
+  --reference-body-line-height: 21px;
+  --reference-credit-size: 13px;
+
+  --reference-reading-width: 620px;
+  --reference-media-width: 960px;
+  --reference-header-gap: 72px;
+  --reference-nav-gap: 0px;
+  --reference-image-title-gap: 14px;
+  --reference-title-meta-gap: 2px;
+  --reference-project-gap: 80px;
+  --reference-section-gap: 42px;
+  --reference-paragraph-gap: 14px;
+}
+
+@media (max-width: 600px) {
+  :root {
+    --reference-page-top: 24px;
+    --reference-page-right: 20px;
+    --reference-page-bottom: 48px;
+    --reference-page-left: 20px;
+    --reference-header-gap: 56px;
+    --reference-project-gap: 64px;
+    --reference-section-gap: 36px;
+  }
+}

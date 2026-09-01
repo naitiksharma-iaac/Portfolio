@@ -14,6 +14,7 @@ const eslintConfig = defineConfig([
     ".next/**",
     "out/**",
     "dist/**",
+    "legacy/**",
   ]),
 ]);
 

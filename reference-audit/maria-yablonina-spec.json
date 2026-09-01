@@ -1,0 +1,73 @@
+{
+  "reference": "https://www.mariayablonina.com/",
+  "auditDate": "2026-09-01",
+  "mode": "locked-fallback",
+  "measurementAvailable": false,
+  "limitation": "The prescribed in-app browser runtime returned no available browser backends after its documented discovery and retry procedure. Computed-style, bounding-box, hover, click, and viewport screenshot measurements could not be collected.",
+  "referencePagesInspected": [],
+  "requiredViewports": [
+    { "width": 1440, "height": 900 },
+    { "width": 1280, "height": 800 },
+    { "width": 1024, "height": 768 },
+    { "width": 768, "height": 1024 },
+    { "width": 390, "height": 844 },
+    { "width": 360, "height": 800 }
+  ],
+  "global": {
+    "backgroundColor": "#ffffff",
+    "textColor": "#111111",
+    "secondaryTextColor": "#111111",
+    "linkColor": "inherit",
+    "fontFamily": "Arial, Helvetica, sans-serif",
+    "fontSize": "14px",
+    "fontWeight": "400",
+    "fontStyle": "normal",
+    "lineHeight": "20.3px",
+    "lineHeightRatio": 1.45,
+    "letterSpacing": "normal",
+    "wordSpacing": "normal",
+    "textTransform": "none",
+    "textDecoration": "none",
+    "minWidth": "320px",
+    "minHeight": "100%",
+    "overflowX": "hidden"
+  },
+  "typography": {
+    "siteName": { "fontSize": "18px", "fontWeight": "400", "lineHeight": "21.6px", "letterSpacing": "normal" },
+    "navigation": { "fontSize": "14px", "fontWeight": "400", "lineHeight": "20.3px", "letterSpacing": "normal" },
+    "indexTitle": { "fontSize": "15px", "fontWeight": "400", "lineHeight": "20.3px", "letterSpacing": "normal" },
+    "indexMetadata": { "fontSize": "13px", "fontWeight": "400", "lineHeight": "18.85px", "letterSpacing": "normal" },
+    "projectTitle": { "fontSize": "18px", "fontWeight": "400", "lineHeight": "21.6px", "letterSpacing": "normal" },
+    "projectMetadata": { "fontSize": "13px", "fontWeight": "400", "lineHeight": "18.85px", "letterSpacing": "normal" },
+    "projectBody": { "fontSize": "14px", "fontWeight": "400", "lineHeight": "21px", "lineHeightRatio": 1.5, "letterSpacing": "normal" },
+    "caption": { "fontSize": "13px", "fontWeight": "400", "lineHeight": "18.85px", "letterSpacing": "normal" },
+    "creditsHeading": { "fontSize": "14px", "fontWeight": "400", "lineHeight": "20.3px", "letterSpacing": "normal" },
+    "creditsText": { "fontSize": "13px", "fontWeight": "400", "lineHeight": "18.85px", "letterSpacing": "normal" },
+    "backToMain": { "fontSize": "14px", "fontWeight": "400", "lineHeight": "20.3px", "letterSpacing": "normal" }
+  },
+  "geometry": {
+    "desktopPadding": { "top": "36px", "right": "48px", "bottom": "72px", "left": "48px" },
+    "mobilePadding": { "top": "24px", "right": "20px", "bottom": "48px", "left": "20px" },
+    "paragraphMaxWidth": "620px",
+    "mediaMaxWidth": "960px",
+    "borderRadius": "0px",
+    "boxShadow": "none"
+  },
+  "behavior": {
+    "animation": "none",
+    "scrolling": "native vertical scrolling",
+    "imageFit": "intrinsic aspect ratio; width 100%; height auto",
+    "imageEnlargement": "not implemented because live click behavior could not be verified",
+    "hover": "underline for links on hover and keyboard focus",
+    "mobileNavigation": "same visible name, Contact, and Bio links; no menu"
+  },
+  "implementationSpacing": {
+    "basis": "Fallback typography line boxes and restrained normal document flow; these values are implementation necessities, not claimed live measurements.",
+    "headerToIndex": "72px desktop / 56px mobile",
+    "projectGap": "80px desktop / 64px mobile",
+    "mediaToTitle": "14px",
+    "titleToMetadata": "2px",
+    "sectionGap": "42px desktop / 36px mobile",
+    "paragraphGap": "14px"
+  }
+}

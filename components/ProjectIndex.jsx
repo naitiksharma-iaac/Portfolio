@@ -1,31 +1,38 @@
-"use client";
+import Link from "next/link";
+import ProjectMediaImage from "./ProjectMediaImage";
 
-import { useMemo, useState } from "react";
-import ProjectFilters, { projectMatchesFilter } from "./ProjectFilters";
-import ProjectGrid from "./ProjectGrid";
+function projectContext(project) {
+  return project.office || project.institution || project.studio || project.context || null;
+}
 
 export default function ProjectIndex({ projects }) {
-  const [activeFilter, setActiveFilter] = useState("All");
-  const visibleProjects = useMemo(
-    () => projects.filter((project) => projectMatchesFilter(project, activeFilter)),
-    [activeFilter, projects],
-  );
-
   return (
-    <>
-      <ProjectFilters activeFilter={activeFilter} onFilterChange={setActiveFilter} projects={projects} />
-      <section className="project-index-group">
-        <div className="project-index-group-heading">
-          <span>{activeFilter === "All" ? `01-${String(projects.length).padStart(2, "0")}` : "Filtered index"}</span>
-          <h2>{activeFilter === "All" ? "All Projects" : `${activeFilter} Projects`}</h2>
-          <p>{String(visibleProjects.length).padStart(2, "0")} projects</p>
-        </div>
-        {visibleProjects.length > 0 ? (
-          <ProjectGrid projects={visibleProjects} allProjects={projects} />
-        ) : (
-          <p className="empty-filter">No projects currently use this classification.</p>
-        )}
-      </section>
-    </>
+    <section className="project-index" aria-label="Projects">
+      {projects.map((project, index) => {
+        const context = projectContext(project);
+
+        return (
+          <article className="project-index-item" key={project.slug}>
+            {project.thumbnail && (
+              <figure className="project-index-media" data-ref="project-media">
+                <Link href={`/projects/${project.slug}/`} tabIndex={-1} aria-hidden="true">
+                  <ProjectMediaImage
+                    src={project.thumbnail}
+                    alt={project.thumbnailAlt || project.title}
+                    loading={index === 0 ? "eager" : "lazy"}
+                    fetchPriority={index === 0 ? "high" : undefined}
+                  />
+                </Link>
+              </figure>
+            )}
+            <h2 className="project-index-title" data-ref="project-title">
+              <Link href={`/projects/${project.slug}/`}>{project.title}</Link>
+            </h2>
+            {context && <p className="project-index-meta" data-ref="project-meta">{context}</p>}
+            {project.year && <p className="project-index-meta" data-ref="project-year">{project.year}</p>}
+          </article>
+        );
+      })}
+    </section>
   );
 }

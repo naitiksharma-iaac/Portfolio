@@ -1,15 +1,16 @@
 import Link from "next/link";
 import { site } from "../content/site";
-import Navigation from "./Navigation";
 
 export default function Header() {
   return (
     <header className="site-header">
-      <Link className="wordmark" href="/" aria-label={`${site.name}, home`} data-cursor="">
-        <span>N / S</span>
-        <span className="wordmark-mark" aria-hidden="true" />
+      <Link className="site-name" href="/" aria-label={`${site.name}, main page`} data-ref="site-name">
+        {site.name}
       </Link>
-      <Navigation />
+      <nav className="site-navigation" aria-label="Primary navigation">
+        <Link href="/contact/" data-ref="contact-link">Contact</Link>
+        <Link href="/about/" data-ref="bio-link">Bio</Link>
+      </nav>
     </header>
   );
 }

@@ -107,7 +107,7 @@ Open these pages on the final domain:
 /a-page-that-does-not-exist/
 ```
 
-The first pages should load normally. The final address should show the custom 404 page. Also check the desktop and mobile navigation, project filters, external links, images, GIFs and videos.
+The first pages should load normally. The final address should show the custom 404 page. Also check the desktop and mobile navigation, external links, images, GIFs and videos.
 
 ## Updating the site later
 
