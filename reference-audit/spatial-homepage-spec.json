@@ -1,0 +1,44 @@
+{
+  "reference": "https://www.mariayablonina.com/",
+  "auditDate": "2026-09-01",
+  "authority": "user-supplied screenshot geometry",
+  "referenceViewport": { "width": 1346, "height": 917 },
+  "liveBrowserAvailable": false,
+  "browserLimitation": "The prescribed browser runtime reported zero available browser backends after its documented retry procedure.",
+  "canvas": {
+    "width": 1062,
+    "leftAtReferenceViewport": 142,
+    "logic": "fixed restrained desktop canvas centered in the viewport"
+  },
+  "header": {
+    "siteName": { "absoluteX": 570, "relativeX": 428, "y": 0, "approximateWidth": 103 },
+    "contact": { "absoluteX": 283, "relativeX": 141, "y": 26 },
+    "bio": { "absoluteX": 926, "relativeX": 784, "y": 26 }
+  },
+  "projectA": {
+    "smallImage": { "absoluteX": 278, "relativeX": 136, "y": 66, "width": 121, "height": 121 },
+    "drawing": { "absoluteX": 400, "relativeX": 258, "y": 72, "width": 233, "height": 233 },
+    "mainImage": { "absoluteX": 639, "relativeX": 497, "y": 65, "width": 360, "height": 240 },
+    "metadata": { "absoluteX": 1012, "relativeX": 870, "y": 67, "approximateWidth": 68 }
+  },
+  "projectB": {
+    "metadata": { "absoluteX": 142, "relativeX": 0, "y": 359, "approximateWidth": 87 },
+    "mainImage": { "absoluteX": 242, "relativeX": 100, "y": 357, "width": 443, "height": 254 },
+    "secondaryImage": { "absoluteX": 690, "relativeX": 548, "y": 362, "width": 189, "height": 249 }
+  },
+  "projectC": {
+    "leftImage": { "absoluteX": 389, "relativeX": 247, "y": 658, "width": 307, "height": 259 },
+    "rightImage": { "absoluteX": 707, "relativeX": 565, "y": 648, "width": 294, "height": 269 },
+    "metadata": { "absoluteX": 1015, "relativeX": 873, "y": 649, "approximateWidth": 83 }
+  },
+  "implementationTypography": {
+    "status": "screenshot-calibrated, not claimed computed measurement",
+    "fontFamily": "Arial, Helvetica, sans-serif",
+    "siteName": "13px / 15px / 400",
+    "navigation": "11px / 14px / 400",
+    "projectTitle": "10px / 12.5px / 400",
+    "projectMetadata": "9.5px / 12px / 400",
+    "projectBody": "11px / 15px / 400",
+    "textColor": "#3f3f3f"
+  }
+}
