@@ -6,8 +6,8 @@ No build, npm command, Node runtime, framework, SPA router, or template engine i
 
 ## Active files
 
-- `static-portfolio/index.html` — asymmetric spatial homepage proof
-- `static-portfolio/projects/charge-pavilion.html` — first project-page proof
+- `static-portfolio/index.html` — complete 16-project asymmetric spatial index
+- `static-portfolio/projects/` — 16 physical, independent project pages
 - `static-portfolio/bio.html` and `contact.html`
 - `static-portfolio/assets/css/style.css`
 - `static-portfolio/assets/js/site.js`
@@ -17,7 +17,7 @@ No build, npm command, Node runtime, framework, SPA router, or template engine i
 
 - Original Portfolio V1: `legacy/portfolio-v1/` and branch `archive/portfolio-before-yablonina-rebuild`
 - React/Next Portfolio V2: `legacy/portfolio-v2-next/` and branch `archive/portfolio-v2-next-before-static-rebuild`
-- All 16 project records, long-form content, credits, source manifests, and original media remain in `content/` and `public/` and in the archive commits.
+- All 16 project records, long-form content, credits, source manifests, and original media remain in `content/` and `public/` and in the archive commits; the active static site now exposes every project as a separate HTML document.
 - Reference records remain in `reference-audit/`.
 
 The root React/Next source is retained for recovery and content reference. It is not the active deployable website.

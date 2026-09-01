@@ -1,17 +1,17 @@
 # Naitik Sharma static portfolio
 
-This is the active framework-free portfolio prototype. It uses only ordinary HTML, one shared CSS file, and a small optional vanilla JavaScript file for lightweight media drag/context-menu deterrence.
+This is the active framework-free portfolio. It uses only ordinary HTML, one shared CSS file, and a small optional vanilla JavaScript file for lightweight media drag/context-menu deterrence.
 
 There is no build step, package manager, Node runtime, framework, SPA router, template engine, or generated HTML.
 
-## Current proof scope
+## Current scope
 
-- `index.html`: four-project asymmetric spatial homepage proof
-- `projects/charge-pavilion.html`: first spatial project-page proof
+- `index.html`: complete 16-project asymmetric spatial index
+- `projects/`: 16 independent, physical, hand-editable project HTML pages
 - `bio.html`, `contact.html`, and `404.html`: working supporting pages
-- `project-template.html`: a reusable hand-editable copy of the Charge Pavilion structure
+- `project-template.html`: a reusable hand-editable example with labelled title, metadata, introduction, image, text, and credits sections
 
-Only Charge Pavilion has been migrated as a project-detail page in this proof stage. The other project records and all original content/media remain preserved in the repository and its legacy archives.
+Five project records have local source media in this repository and use it: The Dunes, Circular Hub, Configurable Topologies, Charge Pavilion, and Rhizome. The other eleven pages retain their verified text, metadata, and credits without substituting unrelated imagery.
 
 ## Deploy
 
@@ -19,7 +19,7 @@ Copy everything inside `static-portfolio/` directly into Hostinger `public_html/
 
 ## Add a project manually
 
-1. Duplicate `project-template.html` or `projects/charge-pavilion.html`.
+1. Duplicate an existing file in `projects/`, or copy `project-template.html` there and change its path prefix from the root-relative example.
 2. Save the copy as `projects/new-project.html`.
 3. Replace the text and image references directly in the HTML.
 4. Add a project composition and link directly in `index.html`.

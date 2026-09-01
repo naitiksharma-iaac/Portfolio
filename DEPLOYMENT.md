@@ -21,7 +21,22 @@ public_html/
   404.html
   project-template.html
   projects/
+    above-and-inbetween.html
+    arwad-tower-jeddah.html
+    biopol-3d-printing.html
     charge-pavilion.html
+    circular-hub.html
+    configurable-topologies.html
+    environmental-studies-sydney.html
+    hilton-hotel-nepal.html
+    machine-learning-kerf-bending.html
+    origami-tree.html
+    post-digital-temples.html
+    rhizome-space-habitat.html
+    structural-studies-dharavi.html
+    the-crown-sector-111.html
+    the-dunes-udaipur.html
+    the-edition-sector-66.html
   assets/
     css/style.css
     js/site.js
@@ -34,4 +49,4 @@ Open `static-portfolio/index.html` directly in a browser. All internal navigatio
 
 ## Add a project
 
-Duplicate `project-template.html` or an existing file in `projects/`, update its relative asset paths as needed, replace the HTML content and local images, and add its composition/link manually to `index.html`.
+Duplicate an existing file in `projects/`, or copy `project-template.html` there and change its root path prefix to `../`. Replace the HTML content and local images, then add its composition/link manually to `index.html`.
