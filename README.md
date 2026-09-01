@@ -1,32 +1,34 @@
-# Naitik Simple Portfolio
+# Naitik Sharma portfolio
 
-A JavaScript-only computational architecture portfolio built with React and CSS.
+A static Next.js portfolio built entirely with JavaScript and JSX. The project case studies are data-driven, media is stored locally, and `npm run build` creates an upload-ready Hostinger website in `out/`.
 
-## Edit the site
+## Main editing files
 
-- `content/site.js` — name, email, location and social links
+- `content/projects.js` — five established projects, final 16-project order, and category assignment
+- `content/newProfessionalProjects.js` — The Crown, The Edition and The Dunes
+- `content/archiveProjects.js` — eight academic and earlier case studies
+- `content/projectMedia.js` — automatic image, GIF and MP4 discovery
 - `content/resume.js` — résumé content
-- `content/projects.js` — all project metadata and project-page blocks
-- `public/images/projects/` — project images, GIFs and videos
-- `app/globals.css` — colours, type, spacing, layouts and motion
+- `content/teaching.js` — Aerie Academy teaching feature
+- `content/site.js` — name, biography, email and social links
+- `public/projects/` — media folders for all 16 projects
+- `public/experience/aerie-academy/` — teaching media
+- `app/globals.css` — global typography, colours, spacing and responsive design
+- `components/ProjectContentRenderer.jsx` — reusable case-study block renderer
 
-## Run locally
+## Work locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Add a project
+## Production build
 
-1. Duplicate a project object in `content/projects.js`.
-2. Give it a unique lowercase `slug`, such as `new-project`.
-3. Add a matching folder at `public/images/projects/new-project/`.
-4. Add image or video paths to the project object, beginning with `/images/projects/new-project/`.
-5. Add, remove or reorder the project’s `blocks`. The detail page is created automatically.
+```bash
+npm run build
+```
 
-No TypeScript is used in this project.
+Upload everything inside `out/` to Hostinger `public_html`.
 
-## Deploy to Hostinger
-
-Run `npm run build`, then upload the contents of `out/` to `public_html`. See [deployment.md](deployment.md) for the complete Hostinger checklist.
+See `ADDING-PROJECTS.md` for editing projects and media. See `DEPLOYMENT.md` for the exact Hostinger process.

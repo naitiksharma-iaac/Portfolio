@@ -1,0 +1,122 @@
+{
+  "identityVerification": {
+    "result": "Confirmed as The Dunes / Dune Resort, Udaipur — not The Peak.",
+    "officialIndex": "https://studiosymbiosis.com/projects/",
+    "supplementaryDocumentation": "https://graheshbhandari.com/udaipur-resort"
+  },
+  "sourcePages": [
+    "https://studiosymbiosis.com/projects/",
+    "https://graheshbhandari.com/udaipur-resort"
+  ],
+  "assets": [
+    {
+      "file": "images/reference/context-01.jpg",
+      "source": "Grahesh Bhandari — Dune Resort, Udaipur",
+      "sourcePage": "https://graheshbhandari.com/udaipur-resort",
+      "originalAssetUrl": "https://cdn.myportfolio.com/4c79c99e-e92d-4b14-8c11-7a1ef8a79e15/5d10c6e9-46cd-4fc1-87f1-585334941937_rw_1200.jpg",
+      "description": "Project overview and contribution sheet from supplementary documentation",
+      "caption": "Supplementary project context; the listed contribution belongs to the source author and is not presented as Naitik Sharma's role.",
+      "credit": "Grahesh Bhandari"
+    },
+    {
+      "file": "images/reference/hero-01.jpg",
+      "source": "Grahesh Bhandari — Dune Resort, Udaipur",
+      "sourcePage": "https://graheshbhandari.com/udaipur-resort",
+      "originalAssetUrl": "https://cdn.myportfolio.com/4c79c99e-e92d-4b14-8c11-7a1ef8a79e15/5067a73f-202b-4693-b40c-5055e66c1a70_rw_1200.jpg",
+      "description": "Resort visualisation and villa typology study",
+      "caption": "Distributed resort landscape and villa family",
+      "credit": "Studio Symbiosis Architects / supplementary documentation by Grahesh Bhandari"
+    },
+    {
+      "file": "images/reference/hero-02.jpg",
+      "source": "Grahesh Bhandari — Dune Resort, Udaipur",
+      "sourcePage": "https://graheshbhandari.com/udaipur-resort",
+      "originalAssetUrl": "https://cdn.myportfolio.com/4c79c99e-e92d-4b14-8c11-7a1ef8a79e15/c366b699-ed20-4275-b5f6-aa4b8a6889c6_rw_1200.jpg",
+      "description": "Resort landscape visualisation",
+      "credit": "Studio Symbiosis Architects / supplementary documentation by Grahesh Bhandari"
+    },
+    {
+      "file": "images/reference/hero-03.jpg",
+      "source": "Grahesh Bhandari — Dune Resort, Udaipur",
+      "sourcePage": "https://graheshbhandari.com/udaipur-resort",
+      "originalAssetUrl": "https://cdn.myportfolio.com/4c79c99e-e92d-4b14-8c11-7a1ef8a79e15/4237c14d-4236-4c60-8c16-cd3ead7b5105_rw_1200.jpg",
+      "description": "Dune Resort exterior visualisation",
+      "credit": "Studio Symbiosis Architects / supplementary documentation by Grahesh Bhandari"
+    },
+    {
+      "file": "images/reference/masterplan-01.jpg",
+      "source": "Grahesh Bhandari — Dune Resort, Udaipur",
+      "sourcePage": "https://graheshbhandari.com/udaipur-resort",
+      "originalAssetUrl": "https://cdn.myportfolio.com/4c79c99e-e92d-4b14-8c11-7a1ef8a79e15/b6e3c2f0-0a51-4af0-97ee-31e7cbef6d5a_rw_1200.jpg",
+      "description": "Aerial site organisation",
+      "caption": "Villa clusters organised as a landscape field",
+      "credit": "Studio Symbiosis Architects / supplementary documentation by Grahesh Bhandari"
+    },
+    {
+      "file": "images/reference/facade-gradient-01.jpg",
+      "source": "Grahesh Bhandari — Dune Resort, Udaipur",
+      "sourcePage": "https://graheshbhandari.com/udaipur-resort",
+      "originalAssetUrl": "https://cdn.myportfolio.com/4c79c99e-e92d-4b14-8c11-7a1ef8a79e15/a66c6af6-10ee-49f5-864d-775c02f01f20_rw_1200.jpg",
+      "description": "Rebar system, facade optimisation and tile-gradient setting out",
+      "caption": "Parametric façade rationalisation from rebar geometry to five-tile gradient",
+      "credit": "Studio Symbiosis Architects / supplementary documentation by Grahesh Bhandari"
+    },
+    {
+      "file": "images/reference/masonry-01.jpg",
+      "source": "Grahesh Bhandari — Dune Resort, Udaipur",
+      "sourcePage": "https://graheshbhandari.com/udaipur-resort",
+      "originalAssetUrl": "https://cdn.myportfolio.com/4c79c99e-e92d-4b14-8c11-7a1ef8a79e15/3b0b477c-4d6f-43ef-877f-b492d8d40f29_rw_1200.jpeg",
+      "description": "Curved brick masonry under construction",
+      "credit": "Grahesh Bhandari"
+    },
+    {
+      "file": "images/reference/construction-01.jpg",
+      "source": "Grahesh Bhandari — Dune Resort, Udaipur",
+      "sourcePage": "https://graheshbhandari.com/udaipur-resort",
+      "originalAssetUrl": "https://cdn.myportfolio.com/4c79c99e-e92d-4b14-8c11-7a1ef8a79e15/9fbb7446-4531-4b63-a4b6-0165e9ac1db9_rw_1200.jpeg",
+      "description": "Resort construction overview",
+      "credit": "Grahesh Bhandari"
+    },
+    {
+      "file": "images/reference/construction-02.jpg",
+      "source": "Grahesh Bhandari — Dune Resort, Udaipur",
+      "sourcePage": "https://graheshbhandari.com/udaipur-resort",
+      "originalAssetUrl": "https://cdn.myportfolio.com/4c79c99e-e92d-4b14-8c11-7a1ef8a79e15/491acf84-80fd-4f18-a483-dbe3256aae0f_rw_1920.jpeg",
+      "description": "Curved villa walls and stone retaining structures under construction",
+      "credit": "Grahesh Bhandari"
+    },
+    {
+      "file": "images/reference/masonry-02.jpg",
+      "source": "Grahesh Bhandari — Dune Resort, Udaipur",
+      "sourcePage": "https://graheshbhandari.com/udaipur-resort",
+      "originalAssetUrl": "https://cdn.myportfolio.com/4c79c99e-e92d-4b14-8c11-7a1ef8a79e15/cb29a5a2-fa6f-4cc5-a175-41f79144ef15_rw_1200.jpeg",
+      "description": "Curved masonry walls during construction",
+      "credit": "Grahesh Bhandari"
+    },
+    {
+      "file": "images/reference/construction-03.jpg",
+      "source": "Grahesh Bhandari — Dune Resort, Udaipur",
+      "sourcePage": "https://graheshbhandari.com/udaipur-resort",
+      "originalAssetUrl": "https://cdn.myportfolio.com/4c79c99e-e92d-4b14-8c11-7a1ef8a79e15/52d813d8-d139-4ff7-b02b-2f49a0794c8e_rw_1200.jpeg",
+      "description": "Villa shell construction",
+      "credit": "Grahesh Bhandari"
+    },
+    {
+      "file": "images/reference/construction-04.jpg",
+      "source": "Grahesh Bhandari — Dune Resort, Udaipur",
+      "sourcePage": "https://graheshbhandari.com/udaipur-resort",
+      "originalAssetUrl": "https://cdn.myportfolio.com/4c79c99e-e92d-4b14-8c11-7a1ef8a79e15/3c336870-dba1-4b25-a746-f11dde5f58aa_rw_1200.jpeg",
+      "description": "Earthen exterior finish applied to curved villa shells",
+      "credit": "Grahesh Bhandari"
+    },
+    {
+      "file": "images/reference/construction-05.jpg",
+      "source": "Grahesh Bhandari — Dune Resort, Udaipur",
+      "sourcePage": "https://graheshbhandari.com/udaipur-resort",
+      "originalAssetUrl": "https://cdn.myportfolio.com/4c79c99e-e92d-4b14-8c11-7a1ef8a79e15/01d3c23a-ecf1-446d-b0fe-109eec43f23c_rw_1920.jpeg",
+      "description": "Resort construction progress across multiple villas",
+      "caption": "Built geometry following the curved digital setting-out system",
+      "credit": "Grahesh Bhandari"
+    }
+  ]
+}

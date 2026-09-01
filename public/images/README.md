@@ -1,5 +1,3 @@
-# Portfolio media
+# General site images
 
-Put shared images here. Project-specific files belong in `projects/project-slug/`.
-
-The sample project folders show the naming pattern. JPG, PNG, WebP, GIF, MP4 and WebM files can all be referenced from project content.
+Use this folder for non-project site imagery. Case-study media belongs in the `images/user`, `gifs/user` or `video/user` folder inside `public/projects/<project-slug>/` and is discovered automatically during the production build.

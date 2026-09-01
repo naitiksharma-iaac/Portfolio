@@ -1,4 +1,5 @@
 import ProjectIndex from "../../components/ProjectIndex";
+import { getProjectsWithMedia } from "../../content/projectMedia";
 import { projects } from "../../content/projects";
 
 export const metadata = {
@@ -7,16 +8,39 @@ export const metadata = {
 };
 
 export default function ProjectsPage() {
+  const projectsWithMedia = getProjectsWithMedia(projects).map((project) => ({
+    id: project.id,
+    number: project.number,
+    slug: project.slug,
+    title: project.title,
+    year: project.year,
+    type: project.type,
+    classification: project.classification,
+    category: project.category,
+    projectType: project.projectType,
+    office: project.office,
+    institution: project.institution,
+    cardLabel: project.cardLabel,
+    tags: project.tags,
+    keywords: project.keywords,
+    indexFocus: project.indexFocus,
+    thumbnail: project.thumbnail,
+    thumbnailType: project.thumbnailType,
+    thumbnailAlt: project.thumbnailAlt,
+    visualVariant: project.visualVariant,
+  }));
+
   return (
     <section className="index-page section-pad page-top">
       <div className="page-intro">
-        <span className="eyebrow">Project index / 001—{String(projects.length).padStart(3, "0")}</span>
-        <h1>Selected systems,<br />studies &amp; structures.</h1>
+        <span className="eyebrow">Catalogue / {String(projects.length).padStart(2, "0")} projects</span>
+        <h1>Project<br />index.</h1>
         <p>
-          Sample projects demonstrate the structure. Replace them with your own work when ready.
+          A visual catalogue across professional, academic, research, computational,
+          fabrication and tool-based work.
         </p>
       </div>
-      <ProjectIndex projects={projects} />
+      <ProjectIndex projects={projectsWithMedia} />
     </section>
   );
 }

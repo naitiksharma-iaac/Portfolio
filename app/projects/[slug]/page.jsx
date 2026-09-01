@@ -1,7 +1,12 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import ProjectBlocks from "../../../components/ProjectBlocks";
+import ProjectChapterIndex from "../../../components/ProjectChapterIndex";
+import ProjectContentRenderer from "../../../components/ProjectContentRenderer";
+import ProjectCredits from "../../../components/ProjectCredits";
+import ProjectMeta from "../../../components/ProjectMeta";
+import ProjectNavigation from "../../../components/ProjectNavigation";
 import ProjectVisual from "../../../components/ProjectVisual";
+import { attachProjectMedia } from "../../../content/projectMedia";
 import { getProject, projects } from "../../../content/projects";
 
 export function generateStaticParams() {
@@ -17,60 +22,56 @@ export async function generateMetadata({ params }) {
 
 export default async function ProjectPage({ params }) {
   const { slug } = await params;
-  const project = getProject(slug);
+  const sourceProject = getProject(slug);
+  const project = sourceProject ? attachProjectMedia(sourceProject) : null;
   if (!project) notFound();
 
   const currentIndex = projects.findIndex((item) => item.slug === slug);
+  const previousProject = projects[(currentIndex - 1 + projects.length) % projects.length];
   const nextProject = projects[(currentIndex + 1) % projects.length];
-  const facts = [
-    ["Year", project.year],
-    ["Type", project.type],
-    ["Classification", project.classification],
-    ["Role", project.role],
-    ["Organisation", project.organisation],
-    ["Collaborators", project.collaborators.join(", ") || "—"],
-    ["Guides / mentors", project.guides.join(", ") || "—"],
-    ["Software", project.software.join(", ")],
-  ];
 
   return (
     <article className="project-page page-top">
       <header className="project-hero section-pad">
         <div className="project-breadcrumb">
-          <Link href="/projects">Project index</Link>
+          <Link href="/projects/">Project index</Link>
           <span>/</span>
-          <span>{String(currentIndex + 1).padStart(2, "0")}</span>
+          <span>{project.number}</span>
         </div>
         <div className="project-title-row">
           <div>
-            <span className="eyebrow">{project.kicker}</span>
+            <p className="project-classification">{project.type}</p>
             <h1>{project.title}</h1>
           </div>
-          <p>{project.shortDescription}</p>
+          <div>
+            {project.subtitle && <p className="project-subtitle">{project.subtitle}</p>}
+            <p className="project-statement">{project.shortDescription}</p>
+          </div>
         </div>
-        <ProjectVisual className="project-hero-visual" image={project.hero} project={project} />
+        <ProjectMeta project={project} />
+        <ProjectVisual
+          className="project-hero-visual"
+          project={project}
+          source={project.heroMedia}
+          sourceType={project.heroMediaType}
+          alt={project.heroAlt}
+          eager
+          lightbox
+        />
       </header>
 
-      <section className="project-facts section-pad">
-        {facts.map(([label, value]) => (
-          <div key={label}>
-            <span>{label}</span>
-            <p>{value}</p>
-          </div>
-        ))}
+      <section className="project-introduction section-pad" aria-labelledby="project-introduction-title">
+        <span className="eyebrow">Introduction</span>
         <div>
-          <span>Tags</span>
-          <p>{project.tags.join(" / ")}</p>
+          <h2 id="project-introduction-title">Project overview</h2>
+          {project.introduction.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
         </div>
       </section>
 
-      <ProjectBlocks blocks={project.blocks} theme={project.visualTheme} />
-
-      <Link className="next-project section-pad" href={`/projects/${nextProject.slug}`}>
-        <span className="eyebrow">Next project / {String(((currentIndex + 1) % projects.length) + 1).padStart(2, "0")}</span>
-        <span className="next-project-title">{nextProject.title}</span>
-        <span className="next-project-arrow" aria-hidden="true">↗</span>
-      </Link>
+      <ProjectChapterIndex content={project.content} />
+      <ProjectContentRenderer content={project.content} project={project} />
+      <ProjectCredits project={project} />
+      <ProjectNavigation previousProject={previousProject} nextProject={nextProject} />
     </article>
   );
 }

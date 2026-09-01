@@ -1,0 +1,55 @@
+{
+  "sourcePages": ["https://www.iaacblog.com/programs/rhizome-3/"],
+  "assets": [
+    {
+      "file": "images/reference/hero-01.jpg",
+      "source": "IAAC Blog",
+      "sourcePage": "https://www.iaacblog.com/programs/rhizome-3/",
+      "originalAssetUrl": "https://www.iaacblog.com/wp-content/uploads/2022/04/final-orbit-infrastructure-presentation_11.jpg",
+      "description": "RHIZOME project overview",
+      "caption": "RHIZOME — infrastructure as public space",
+      "credit": "Project team / IAAC"
+    },
+    {
+      "file": "images/reference/site-analysis-01.jpg",
+      "source": "IAAC Blog",
+      "sourcePage": "https://www.iaacblog.com/programs/rhizome-3/",
+      "originalAssetUrl": "https://www.iaacblog.com/wp-content/uploads/2022/04/final-orbit-infrastructure-presentation_19.jpg",
+      "description": "Territorial and site analysis",
+      "credit": "Project team / IAAC"
+    },
+    {
+      "file": "images/reference/network-01.jpg",
+      "source": "IAAC Blog",
+      "sourcePage": "https://www.iaacblog.com/programs/rhizome-3/",
+      "originalAssetUrl": "https://www.iaacblog.com/wp-content/uploads/2022/04/final-orbit-infrastructure-presentation_23.jpg",
+      "description": "Network infrastructure study",
+      "credit": "Project team / IAAC"
+    },
+    {
+      "file": "images/reference/strategy-01.jpg",
+      "source": "IAAC Blog",
+      "sourcePage": "https://www.iaacblog.com/programs/rhizome-3/",
+      "originalAssetUrl": "https://www.iaacblog.com/wp-content/uploads/2022/04/final-orbit-infrastructure-presentation_33.jpg",
+      "description": "Public-space strategy",
+      "credit": "Project team / IAAC"
+    },
+    {
+      "file": "images/reference/system-01.jpg",
+      "source": "IAAC Blog",
+      "sourcePage": "https://www.iaacblog.com/programs/rhizome-3/",
+      "originalAssetUrl": "https://www.iaacblog.com/wp-content/uploads/2022/04/final-orbit-infrastructure-presentation_45.jpg",
+      "description": "Infrastructure system development",
+      "credit": "Project team / IAAC"
+    },
+    {
+      "file": "images/reference/final-view-01.jpg",
+      "source": "IAAC Blog",
+      "sourcePage": "https://www.iaacblog.com/programs/rhizome-3/",
+      "originalAssetUrl": "https://www.iaacblog.com/wp-content/uploads/2022/04/final-orbit-infrastructure-presentation_62.jpg",
+      "description": "Final spatial proposal",
+      "caption": "Infrastructure extended as an inhabitable public-space network",
+      "credit": "Project team / IAAC"
+    }
+  ]
+}

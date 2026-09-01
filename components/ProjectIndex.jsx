@@ -1,48 +1,31 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import ProjectCard from "./ProjectCard";
-
-const filters = ["All", "Professional", "Academic", "Research"];
+import ProjectFilters, { projectMatchesFilter } from "./ProjectFilters";
+import ProjectGrid from "./ProjectGrid";
 
 export default function ProjectIndex({ projects }) {
   const [activeFilter, setActiveFilter] = useState("All");
   const visibleProjects = useMemo(
-    () =>
-      activeFilter === "All"
-        ? projects
-        : projects.filter((project) => project.classification === activeFilter),
+    () => projects.filter((project) => projectMatchesFilter(project, activeFilter)),
     [activeFilter, projects],
   );
 
   return (
     <>
-      <div className="project-filters" role="group" aria-label="Filter projects">
-        {filters.map((filter) => (
-          <button
-            className={activeFilter === filter ? "is-active" : ""}
-            key={filter}
-            onClick={() => setActiveFilter(filter)}
-            type="button"
-          >
-            {filter}
-            <span>
-              {filter === "All"
-                ? projects.length
-                : projects.filter((project) => project.classification === filter).length}
-            </span>
-          </button>
-        ))}
-      </div>
-      <div className="projects-grid">
-        {visibleProjects.map((project) => (
-          <ProjectCard
-            index={projects.findIndex((item) => item.slug === project.slug)}
-            key={project.slug}
-            project={project}
-          />
-        ))}
-      </div>
+      <ProjectFilters activeFilter={activeFilter} onFilterChange={setActiveFilter} projects={projects} />
+      <section className="project-index-group">
+        <div className="project-index-group-heading">
+          <span>{activeFilter === "All" ? `01-${String(projects.length).padStart(2, "0")}` : "Filtered index"}</span>
+          <h2>{activeFilter === "All" ? "All Projects" : `${activeFilter} Projects`}</h2>
+          <p>{String(visibleProjects.length).padStart(2, "0")} projects</p>
+        </div>
+        {visibleProjects.length > 0 ? (
+          <ProjectGrid projects={visibleProjects} allProjects={projects} />
+        ) : (
+          <p className="empty-filter">No projects currently use this classification.</p>
+        )}
+      </section>
     </>
   );
 }

@@ -1,84 +1,92 @@
+import EducationItem from "../../components/EducationItem";
+import ExperienceItem from "../../components/ExperienceItem";
+import SkillsSection from "../../components/SkillsSection";
+import TeachingSection from "../../components/TeachingSection";
+import { discoverMediaCollection } from "../../content/projectMedia";
 import { resume } from "../../content/resume";
 import { site } from "../../content/site";
+import { teaching } from "../../content/teaching";
 
 export const metadata = {
   title: "Résumé",
-  description: `Experience, education and capabilities — ${site.name}.`,
+  description: `Experience, education and selected capabilities — ${site.name}.`,
 };
 
 export default function ResumePage() {
+  const teachingMedia = discoverMediaCollection("experience/aerie-academy", "Aerie Academy teaching");
+
   return (
     <article className="resume-page section-pad page-top">
       <header className="resume-intro">
-        <span className="eyebrow">Résumé / Profile</span>
-        <h1>Designing relationships,<br />not just objects.</h1>
+        <span className="eyebrow">Résumé / 2026</span>
+        <h1>Experience,<br />education &amp; tools.</h1>
         <p>{resume.introduction}</p>
-        <a className="text-link" href={`mailto:${site.email}`}>Contact by email <span aria-hidden="true">↗</span></a>
+        <div className="resume-actions">
+          <a className="text-link" href={`mailto:${site.email}`} data-cursor="OPEN">Email ↗</a>
+          {resume.resumePdf && (
+            <a className="text-link" href={resume.resumePdf} download data-cursor="OPEN">Download CV ↓</a>
+          )}
+        </div>
       </header>
 
-      <section className="resume-focus">
-        <span className="resume-label">Focus</span>
-        <div>
-          {resume.focus.map((item, index) => (
-            <span key={item}><small>0{index + 1}</small>{item}</span>
+      <div className="resume-columns">
+        <section className="experience-column" aria-labelledby="experience-heading">
+          <div className="resume-section-heading">
+            <span>01</span>
+            <h2 id="experience-heading">Experience</h2>
+          </div>
+          {resume.experience.map((item) => (
+            <ExperienceItem item={item} key={`${item.organisation}-${item.period}`} />
           ))}
-        </div>
-      </section>
+        </section>
 
-      <ResumeSection title="Experience">
-        {resume.experience.map((item) => (
-          <div className="resume-entry" key={`${item.period}-${item.role}`}>
-            <span className="resume-period">{item.period}</span>
-            <div>
-              <h3>{item.role}</h3>
-              <p className="resume-organisation">{item.organisation} / {item.location}</p>
-              <p>{item.description}</p>
+        <aside className="resume-secondary">
+          <section aria-labelledby="education-heading">
+            <div className="resume-section-heading">
+              <span>02</span>
+              <h2 id="education-heading">Education</h2>
             </div>
+            {resume.education.map((item) => (
+              <EducationItem item={item} key={`${item.institution}-${item.period}`} />
+            ))}
+          </section>
+
+          <section className="languages-section" aria-labelledby="languages-heading">
+            <div className="resume-section-heading compact">
+              <span>04</span>
+              <h2 id="languages-heading">Languages</h2>
+            </div>
+            <dl>
+              {resume.languages.map((item) => (
+                <div key={item.language}>
+                  <dt>{item.language}</dt>
+                  <dd>{item.level}</dd>
+                </div>
+              ))}
+            </dl>
+          </section>
+        </aside>
+      </div>
+
+      <SkillsSection skills={resume.skills} />
+      <TeachingSection teaching={teaching} media={teachingMedia} />
+
+      {resume.showWorkshops && (
+        <section className="workshops-section" aria-labelledby="workshops-heading">
+          <div className="resume-section-heading">
+            <span>05</span>
+            <h2 id="workshops-heading">Workshops</h2>
           </div>
-        ))}
-      </ResumeSection>
-
-      <ResumeSection title="Education">
-        {resume.education.map((item) => (
-          <div className="resume-entry" key={`${item.period}-${item.qualification}`}>
-            <span className="resume-period">{item.period}</span>
-            <div>
-              <h3>{item.qualification}</h3>
-              <p className="resume-organisation">{item.institution} / {item.location}</p>
-            </div>
-          </div>
-        ))}
-      </ResumeSection>
-
-      <ResumeSection title="Capabilities">
-        <div className="skills-grid">
-          {resume.skills.map((skill) => (
-            <div key={skill.category}>
-              <h3>{skill.category}</h3>
-              <p>{skill.items.join(" / ")}</p>
-            </div>
+          {resume.workshops.map((workshop) => (
+            <article key={`${workshop.event}-${workshop.period}`}>
+              <p>{workshop.period}</p>
+              <h3>{workshop.event}</h3>
+              <p>{workshop.title}</p>
+              <p>{workshop.tutors.join(" / ")}</p>
+            </article>
           ))}
-        </div>
-      </ResumeSection>
-
-      <ResumeSection title="Recognition">
-        {resume.recognition.map((item) => (
-          <div className="recognition-entry" key={`${item.year}-${item.title}`}>
-            <span>{item.year}</span>
-            <p>{item.title}</p>
-            <p>{item.organisation}</p>
-          </div>
-        ))}
-      </ResumeSection>
+        </section>
+      )}
     </article>
-  );
-}
-
-function ResumeSection({ title, children }) {
-  return (
-    <section className="resume-section">
-      <h2 className="resume-label">{title}</h2>
-      <div>{children}</div>
-    </section>
   );
 }

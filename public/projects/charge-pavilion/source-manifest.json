@@ -1,0 +1,55 @@
+{
+  "sourcePages": ["https://www.iaacblog.com/programs/charge-pavilion/"],
+  "assets": [
+    {
+      "file": "images/reference/hero-01.jpg",
+      "source": "IAAC Blog",
+      "sourcePage": "https://www.iaacblog.com/programs/charge-pavilion/",
+      "originalAssetUrl": "https://www.iaacblog.com/wp-content/uploads/2021/12/11111111.jpg",
+      "description": "Charge Pavilion project hero",
+      "caption": "Charge Pavilion — final proposal",
+      "credit": "Project team / IAAC"
+    },
+    {
+      "file": "images/reference/minimal-surface-01.jpg",
+      "source": "IAAC Blog",
+      "sourcePage": "https://www.iaacblog.com/programs/charge-pavilion/",
+      "originalAssetUrl": "https://www.iaacblog.com/wp-content/uploads/2021/12/minimalsurface_2880x1620-1-730x411.jpg",
+      "description": "Minimal-surface form study",
+      "credit": "Project team / IAAC"
+    },
+    {
+      "file": "images/reference/site-analysis-01.png",
+      "source": "IAAC Blog",
+      "sourcePage": "https://www.iaacblog.com/programs/charge-pavilion/",
+      "originalAssetUrl": "https://www.iaacblog.com/wp-content/uploads/2021/12/points-introduced-over-site.png",
+      "description": "Site point-field analysis",
+      "credit": "Project team / IAAC"
+    },
+    {
+      "file": "images/reference/radiation-01.png",
+      "source": "IAAC Blog",
+      "sourcePage": "https://www.iaacblog.com/programs/charge-pavilion/",
+      "originalAssetUrl": "https://www.iaacblog.com/wp-content/uploads/2021/12/rad1.png",
+      "description": "Environmental radiation analysis",
+      "credit": "Project team / IAAC"
+    },
+    {
+      "file": "images/reference/structure-01.png",
+      "source": "IAAC Blog",
+      "sourcePage": "https://www.iaacblog.com/programs/charge-pavilion/",
+      "originalAssetUrl": "https://www.iaacblog.com/wp-content/uploads/2021/12/mesh-sttripping.png",
+      "description": "Mesh stripping and structural rationalisation",
+      "credit": "Project team / IAAC"
+    },
+    {
+      "file": "images/reference/final-view-01.png",
+      "source": "IAAC Blog",
+      "sourcePage": "https://www.iaacblog.com/programs/charge-pavilion/",
+      "originalAssetUrl": "https://www.iaacblog.com/wp-content/uploads/2021/12/view-3-1.png",
+      "description": "Final pavilion view",
+      "caption": "Final pavilion system in context",
+      "credit": "Project team / IAAC"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "sourcePages": [
+    "https://www.instagram.com/p/DYzi3gNOsxS/",
+    "https://www.instagram.com/p/DbRCljaiAt2/",
+    "https://www.instagram.com/p/DcQ7BGPClgl/",
+    "https://www.instagram.com/p/DcRLmMxKZgZ/",
+    "https://www.instagram.com/p/DcUy3O5qSRc/"
+  ],
+  "assets": [
+    {
+      "file": "images/reference/course-introduction-01.jpg",
+      "source": "Aerie Academy / Instagram",
+      "sourcePage": "https://www.instagram.com/p/DYzi3gNOsxS/",
+      "originalAssetUrl": "Instagram og:image preview retrieved from the source page",
+      "description": "Course introduction for Computational Design Using AI",
+      "caption": "Computational Design Using AI — course introduction",
+      "credit": "Aerie Academy"
+    },
+    {
+      "file": "images/reference/data-trees-serpentine-01.jpg",
+      "source": "Aerie Academy / Instagram",
+      "sourcePage": "https://www.instagram.com/p/DbRCljaiAt2/",
+      "originalAssetUrl": "Instagram og:image preview retrieved from the source page",
+      "description": "BIG Data Trees workflow using a Serpentine Pavilion case study",
+      "caption": "BIG Data Trees — the course's primary computational workflow",
+      "credit": "Aerie Academy"
+    },
+    {
+      "file": "images/reference/ai-render-grasshopper-01.jpg",
+      "source": "Aerie Academy / Instagram",
+      "sourcePage": "https://www.instagram.com/p/DcQ7BGPClgl/",
+      "originalAssetUrl": "Instagram og:image preview retrieved from the source page",
+      "description": "Grasshopper-to-AI rendering workflow",
+      "caption": "AI rendering from controlled computational geometry",
+      "credit": "Aerie Academy"
+    },
+    {
+      "file": "images/reference/ai-render-failure-01.jpg",
+      "source": "Aerie Academy / Instagram",
+      "sourcePage": "https://www.instagram.com/p/DcRLmMxKZgZ/",
+      "originalAssetUrl": "Instagram og:image preview retrieved from the source page",
+      "description": "Iteration and failure analysis in an AI rendering workflow",
+      "caption": "Iteration study — using failed outputs as design feedback",
+      "credit": "Aerie Academy"
+    },
+    {
+      "file": "images/reference/ai-motion-tower-01.jpg",
+      "source": "Aerie Academy / Instagram",
+      "sourcePage": "https://www.instagram.com/p/DcUy3O5qSRc/",
+      "originalAssetUrl": "Instagram og:image preview retrieved from the source page",
+      "description": "AI motion study developed from a computational tower",
+      "caption": "AI motion — translating a tower system into a moving visual study",
+      "credit": "Aerie Academy"
+    }
+  ]
+}

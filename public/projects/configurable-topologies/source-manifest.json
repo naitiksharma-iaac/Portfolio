@@ -1,0 +1,79 @@
+{
+  "sourcePages": ["https://www.iaacblog.com/programs/configurable-topologies/"],
+  "assets": [
+    {
+      "file": "images/reference/hero-01.png",
+      "source": "IAAC Blog",
+      "sourcePage": "https://www.iaacblog.com/programs/configurable-topologies/",
+      "originalAssetUrl": "https://www.iaacblog.com/wp-content/uploads/2022/09/cover_page2.png",
+      "description": "Configurable Topologies cover image",
+      "caption": "Configurable Topologies — graph-based spatial generation",
+      "credit": "Naitik Sharma / IAAC"
+    },
+    {
+      "file": "images/reference/typology-01.png",
+      "source": "IAAC Blog",
+      "sourcePage": "https://www.iaacblog.com/programs/configurable-topologies/",
+      "originalAssetUrl": "https://www.iaacblog.com/wp-content/uploads/2022/09/typo-1.png",
+      "description": "Generated building typology study 01",
+      "credit": "Naitik Sharma / IAAC"
+    },
+    {
+      "file": "images/reference/typology-02.png",
+      "source": "IAAC Blog",
+      "sourcePage": "https://www.iaacblog.com/programs/configurable-topologies/",
+      "originalAssetUrl": "https://www.iaacblog.com/wp-content/uploads/2022/09/typo-2.png",
+      "description": "Generated building typology study 02",
+      "credit": "Naitik Sharma / IAAC"
+    },
+    {
+      "file": "images/reference/typology-03.png",
+      "source": "IAAC Blog",
+      "sourcePage": "https://www.iaacblog.com/programs/configurable-topologies/",
+      "originalAssetUrl": "https://www.iaacblog.com/wp-content/uploads/2022/09/typo-3.png",
+      "description": "Generated building typology study 03",
+      "credit": "Naitik Sharma / IAAC"
+    },
+    {
+      "file": "images/reference/workflow-01.jpg",
+      "source": "IAAC Blog",
+      "sourcePage": "https://www.iaacblog.com/programs/configurable-topologies/",
+      "originalAssetUrl": "https://www.iaacblog.com/wp-content/uploads/2022/09/graph_workflow-1.jpg",
+      "description": "Graph workflow diagram",
+      "caption": "Graph construction and analysis workflow",
+      "credit": "Naitik Sharma / IAAC"
+    },
+    {
+      "file": "images/reference/grasshopper-01.png",
+      "source": "IAAC Blog",
+      "sourcePage": "https://www.iaacblog.com/programs/configurable-topologies/",
+      "originalAssetUrl": "https://www.iaacblog.com/wp-content/uploads/2022/09/grasshopper_workflow.png",
+      "description": "Grasshopper workflow",
+      "credit": "Naitik Sharma / IAAC"
+    },
+    {
+      "file": "images/reference/dataset-01.png",
+      "source": "IAAC Blog",
+      "sourcePage": "https://www.iaacblog.com/programs/configurable-topologies/",
+      "originalAssetUrl": "https://www.iaacblog.com/wp-content/uploads/2022/09/final_dataset.png",
+      "description": "Final topology dataset",
+      "credit": "Naitik Sharma / IAAC"
+    },
+    {
+      "file": "images/reference/training-01.png",
+      "source": "IAAC Blog",
+      "sourcePage": "https://www.iaacblog.com/programs/configurable-topologies/",
+      "originalAssetUrl": "https://www.iaacblog.com/wp-content/uploads/2022/09/testing_graphs.png",
+      "description": "Graph testing results",
+      "credit": "Naitik Sharma / IAAC"
+    },
+    {
+      "file": "images/reference/result-01.png",
+      "source": "IAAC Blog",
+      "sourcePage": "https://www.iaacblog.com/programs/configurable-topologies/",
+      "originalAssetUrl": "https://www.iaacblog.com/wp-content/uploads/2022/09/wrong_prediction-1.png",
+      "description": "Prediction evaluation study",
+      "credit": "Naitik Sharma / IAAC"
+    }
+  ]
+}
