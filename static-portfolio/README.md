@@ -6,12 +6,12 @@ There is no build step, package manager, Node runtime, framework, SPA router, te
 
 ## Current scope
 
-- `index.html`: complete 16-project asymmetric spatial index
+- `index.html`: compact Maria-style spatial index featuring the five projects with verified local media
 - `projects/`: 16 independent, physical, hand-editable project HTML pages
 - `bio.html`, `contact.html`, and `404.html`: working supporting pages
 - `project-template.html`: a reusable hand-editable example with labelled title, metadata, introduction, image, text, and credits sections
 
-Five project records have local source media in this repository and use it: The Dunes, Circular Hub, Configurable Topologies, Charge Pavilion, and Rhizome. The other eleven pages retain their verified text, metadata, and credits without substituting unrelated imagery.
+Five project records have local source media in this repository and use it: The Dunes, Circular Hub, Configurable Topologies, Charge Pavilion, and Rhizome. The other eleven pages retain their verified text, metadata, and credits but are intentionally withheld from the visual homepage until original media is supplied.
 
 ## Deploy
 

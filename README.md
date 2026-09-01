@@ -6,7 +6,7 @@ No build, npm command, Node runtime, framework, SPA router, or template engine i
 
 ## Active files
 
-- `static-portfolio/index.html` — complete 16-project asymmetric spatial index
+- `static-portfolio/index.html` — compact Maria-style index featuring projects with verified local media
 - `static-portfolio/projects/` — 16 physical, independent project pages
 - `static-portfolio/bio.html` and `contact.html`
 - `static-portfolio/assets/css/style.css`
