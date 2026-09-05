@@ -608,6 +608,13 @@ video {
   margin-left: 300px;
 }
 
+.bio-profile-image {
+  width: 180px;
+  height: 180px;
+  margin-bottom: 22px;
+  object-fit: cover;
+}
+
 .text-page-content h1 {
   margin-bottom: 22px;
   font-size: 13px;
