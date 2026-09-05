@@ -1,0 +1,50 @@
+.reclaimed-top {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(240px, .55fr);
+  gap: clamp(28px, 5vw, 84px);
+  align-items: start;
+}
+.reclaimed-top h1 {
+  margin-top: 12px;
+  font-size: clamp(30px, 4vw, 50px);
+  font-weight: 400;
+  line-height: .96;
+  letter-spacing: -.035em;
+  text-transform: uppercase;
+}
+.reclaimed-top .tectonics-descriptor { max-width: 470px; }
+.reclaimed-case-study .reclaimed-hero { margin-top: 20px; }
+.reclaimed-hero img { display: block; width: 100%; height: auto; }
+.reclaimed-case-study .reclaimed-intro { max-width: 620px; margin-top: 20px; font-size: 12px; line-height: 18px; }
+.reclaimed-intro p + p { margin-top: 14px; }
+.reclaimed-case-study .tectonics-section { row-gap: 28px; }
+.reclaimed-wide, .reclaimed-media-grid, .reclaimed-strategies { grid-column: 2; min-width: 0; }
+.reclaimed-wide img, .reclaimed-wide video, .reclaimed-media-grid img, .reclaimed-media-grid video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.reclaimed-media-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; align-items: start; }
+.reclaimed-media-grid figure { min-width: 0; }
+.reclaimed-media-grid--motion { grid-template-columns: minmax(0, 1fr); }
+.reclaimed-media-grid--motion figure:first-child { width: min(100%, 640px); }
+.reclaimed-media-grid video { object-fit: contain; background: #fff; }
+.reclaimed-strategies { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.reclaimed-strategies > div { border-top: 1px solid #cccbc6; padding-top: 12px; }
+.reclaimed-strategies dt { margin-bottom: 8px; font-size: 12px; font-weight: 400; }
+.reclaimed-strategies dd { max-width: 220px; font-size: 11px; line-height: 16px; color: #5d5d5b; }
+.reclaimed-section-drawing { grid-column: 1 / -1; }
+.reclaimed-reflection .tectonics-section-copy { border-top: 1px solid #cccbc6; padding-top: 18px; }
+.reclaimed-case-study video:focus-visible { outline: 2px solid #54428c; outline-offset: 4px; }
+@media (max-width: 760px) {
+  .reclaimed-case-study { width: calc(100% - 32px); padding-top: 20px; }
+  .reclaimed-top { grid-template-columns: 1fr; gap: 30px; }
+  .reclaimed-top h1 { font-size: clamp(28px, 8vw, 46px); }
+  .reclaimed-case-study .tectonics-section { grid-template-columns: minmax(0, 1fr); margin-top: 56px; row-gap: 22px; }
+  .reclaimed-wide, .reclaimed-media-grid, .reclaimed-strategies { grid-column: 1; }
+  .reclaimed-media-grid { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .reclaimed-strategies { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+  .reclaimed-strategies dd { max-width: none; }
+  .reclaimed-case-study .tectonics-section-copy, .reclaimed-case-study .reclaimed-intro { font-size: 14px; line-height: 21px; }
+  .reclaimed-case-study .tectonics-caption { font-size: 11px; line-height: 15px; }
+}

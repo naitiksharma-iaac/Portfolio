@@ -6,7 +6,8 @@
     "node": ">=22.13.0"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "serve static-portfolio --listen 8080",
+    "dev:legacy": "next dev --port 3000",
     "build": "next build",
     "build:sites": "vinext build",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
@@ -24,6 +25,7 @@
     "eslint": "9.39.4",
     "eslint-config-next": "16.2.6",
     "react-server-dom-webpack": "19.2.6",
+    "serve": "^14.2.6",
     "vinext": "0.0.50",
     "vite": "8.0.13",
     "wrangler": "4.92.0"

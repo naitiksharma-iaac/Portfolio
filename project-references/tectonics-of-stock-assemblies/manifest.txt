@@ -1,0 +1,117 @@
+TECTONICS OF STOCK ASSEMBLIES — REFERENCE MATERIAL
+
+PRIMARY SOURCE
+---------------
+TECTONICS OF STOCK ASSEMBLIES.pptx
+
+The PowerPoint is the PRIMARY narrative source.
+
+Read the complete presentation first before selecting images, GIFs or videos.
+
+Use the slide sequence, captions and visual context in the presentation to understand:
+- which assets correspond to which stage of the project
+- which images represent final work
+- which images represent process
+- which diagrams explain methodology
+- which media are old/discarded experiments
+
+ASSET FOLDER
+------------
+This folder contains:
+- final images
+- diagrams
+- screenshots
+- GIF animations
+- MP4 videos
+- intermediate tests
+- discarded iterations
+
+Some filenames are poor or generic because they are original working files.
+
+DO NOT assume that every file should appear on the website.
+
+DO NOT select media purely based on filename.
+
+Use the PowerPoint as the primary guide for deciding what each asset represents.
+
+IMPORTANT
+---------
+Some files in this folder are PREVIOUSLY DISCARDED work.
+
+They are included only so that the complete project archive is available.
+
+Do not use discarded/older iterations merely because they look visually interesting.
+
+Prefer material that appears in the final stages of the PowerPoint or is clearly
+consistent with the final project outcome.
+
+MEDIA SELECTION
+---------------
+For the portfolio project page, first identify:
+
+1. strongest final hero image
+2. 1–2 images explaining the stock-analysis stage
+3. strongest clustering/data visualisation
+4. structural-field / structural-analysis visual
+5. aggregation/process animation
+6. fabrication or assembly animation/video if relevant
+7. final prototype/result imagery
+8. only essential Grasshopper/process screenshots
+
+Do NOT overload the page.
+
+The website should communicate the project clearly rather than reproduce the full presentation.
+
+GIF / VIDEO
+-----------
+GIFs and MP4 files may be used directly where motion communicates something that
+a still image cannot.
+
+Examples:
+- aggregation growth
+- iterative structural process
+- assembly sequence
+- optimisation/evolution
+- robotic/fabrication process
+
+Do not replace useful motion media with screenshots unless technically necessary.
+
+Before copying a video/GIF to the website, inspect it and identify what it shows.
+
+FINAL WEBSITE ASSETS
+--------------------
+Do NOT serve files directly from project-references/.
+
+When an asset is selected for the website, COPY it into the appropriate website
+asset directory.
+
+Do not move or delete the original reference file.
+
+The project-references directory is source material only.
+
+DO NOT MODIFY ORIGINALS
+-----------------------
+Do not:
+- rename originals
+- delete originals
+- overwrite originals
+- optimise originals in-place
+- reorganise this archive automatically
+
+If cleaner filenames are needed for the live website, create renamed COPIES in
+the website asset folder.
+
+FACTUAL CONTENT
+---------------
+Use the PowerPoint as the main factual source for:
+- methodology
+- terminology
+- workflow sequence
+- captions
+- diagrams
+- project outcomes
+
+Do not invent technical claims.
+
+If the presentation and an old/discarded image appear to contradict each other,
+follow the final presentation.
