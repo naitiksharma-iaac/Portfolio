@@ -104,6 +104,14 @@ video {
   height: 1176px;
 }
 
+.site-footer {
+  width: min(var(--canvas-width), calc(100% - 32px));
+  margin: 24px auto 40px;
+  text-align: center;
+  font-size: 11px;
+  line-height: 14px;
+}
+
 .site-header {
   position: relative;
   z-index: 20;
@@ -615,6 +623,12 @@ video {
   object-fit: cover;
 }
 
+.contact-profile-image {
+  width: 180px;
+  height: auto;
+  margin-bottom: 22px;
+}
+
 .text-page-content h1 {
   margin-bottom: 22px;
   font-size: 13px;
@@ -637,6 +651,107 @@ video {
 .plain-list {
   padding: 0;
   list-style: none;
+}
+
+.bio-education-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.bio-education-logo {
+  flex: 0 0 32px;
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.bio-logo-iaac {
+  width: 42px;
+}
+
+.bio-logo-mbm {
+  width: 30px;
+}
+
+.bio-experience-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.bio-experience-logo {
+  flex: 0 0 32px;
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.bio-logo-aerie {
+  padding: 2px;
+}
+
+.bio-logo-studio {
+  width: 42px;
+}
+
+.bio-logo-hexagramm {
+  padding: 2px;
+}
+
+.bio-more-link {
+  margin-top: 38px;
+}
+
+.teaching-logo {
+  width: 180px;
+  height: auto;
+  margin-bottom: 22px;
+  object-fit: contain;
+}
+
+.teaching-page .text-page-content h2 {
+  margin-top: 30px;
+}
+
+.teaching-source {
+  margin-top: 38px;
+}
+
+.teaching-video-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.teaching-video-card {
+  display: block;
+  font-size: 9.5px;
+  line-height: 12px;
+}
+
+.teaching-video-card img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin-bottom: 5px;
+  object-fit: cover;
+}
+
+.teaching-home-card {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.teaching-home-card img {
+  width: 96px;
+  height: 54px;
+  object-fit: cover;
+}
+
+.teaching-home-card span {
+  font-size: 11px;
 }
 
 /* Independent, hand-editable project documents. */
