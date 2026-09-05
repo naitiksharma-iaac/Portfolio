@@ -1,0 +1,730 @@
+
+--- PAGE 1 ---
+Computation | Architecture | Sustainability
+Selected Works - 2026
+1
+Naitik Sharma
+Computational Design | Fabrication | Circular Material Systems
+
+--- PAGE 2 ---
+Computation | Architecture | Sustainability
+Selected Works - 2026
+2
+Naitik Sharma
+Hilton Hotel,Kathmandu
+STUDIO-SYMBIOSIS
+CONTENTS
+Arwad Tower, Jeddah
+STUDIO-SYMBIOSIS
+CIrcular HUB
+CITA, Royal Danish Academy
+BioPol 3D Printing,
+CITA, Royal Danish Academy
+Configurable Topologies
+MaCAD, IAAC
+3
+1
+2
+4
+5
+Professional Work
+Academic Work
+
+--- PAGE 3 ---
+Computation | Architecture | Sustainability
+Selected Works - 2026
+3
+Naitik Sharma
+v
+Keywords: Parametric, Massing, Facade Design & 
+Environmental Simulations
+2023-2024
+Type: Professional Work
+Office: Studio-Symbiosis
+Team: Amit Gupta, Britta Knobbel & Naitik
+Facade rationalisation and shop drawing 
+production
+HILTON HOTEL, NEPAL
+Project:
+1
+(Link to Linkedin post)
+Form Development
+Image Credits: Studio Symbiosis
+Image Credits: Studio Symbiosis
+
+--- PAGE 4 ---
+Computation | Architecture | Sustainability
+Selected Works - 2026
+4
+Naitik Sharma
+GFRC facade bands installed on MS framing
+Cleat Installation on Mullion
+Brakcet Installation in Cleat
+MS Pipe to hold brackets
+Final MS work for GFRC installation
+
+--- PAGE 5 ---
+Computation | Architecture | Sustainability
+Selected Works - 2026
+5
+Naitik Sharma
+Computational Design Workflow
+Typical Floor Scissor Bands: Multiple perpendicular section planes along the curved surface was used to segment the scissor bands into 
+transportable and easily installable sizes. All mullions were structurally reinforced to support the dead load of the bands.
+These perpendicular bands served as guiding planes for precise shop drawings, ensuring seamless geometry with perfectly 
+fitting components and no gaps between neighboring bands.
+Cutting plane for scissors
+ADD Floor Scissor bands
+Sectional view of band for a typical floor
+Subdivision into Transportable Components
+CNC based fabrication workflow
+Assembly using interlocking 
+grooves
+Nesting on 8’X4’ MDF sheet
+Clean cut sections of bands 
+for Shop drawings
+The entrance lobby band and ADD area featured cantilevering bands extending over 3 meters. To facilitate manual han-
+dling, these bands were subdivided into smaller sections. Each piece was uniquely labeled in the fabrication drawings, 
+accompanied by isometric assembly diagrams to ensure accurate construction.
+All shop drawing pieces were nest-
+ed onto an 8’×4’ MDF sheet (8mm 
+thick) for efficient material utili-
+zation. The bands were sectioned 
+in two directions, maintaining a 
+150mm spacing between cuts. Once 
+assembled, these sections formed 
+the framework for GRC/FRP mold 
+preparation. While molds for typical 
+floors were reused, the remaining 
+scissor bands were uniquely fabri-
+cated. Interlocking grooves in the 
+sections ensured precise alignment 
+and seamless assembly.
+
+--- PAGE 6 ---
+Computation | Architecture | Sustainability
+Selected Works - 2026
+6
+Naitik Sharma
+CB4
+CB3
+CB1
+CO9
+C1
+C2
+C3
+C4
+B5
+B4
+B3
+B2
+B1
+CB2
+CO8
+CO6
+CO6
+CO6
+CO6
+CO7
+CO6
+CO5
+CO4
+CO3
+CO3
+CO3
+CO3
+CO3
+CO2
+CO1
+G5
+G4
+G3
+G2
+G1
+1200<>
+4275<>
+1950<>
+3650<>
+4100<>
+3950<>
+3650<>
+3650<>
+3650<>
+3650<>
+3650<>
+3650<>
+3650<>
+3600<>
+3600<>
+3600<>
+3400<>
+3900<>
+GB1
+AR3
+AR2
+LG1
+L5
+L4
+L3
+L2
+L1
+R5
+R4
+R3
+R2
+R1
+RL1
+AR3
+AR2
+AR1
+A5
+A4
+A3
+A2
+A1
+R5
+R4
+R3
+R2
+R1
+RA1
+AR3
+AR2
+AR1
+A5
+A4
+A3
+A2
+A1
+R5
+R4
+R3
+R2
+R1
+RA1
+AR3
+AR2
+AR1
+A5
+A4
+A3
+A2
+A1
+R5
+R4
+R3
+R2
+R1
+RA1
+AR3
+AR2
+YR1
+Y6
+Y5
+Y4
+Y3
+Y2
+Y1
+N8
+N7
+N6
+N5
+N4
+N3
+N2
+N1
+Q1
+Q2
+Q3
+Q4
+NQ1
+PQ2
+PQ1
+P6
+P5
+P4
+P3
+P2
+P1
+GYM | 
+ROOMS
+ROOMS
+SERVICE FLOOR
+ROOMS WITH
+BALCONIES
+SUITE
+ALL DAY DINING
+INFINITE
+SWIMMING POOL
+MEETING 
+ROOMS
+STRAIGHT REGION
+CURVED REGION
+BOH & ADMIN
+GRAB & GO
+BANQUET HALL
+MAIN ENTRANCE 
+LOBBY
+Mould assembly after CNC
+GFRC band installation
+GFRC band installation
+
+--- PAGE 7 ---
+Computation | Architecture | Sustainability
+Selected Works - 2026
+7
+Naitik Sharma
+v
+Keywords: Parametric, Circular Material and Assembly
+2026-Ongoing
+Type: Academic Work
+Institute: CITA
+Tutor:  Paul Nicholas & Gabriells Rossi
+Team: Naitik, Lauren & Irina
+CIRCULAR HUB
+Project:
+2
+Globally there is an ongoing climate crisis. Construction contributes 40% of global emissions and generates significant 
+waste. One key strategy is reuse of salvaged materials especially timber. However, reclaimed timber introduces major 
+challenges due to irregular geometry and uncertain structural performance. This raises a key question:How can we sys-
+tematically use reclaimed timber in structurally informed design, while also enabling reuse and disassembly?
+Research Question: This project explores how structural stress fields can guide the aggregation of reclaimed timber into 
+reversible assemblies, and how graph-based representations can enable disassembly intelligence
+Assemblage of reclaimed timber parts with rules
+Research Aim:
+
+--- PAGE 8 ---
+Computation | Architecture | Sustainability
+Selected Works - 2026
+8
+Naitik Sharma
+Material Passports
+Combinatorial Construction kit
+Structural Performative Design
+Material Allocation
+AR Assembly
+Graph Disassembly
+Computational Pipeline
+Grade
+Straightness
+Compactness
+Taper
+Irregular Geometry
+Aggregate
+Characterization
+Timber Family for Aggregation (Proxy)
+Feature Extraction
+Clustering (K-Means)
+Effective Length
+Tapering
+Straightness
+Longitudnal Area
+Oriented Bounding Box
+Compactness
+Feature Extraction
+Material passport Workflow
+Timber Grade derived from Features
+
+--- PAGE 9 ---
+Computation | Architecture | Sustainability
+Selected Works - 2026
+9
+Naitik Sharma
+Horizontal Connection
+Rotational Connection
+90• Connection
+Vertical Connection
+All Connection Combined
+Timber Beams with Dovetail 
+Grooves
+Dovetail Keys
+Barn beams averaging 30 cm 
+x 30 cm profile are used
+The beams are scanned for 
+accurate joint placement
+Split butterfly wedge joint
+For easy assembly
+Assembly
+90 deg Connections
+(Rotation Possibility)
+45 degree connections
+(rotation possibility)
+Aggregate system:
+Assembly
+Assemblage Connection Rules
+Reclaimed Timber Assemblage (Prototype)
+
+--- PAGE 10 ---
+Computation | Architecture | Sustainability
+Selected Works - 2026
+10
+Naitik Sharma
+Vectors for Fields
+Fields Setup
+Parts Design
+Part-A
+Part-B
+Part-C
+Part-D
+Timber Storing Strategies (interior)
+Assemblage Studies
+Fields Setup to influence rule selection
+Slab Aggregated based on Field influence
+
+--- PAGE 11 ---
+Computation | Architecture | Sustainability
+Selected Works - 2026
+11
+Naitik Sharma
+Keywords: Parametric, Massing, Facade Design & 
+Environmental Simulations
+2023-2024
+Type: Professional Work
+Office: Studio-Symbiosis
+Team: Amit Gupta, Britta Knobbel, Fulvio 
+Wirz, Manuele Gaino and Naitik
+ARWAD TOWER, JEDDAH
+Project:3
+This project is a commercial office 
+space located near the airport in Jeddah. 
+Designed for flexibility, each floor features 
+office spaces available for subletting, al-
+lowing different companies to set up their 
+administrative offices with adaptable 
+internal partitions. 
+The building integrates various functional 
+and sustainable design elements, includ-
+ing a full-height atrium, open terraces, 
+and informal meeting spaces. The first 
+two floors are dedicated to commercial 
+use, enhancing the building’s mixed-use 
+character. Additionally, the façade design 
+minimizes total heat gain, reducing 
+cooling loads and improving energy 
+efficiency.
+Jeddah experiences high temperatures 
+throughout the year, often exceeding 
+45°C during working hours in the sum-
+mer months. This highlights the need 
+for effective shading on the facade.
+From the massing catalog, Option 1 was selected 
+as it covered the maximum BUA while allowing 
+ample daylight to enter through the atrium. The only 
+requirement was a façade design that could mitigate 
+the harsh sunlight.
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sep
+Oct
+Nov
+Dec
+12 AM
+6 AM
+12 PM
+6 PM
+12 AM
+Developed a massing catalog with multiple design iterations, varying in core placement, commercial 
+space distribution, and parking layouts to explore diverse architectural forms. Each option was analyzed 
+for maximum built-up area (BUA) and optimized daylight performance. A parametric workflow was 
+implemented, enabling rapid data extraction and automated comparison of area efficiency and daylight 
+analysis for a typical floor.
+About the project:
+Massing Design Catalogue
+5<
+Daylight Factor
+4
+3
+2
+1
+<0
+1
+2
+3
+4
+5
+6
+7
+8
+Offices
+Atrium
+MEP
+Core
+Commer-
+Parking
+Dry Bulb Temeprature of
+Jeddah city througout the year
+Urban Alignments
+Stepped Steback
+Maximum Ground Coverage allowed
+
+--- PAGE 12 ---
+Computation | Architecture | Sustainability
+Selected Works - 2026
+12
+Naitik Sharma
+9:00 AM
+9:00 AM
+9:00 AM
+9:00 AM
+12:00 PM
+15:00 PM
+21 JUNE
+21 MARCH
+23 SEPTEMBER
+22 DECEMBER
+15:00 PM
+15:00 PM
+15:00 PM
+12:00 PM
+12:00 PM
+12:00 PM
+1.5
+1.75
+2
+2.25
+2.5
+2.75
+3
+3.25
+3.5
+3.75
+4
+KWH/SQ.M
+Radiation Study:
+EAST CORNER
+NORTH CORNER
+WEST CORNER
+SOUTH CORNER
+Form Development & Facade De-
+sign Concept:
+[1] Surface radiation analysis on the glass panels on 21st 
+june, 23rd Sept, 21st March and 22nd December.
+Facade is 
+inspired by 
+Phyllotaxis. The 
+overlapping, 
+angled 
+elements, 
+naturally cast 
+shadows, 
+reducing direct sun exposure and minimizing 
+heat gain.
+By applying parametric control for sun 
+shading and integrating sun-tracking 
+methods, the self shading design improves 
+energy efficiency.
+[2] Reduction in heat gain after adding shading devices on the facade like ovcerhangs and vertical 
+louvers.
+1. Site is located in Jeddah, major city on the westrn coast 
+of Saudi Arabaia
+SITE
+4. The tower is further refined with unique configuration, 
+allowing unobstructed views of the surrounding cityscape.
+2. Design features a raised podium dedicated to parking 
+and commercial spaces, above which office tower is placed.
+5. The tower features shading devices on glass panels in 
+response to intense sunlight, reducing heat gain.
+3. The volumes are pushed in centre on the two sides to 
+create open soaces and a play in the massing.
+6. The tower is characterised by its distincive facade 
+and intricate details, stands out prominently against ther 
+backdrop of the surrounding.
+[2]
+[2]
+[2]
+[2]
+[1]
+[1]
+[1]
+[1]
+
+--- PAGE 13 ---
+Computation | Architecture | Sustainability
+Selected Works - 2026
+13
+Naitik Sharma
+Keywords: Parametric, Machine Learning, Circular material, 3D Printing, Robotic 
+Toolpath Planning
+2026-2026
+Type: Academic Work
+Institute: CITA
+Tutor: Carl Eppinger & Carly
+Team: Naitik, Gabrielle, Filip & Luis
+BIOPOL 3D PRINTING
+Project:
+4
+(Link to Linkedin post)
+Overhang
+Infill Geometry
+Non-Planar Slicing
+Smooth V/s Rough
+This project explores robotic 3D printing with bio-based materials through a fabrication-informed design approach. A computational work-
+flow integrating machine learning was developed to optimise toolpaths based on parameters such as print velocity, collapse thresholds, and 
+material distribution. 
+ 
+By linking geometry with fabrication constraints, the research investigates non-planar printing strategies and free-standing compression 
+systems, demonstrating how data-driven toolpath control can enhance structural stability and enable efficient material usage.
+print speed
+material flow
++
+=
+material density
+pressure
+=
++
+param velocity
+param material recipe
+
+--- PAGE 14 ---
+Computation | Architecture | Sustainability
+Selected Works - 2026
+14
+Naitik Sharma
+Form Development
+Arch for Prototype
+
+--- PAGE 15 ---
+Computation | Architecture | Sustainability
+Selected Works - 2026
+15
+Naitik Sharma
+Brick parts design and Sizes
+
+--- PAGE 16 ---
+Computation | Architecture | Sustainability
+Selected Works - 2026
+16
+Naitik Sharma
+0 – 27mm
+Collapse effect assumption
+Centre of mass
+1x print s
+19.3-50mm/s
+Print velocity
+Machine Learning Model for Print Path Optimisation
+The project establishes a parametric relation-
+ship between task, material, and fabrication 
+constraints to guide robotic toolpath planning. 
+Print parameters such as bed size and depo-
+sition strategy define geometric limitations, 
+while material behaviour—particularly overhang 
+tolerance and compression capacity—directly 
+influences structural stability. 
+ 
+Zoning strategies are introduced to distribute 
+material based on structural demand, transi-
+tioning from heavier deposition in high-stress 
+regions to lighter infill in non-critical areas. This 
+enables efficient material usage while maintain-
+ing structural integrity. 
+ 
+The integration of these parameters allows the 
+generation of adaptive toolpaths, where geome-
+try, material behaviour, and fabrication logic are 
+resolved simultaneously through computational 
+control.
+
+--- PAGE 17 ---
+Computation | Architecture | Sustainability
+Selected Works - 2026
+17
+Naitik Sharma
+Keywords: Parametric, Graph Machine Learning
+2022
+Type: Academic
+Institute: IAAC, MaCAD
+Guide: Oana Taut
+Team: Naitik (thesis project)
+Credits: Prof. Wassim Jabi for Technical help
+CONFIGURABLE TOPOLOGIES
+Project:5
+The thesis project is about building a 
+recommendation system or a digital aid to designers 
+that can help them classify 3D prototypes of 
+their building solutions based on their topological 
+relationships. This research thesis focuses on using 
+graph machine learning system that learns from its 
+architectural precedents based on its topological 
+forms. This conceptual workflow consist of three 
+primary steps. First one is to construct synthetic 
+dataset based on its architectural precedents. 
+These synthetic datasets are generated using 
+parametric modelling in grasshopper. Second is to 
+encode graphs in the dataset. And the final step is 
+to use supervised learning for graphs using Graph 
+Convolution Networks (GCN). 
+Dataset for 3 different typologies was created. After 
+generating the dataset the graphs need to undergo 
+the process of one-hot encoding where the nodes 
+are labelled according to the category they belong. 
+For the pupose of machine learning the nodes need 
+to have some numbers associated to it. So the 
+graphs undergo the closeness centrality analysis.
+Building Typologies:
+About the project:
+Perimeter block has a central 
+courtyard connected to the 
+ground.
+Node-embedding: Closeness centrality on 
+Graphs
+Slab Building is the typology of the 
+building which has long corridor as 
+circulation node, flanked by rooms as 
+units on both the sides. Other nodes 
+include ground, stilt and staircase.
+Typology-1
+Typology-2
+Typology-3
+High-Rise Tower has a 
+central core connected 
+to the podium which sits 
+on the ground. And all 
+the flats connected to 
+the central core.
+Dataset Creation using Parametric Workflow:
+Dataset Creation and Node Embedding
+1. Slab Building
+2. Perimeter Block
+3. High-Rise Building
+One-Hot Encoding
+Space List
+Staircase = 0
+Column = 1
+Room = 2
+Corridor = 3
+Ground = 4
+Core = 5
+Podium = 6
+(Link to IaaC’s blogpost)
+
+--- PAGE 18 ---
+Computation | Architecture | Sustainability
+Selected Works - 2026
+18
+Naitik Sharma
+By testing through different batch sizes, epochs, 
+learning rates for a dataset of 600 graphs, learning 
+rate: 0.002, batch_size: 1, hidden_layer: 16 32 32 16 
+and ‘avgPooling’ gave an accuracy of 100% with a 
+loss of 0.001.
+Instead of just taking just simple voxels and creating graphs 
+for ML the research can benefit from using real world data 
+like BIM, and can be used to analyse them. This will take this 
+research one step further by using different types of graphs like 
+homogeneous and heterogeneous graphs.
+The final dataset, for the machine learning process had a training dataset of 200 graphs per typology and a validation graph of 180 graphs 
+per typology.
+After training the classifier model on training dataset it was time to predict the accuracy of the learned model. So the model gave predictions 
+for validation dataset and the predictions are validated with the actual graph classification. After comparing the accuracy and the loss of the 
+model, it gave 2 wrong prediction out of 90 which means learning accuracy of 96% with a loss of 0.2.
+Overall, the prediction system was working well but using more number of data will help this ML tool to predict better.
+Final Dataset:
+Training and Accuracy Loss:
+Conclusion:
+Dataset creation into .CSV for ML
