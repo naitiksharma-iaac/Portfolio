@@ -1,0 +1,16 @@
+.hilton-page .tectonics-hero { margin-top: 28px; }
+.hilton-page .tectonics-intro { margin-top: 34px; }
+.hilton-page .tectonics-caption { max-width: 560px; }
+.hilton-page .hilton-studio { display: block; padding: 10px 0 18px; }
+.hilton-page .hilton-studio img { width: min(245px, 100%); height: auto; }
+.hilton-page .hilton-studio p { margin-top: 8px; font-size: 9px; color: #5d5d5b; }
+.hilton-page .tectonics-figure a { display: block; }
+/* Respect the effective resolution of embedded portfolio illustrations. */
+.hilton-page .hilton-source-diagram { width: min(100%, 620px); }
+.hilton-page #components .hilton-source-diagram { width: min(100%, 460px); }
+.hilton-page #installation .tectonics-figure { width: min(100%, 620px); }
+.hilton-contents { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-top: 32px; padding-block: 14px; border-block: 1px solid #cccbc6; font-size: 10px; }
+.hilton-page section[id] { scroll-margin-top: 24px; }
+.hilton-credits { margin-top: 72px; max-width: 560px; font-size: 10px; line-height: 16px; }
+.hilton-credits h2 { margin-bottom: 12px; font-size: 11px; font-weight: 400; text-transform: uppercase; }
+.hilton-credits p + p { margin-top: 6px; }
