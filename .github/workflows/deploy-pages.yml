@@ -24,6 +24,9 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Fetch portfolio media
+        run: git lfs pull --include="static-portfolio/**"
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
