@@ -1,0 +1,94 @@
+/* Shared presentation for the final portfolio, including static project sidebars. */
+.reviewed-project main { width:min(1180px,calc(100% - 48px)); margin:0 auto; padding-top:28px; }
+.review-project-top { display:grid; grid-template-columns:minmax(0,1.45fr) minmax(240px,.55fr); gap:clamp(28px,5vw,84px); align-items:start; }
+.review-project-lead { min-width:0; padding-top:8px; }
+.review-project-lead h1 { margin:12px 0 18px; font-size:clamp(30px,4vw,50px); line-height:1.05; font-weight:400; letter-spacing:-.035em; text-transform:uppercase; overflow-wrap:anywhere; }
+.review-project-lead :is(.academic-subtitle,.rh-subtitle,.charge-subtitle) { max-width:520px; font-size:15px; line-height:1.5; letter-spacing:0; }
+.review-kicker { color:#5d5d5b; font-size:11px; line-height:1.5; letter-spacing:.08em; text-transform:uppercase; }
+.review-project-lead > figure { width:100%; margin:28px 0 0; }
+.review-project-lead > figure img { width:100%; height:auto; aspect-ratio:auto; object-fit:contain; background:transparent; }
+.review-project-lead figcaption { font-size:12px; line-height:1.5; margin-top:0; padding-top:10px; }
+.review-introduction { margin-top:28px; font-size:16px; line-height:1.65; }
+.review-introduction p+p { margin-top:14px; }
+.review-introduction h2 { margin:10px 0 16px; font-size:24px; font-weight:400; line-height:1.25; }
+.review-introduction .eyebrow { font-size:11px; }
+.reviewed-project :is(.review-project-panel,.tectonics-metadata) { padding:4px 0 0; border:0; border-radius:0; background:transparent; min-width:0; }
+.review-project-panel dl { display:block; margin:0; }
+.review-project-panel dl > div { display:block; padding:8px 0 9px; border-top:1px solid #cccbc6; }
+.review-project-panel dt { color:#5d5d5b; font-size:10px; font-weight:400; letter-spacing:.1em; line-height:1.5; text-transform:uppercase; }
+.review-project-panel dd { margin:3px 0 0; color:#303030; font-size:12px; line-height:1.5; overflow-wrap:anywhere; }
+.reviewed-project .review-institution { display:flex; flex-direction:column; align-items:flex-start; gap:12px; padding:8px 0 18px; border:0; }
+.reviewed-project .review-institution img { width:150px; max-width:100%; height:auto; max-height:55px; object-fit:contain; object-position:left; filter:none; }
+.reviewed-project .review-institution p { font-size:12px; line-height:1.5; color:#555; }
+.reviewed-project .tectonics-metadata dd { font-size:12px; line-height:1.5; }
+.reviewed-project :is(.tectonics-section-copy,.tectonics-intro,.reclaimed-intro,.tectonics-outcome > p,.tectonics-reflection > p) { font-size:15px; line-height:1.65; }
+.reviewed-project :is(.academic-section-head,.rh-section-head,.charge-section-head) h2 { font-size:clamp(25px,3vw,36px); }
+.reviewed-project :is(.academic-nav,.rh-nav,.charge-nav,.chapter-nav) { margin-top:28px; }
+.reviewed-project .academic-wide img { aspect-ratio:auto; max-height:680px; }
+.kerf-case .academic-wide img { width:auto; max-width:100%; margin:0 auto; }
+.reviewed-project .academic-pair img { object-fit:contain; }
+.reviewed-project figure > a { display:block; }
+.reviewed-project :is(.rh-stack,.academic-methods,.charge-stack) dd { margin:0; }
+/* Jeddah uses the same white paper and ruled information panel as the other projects. */
+body.jeddah-page { background:#fff!important; color:#303030!important; font-family:Arial,Helvetica,sans-serif!important; }
+.jeddah-page :is(h1,h2,h3,p,dt,dd,strong,em,figcaption,a,span) { color:inherit!important; }
+.jeddah-page :is(.jeddah-contents-wrapper,.jeddah-contents a,.jeddah-metrics-strip,.jeddah-hero-figure,.tectonics-figure,.tectonics-caption,.jeddah-credits,.tectonics-reflection,.tectonics-back a) { background:#fff; box-shadow:none; border-color:#ddd; border-radius:0; }
+.jeddah-page .site-header { border:0!important; }
+.jeddah-page .site-header a { color:#303030!important; }
+.jeddah-page .site-header a:hover { color:#111!important; text-decoration:underline!important; }
+body.jeddah-page .site-header :is(.site-name,.site-nav-link,.site-contact,.site-bio,.site-cv) { color:#303030!important; }
+body.jeddah-page main [class] { color:#303030!important; }
+body.jeddah-page main :is(.jeddah-option-card-header,.tectonics-flow,.tectonics-reflection) { background:#fff; border-color:#ddd; box-shadow:none; border-radius:0; }
+.jeddah-page .jeddah-hero-title { font-size:clamp(30px,4vw,50px); font-weight:400; text-transform:uppercase; }
+.jeddah-page .jeddah-hero-title strong { font-weight:400; }
+.jeddah-page .jeddah-hero-grid { grid-template-columns:minmax(0,1.45fr) minmax(240px,.55fr); gap:clamp(28px,5vw,84px); }
+.jeddah-page .tectonics-intro { background:transparent; border:0; padding:0; }
+.jeddah-page .tectonics-figure { border:0; }
+.jeddah-page .tectonics-caption { padding:12px 0; font-size:12px; line-height:1.5; }
+.jeddah-page .jeddah-contents { gap:8px; }
+.jeddah-page .jeddah-contents a { border:0; padding:5px 8px; }
+.jeddah-page .jeddah-caption-badge { background:transparent; border:0; }
+/* Natural homepage flow prevents empty project slots and tiny scaled mobile cards. */
+#projects.scaled-stage { width:min(1062px,calc(100% - 40px)); height:auto!important; margin:0 auto; }
+#projects .spatial-canvas { position:static; width:100%; height:auto!important; transform:none!important; display:grid; gap:64px; padding:28px 0 48px; }
+#projects .home-entry { display:grid; grid-template-columns:minmax(135px,.28fr) minmax(0,1fr); gap:32px; align-items:center; }
+#projects .home-entry-meta { position:static; width:auto; grid-column:1; grid-row:1; text-align:right; font-size:12px; line-height:1.6; }
+#projects .home-entry-meta h2 { font-size:15px; line-height:1.35; margin-bottom:8px; }
+#projects .home-preview { position:static; width:100%; height:auto; grid-column:2; grid-row:1; }
+#projects .home-preview img { width:100%; height:auto; max-height:530px; object-fit:contain; background:transparent; }
+/* Bio, contact and teaching remain readable without a fixed-width canvas. */
+.text-page { width:min(1062px,calc(100% - 40px)); min-height:0; padding-bottom:70px; }
+.text-page-content { width:min(520px,100%); margin:0 auto; padding-top:36px; font-size:15px; line-height:1.65; }
+.text-page-content h1 { font-size:26px; line-height:1.2; }
+.text-page-content h2 { font-size:17px; line-height:1.4; }
+.text-page-content .bio-logo-iaac { flex-basis:70px; width:70px; height:auto; }
+@media(max-width:760px) {
+ .reviewed-project main { width:calc(100% - 32px); padding-top:24px; }
+ .review-project-top,.jeddah-page .jeddah-hero-grid { grid-template-columns:1fr; gap:32px; }
+ .review-project-panel { width:100%; }
+ .reviewed-project .review-project-panel dl { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:0 20px; }
+ .review-project-panel dd { font-size:13px; }
+ #projects .spatial-canvas { gap:42px; }
+ #projects .home-entry { grid-template-columns:1fr; gap:15px; }
+ #projects .home-entry-meta { grid-column:1; grid-row:2; text-align:left; }
+ #projects .home-preview { grid-column:1; grid-row:1; }
+ .jeddah-page .site-header { width:calc(100% - 32px)!important; }
+ .jeddah-page .site-header .site-nav-group { gap:12px!important; }
+}
+@media screen and (max-width:680px) {
+ .cv-page { background:#fff; overflow-x:hidden; }
+ .cv-stage { display:block; padding:24px 20px 50px; }
+ .cv-paper-frame { width:100%; height:auto; filter:none; }
+ .cv-document { width:100%; height:auto; overflow:visible; padding:0; transform:none; font-size:13px; line-height:1.55; }
+ .cv-columns { grid-template-columns:1fr; gap:28px; }
+ .cv-document h3,.cv-project h3 { font-size:13px; }
+ .cv-document :is(p,li,dd,.cv-entry-role,.cv-focus) { font-size:13px; line-height:1.55; }
+ .cv-document :is(time,h2,dt) { font-size:11px; line-height:1.5; }
+ .cv-entry-head,.cv-compact-head { grid-template-columns:1fr; gap:4px; }
+ .cv-entry-role { display:block; }
+ .cv-entry-role span { display:block; text-align:left; }
+ .cv-profile p { max-width:none; }
+ .cv-screen-nav button { display:block; }
+ .cv-screen-nav { grid-template-columns:1fr auto auto auto; gap:10px; }
+}
+@media print { .reviewed-project .review-project-top { break-inside:avoid; } }

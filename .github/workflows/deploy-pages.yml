@@ -30,10 +30,15 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
+      - name: Prepare published pages
+        run: |
+          mkdir -p _site
+          rsync -a --exclude='/projects/the-dunes-udaipur.html' static-portfolio/ _site/
+
       - name: Upload portfolio
         uses: actions/upload-pages-artifact@v3
         with:
-          path: static-portfolio
+          path: _site
 
       - name: Deploy portfolio
         id: deployment
