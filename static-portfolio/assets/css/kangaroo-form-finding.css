@@ -1,0 +1,35 @@
+.kangaroo-case { color:#303030; font-size:16px; line-height:1.65; padding-bottom:90px; }
+.kangaroo-case :is(h1,h2,h3,p,figure) { margin:0; }
+.kangaroo-label { color:#686868; font-size:12px; line-height:1.5; letter-spacing:.09em; text-transform:uppercase; }
+.kangaroo-subtitle { max-width:560px; font-size:19px; line-height:1.35; }
+.kangaroo-case :is(img,video) { display:block; width:100%; height:auto; }
+.kangaroo-case video { background:#f2f2f2; }
+.kangaroo-case figcaption { max-width:760px; padding-top:11px; color:#666; font-size:13px; line-height:1.5; }
+.kangaroo-hero img { aspect-ratio:4/3; object-fit:cover; object-position:center; }
+.kangaroo-nav { display:flex; flex-wrap:wrap; gap:12px 28px; margin-top:30px; padding:18px 0; border-block:1px solid #d5d5d5; font-size:13px; }
+.kangaroo-chapter { margin-top:96px; scroll-margin-top:28px; }
+.kangaroo-section-head { display:grid; grid-template-columns:1fr 1fr; gap:20px 64px; margin-bottom:34px; }
+.kangaroo-section-head>.kangaroo-label { grid-column:1/-1; }
+.kangaroo-section-head h2 { font-size:clamp(28px,3.2vw,43px); font-weight:400; letter-spacing:-.035em; line-height:1.13; }
+.kangaroo-copy p+p { margin-top:15px; }
+.kangaroo-grid { display:grid; gap:26px; margin-top:28px; align-items:start; }
+.kangaroo-pair { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.kangaroo-three { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.kangaroo-grid figure { min-width:0; }
+.kangaroo-diagram img { aspect-ratio:1.63; object-fit:contain; background:#fff; }
+.kangaroo-motion video { aspect-ratio:16/9; object-fit:contain; }
+.kangaroo-motion.physical video { aspect-ratio:4/3; object-fit:cover; }
+.kangaroo-wide { margin-top:30px; }
+.kangaroo-wide img { max-height:720px; object-fit:contain; background:#fff; }
+.kangaroo-methods { margin-top:40px; border-top:1px solid #ccc; }
+.kangaroo-methods>div { display:grid; grid-template-columns:1fr 2fr; gap:40px; padding:22px 0; border-bottom:1px solid #ddd; }
+.kangaroo-methods dt { font-size:22px; line-height:1.3; }
+.kangaroo-methods dd { margin:0; color:#5e5e5e; font-size:14px; }
+.kangaroo-credits { display:grid; grid-template-columns:1fr 2fr; gap:40px; margin-top:68px; padding-top:28px; border-top:1px solid #bbb; color:#686868; font-size:14px; }
+.kangaroo-back { margin-top:52px; font-size:14px; }
+.kangaroo-mark { font-size:17px!important; line-height:1.3!important; color:#303030!important; }
+@media(max-width:760px) {
+  .kangaroo-section-head,.kangaroo-methods>div,.kangaroo-credits { grid-template-columns:1fr; gap:16px; }
+  .kangaroo-pair,.kangaroo-three { grid-template-columns:1fr; }
+  .kangaroo-chapter { margin-top:64px; }
+}

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kangaroo Form-Finding — an independent computational folding study by Naitik Sharma.">
+  <title>Kangaroo Form-Finding — Naitik Sharma</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/kangaroo-form-finding.css">
+  <script src="../assets/js/site.js" defer></script>
+  <link rel="stylesheet" href="../assets/css/portfolio-review.css?v=20260907-final">
+</head>
+<body class="reviewed-project"><a class="skip-link" href="#project">Skip to project</a>
+  <header class="site-header"><a class="site-name" href="../index.html">Naitik Sharma</a><a class="site-contact" href="../contact.html">Contact</a><a class="site-bio" href="../bio.html">Bio</a><a class="site-cv" href="../cv/">CV</a></header>
+  <main class="kangaroo-case" id="project">
+    <div class="review-project-top">
+      <div class="review-project-lead">
+        <div><p class="kangaroo-label">Independent study · 2025</p><h1>Kangaroo Form-Finding</h1><p class="kangaroo-subtitle">Turning a regular toroidal mesh into a family of folded, self-supporting geometries through physical simulation.</p></div>
+        <figure class="kangaroo-hero"><a href="../assets/projects/kangaroo-form-finding/hero-prototype.webp" target="_blank" rel="noopener" aria-label="View image at full resolution"><img src="../assets/projects/kangaroo-form-finding/hero-prototype.webp" alt="Blue physical prototype developed from the Kangaroo folding study" width="2200" height="1650" fetchpriority="high" data-protected-media></a><figcaption>The physical prototype makes the simulated folds tangible and reveals the continuous loops formed by the relaxed mesh.</figcaption></figure>
+        <div class="review-introduction"><p>The study starts from a toroidal mesh whose topology stays constant while its geometric and physical inputs change. Rings in the mesh are classified as alternating mountain and valley folds, then Kangaroo solves the competing fold-angle and edge-length goals.</p><p>The result is a controlled design family rather than a single sculpted object. A small set of parameters produces flat rings, double loops, compact spirals and intertwined forms while preserving the same underlying mesh logic.</p></div>
+      </div>
+      <aside class="review-project-panel" aria-label="Project information">
+        <div class="review-institution"><p class="kangaroo-mark">Computational form-finding study</p></div>
+        <dl>
+          <div><dt>Project</dt><dd>Kangaroo Form-Finding</dd></div>
+          <div><dt>Nature</dt><dd>Independent computational study</dd></div>
+          <div><dt>Year</dt><dd>2025</dd></div>
+          <div><dt>Author</dt><dd>Naitik Sharma</dd></div>
+          <div><dt>Core technology</dt><dd>Rhino · Grasshopper · Kangaroo</dd></div>
+          <div><dt>Inputs</dt><dd>Inner radius · Outer radius · Fold count · Mesh segmentation · Fold angle · Edge constraints</dd></div>
+          <div><dt>Outputs</dt><dd>Relaxed mesh · Fold diagram · Curvature map · Physical prototype</dd></div>
+        </dl>
+      </aside>
+    </div>
+
+    <nav class="kangaroo-nav" aria-label="Project sections"><a href="#topology">01 — Base topology</a><a href="#folds">02 — Fold logic</a><a href="#simulation">03 — Simulation</a><a href="#prototype">04 — Prototype</a></nav>
+
+    <section class="kangaroo-chapter" id="topology">
+      <div class="kangaroo-section-head"><p class="kangaroo-label">01 — Base topology</p><h2>One mesh creates the entire design family.</h2><div class="kangaroo-copy"><p>A torus provides a closed quad mesh with continuous radial and circumferential directions. Inner radius, outer radius, the number of folds and segmentation density control its proportions before any force is applied.</p><p>Keeping the topology fixed makes each outcome comparable. Shape variation comes from changing the mesh dimensions and solver goals rather than rebuilding the geometry for every iteration.</p></div></div>
+      <div class="kangaroo-grid kangaroo-pair kangaroo-diagram">
+        <figure><a href="../assets/projects/kangaroo-form-finding/base-mesh.webp" target="_blank" rel="noopener"><img src="../assets/projects/kangaroo-form-finding/base-mesh.webp" alt="Regular toroidal quad mesh used as the starting topology" width="1800" height="1104" loading="lazy" data-protected-media></a><figcaption>The regular toroidal mesh establishes a continuous closed field.</figcaption></figure>
+        <figure><a href="../assets/projects/kangaroo-form-finding/fold-families.webp" target="_blank" rel="noopener"><img src="../assets/projects/kangaroo-form-finding/fold-families.webp" alt="Toroidal mesh with alternating red and blue fold families" width="1800" height="1104" loading="lazy" data-protected-media></a><figcaption>Alternating ring families separate the mountain and valley fold directions.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="kangaroo-chapter" id="folds">
+      <div class="kangaroo-section-head"><p class="kangaroo-label">02 — Fold logic</p><h2>Geometric parameters define the field; physical goals deform it.</h2><div class="kangaroo-copy"><p>The Grasshopper definition identifies hinges from the mesh topology and assigns fold directions to them. Kangaroo then balances fold-angle targets with edge-length constraints, allowing the flat ring to move without losing its connected structure.</p><p>Because the goals compete, the solver does more than bend a preset surface. It searches for an equilibrium state, exposing how a small change in fold angle or strength can redirect the whole mesh.</p></div></div>
+      <div class="kangaroo-grid kangaroo-three kangaroo-diagram">
+        <figure><a href="../assets/projects/kangaroo-form-finding/folded-state-a.webp" target="_blank" rel="noopener"><img src="../assets/projects/kangaroo-form-finding/folded-state-a.webp" alt="First folded state of the toroidal mesh" width="1800" height="1104" loading="lazy" data-protected-media></a><figcaption>A regular fold assignment begins to twist the ring out of plane.</figcaption></figure>
+        <figure><a href="../assets/projects/kangaroo-form-finding/folded-state-b.webp" target="_blank" rel="noopener"><img src="../assets/projects/kangaroo-form-finding/folded-state-b.webp" alt="Second compact folded state of the toroidal mesh" width="1800" height="1104" loading="lazy" data-protected-media></a><figcaption>Changing the goals produces a more compact equilibrium state.</figcaption></figure>
+        <figure><a href="../assets/projects/kangaroo-form-finding/final-mesh.webp" target="_blank" rel="noopener"><img src="../assets/projects/kangaroo-form-finding/final-mesh.webp" alt="Intertwined final mesh generated with Kangaroo" width="1800" height="1104" loading="lazy" data-protected-media></a><figcaption>The final mesh retains the same connected topology across multiple loops.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="kangaroo-chapter" id="simulation">
+      <div class="kangaroo-section-head"><p class="kangaroo-label">03 — Simulation</p><h2>The animation shows the parameter space, not only the final form.</h2><div class="kangaroo-copy"><p>The simulation records each equilibrium state together with its geometric inputs, fold parameters and curvature field. This makes it possible to read why one configuration remains shallow while another closes into an intertwined loop.</p><p>Mountain and valley diagrams track fold direction, while the colour map identifies where curvature concentrates as the mesh changes.</p></div></div>
+      <figure class="kangaroo-wide kangaroo-motion"><video src="../assets/projects/kangaroo-form-finding/parameter-sweep.mp4" muted playsinline autoplay loop preload="metadata" aria-label="Animated Kangaroo parameter sweep through multiple folded states"></video><figcaption>Animated parameter sweep: each configuration pairs the relaxed mesh with its fold diagram and curvature map.</figcaption></figure>
+      <figure class="kangaroo-wide"><a href="../assets/projects/kangaroo-form-finding/curvature-result.webp" target="_blank" rel="noopener"><img src="../assets/projects/kangaroo-form-finding/curvature-result.webp" alt="Curvature coloured final form from the Kangaroo study" width="2200" height="1350" loading="lazy" data-protected-media></a><figcaption>Curvature visualisation highlights the zones where the solver concentrates bending.</figcaption></figure>
+    </section>
+
+    <section class="kangaroo-chapter" id="prototype">
+      <div class="kangaroo-section-head"><p class="kangaroo-label">04 — Physical prototype</p><h2>A hand-held model tests the continuity of the loops.</h2><div class="kangaroo-copy"><p>The prototype translates the digital result into a layered physical object. Handling it reveals relationships that remain difficult to read in a single screen view: openings align across the form, folds pass behind one another and the surface remains continuous through each loop.</p><p>The physical study also exposes the limits of the first translation, including local thickness, delicate junctions and the need to control how neighbouring layers meet.</p></div></div>
+      <figure class="kangaroo-wide kangaroo-motion physical"><video src="../assets/projects/kangaroo-form-finding/prototype-handling.mp4" muted playsinline autoplay loop preload="metadata" aria-label="Physical Kangaroo prototype rotated by hand"></video><figcaption>The moving prototype shows the continuous folded paths and the changing depth of the openings.</figcaption></figure>
+      <dl class="kangaroo-methods">
+        <div><dt>Topology</dt><dd>A closed quad mesh preserves connectivity while its radii, fold count and subdivision change.</dd></div>
+        <div><dt>Physics</dt><dd>Kangaroo balances hinge rotation and edge constraints to calculate an equilibrium form.</dd></div>
+        <div><dt>Evaluation</dt><dd>Fold diagrams and curvature mapping make the behaviour of each iteration visible before physical translation.</dd></div>
+      </dl>
+    </section>
+
+    <section class="kangaroo-credits"><p class="kangaroo-label">Credits</p><div><p>Independent study and presentation by Naitik Sharma. Images, simulations and prototype documentation come from the project presentation.</p></div></section>
+    <nav class="kangaroo-back"><a href="../index.html">Back to Main</a></nav>
+  </main>
+</body>
+</html>
