@@ -17,6 +17,14 @@
 .charge-info dd { font-size:14px; line-height:1.55; }
 .charge-summary { display:grid; grid-template-columns:1fr 2fr; gap:40px; padding:28px 0; }
 .charge-summary>.charge-label { padding-top:5px; }
+.charge-motion-overview { margin:54px 0 36px; padding:42px; background:#111; color:#f4f4f1; scroll-margin-top:28px; }
+.charge-motion-overview .charge-label,.charge-motion-overview .charge-copy,.charge-motion-overview figcaption { color:#b9b9b4; }
+.charge-motion-overview .charge-section-head { margin-bottom:28px; }
+.charge-motion-gallery { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:34px 22px; }
+.charge-motion-gallery figure { min-width:0; }
+.charge-motion-gallery video { aspect-ratio:16/9; object-fit:contain; background:#000; }
+.charge-motion-gallery figcaption { max-width:none; }
+.charge-motion-gallery strong { color:#fff; font-weight:400; }
 .charge-nav { display:flex; flex-wrap:wrap; gap:12px 26px; padding:18px 0; border-block:1px solid #d5d5d5; font-size:13px; }
 .charge-chapter { margin-top:96px; scroll-margin-top:28px; }
 .charge-section-head { display:grid; grid-template-columns:1fr 1fr; gap:20px 64px; margin-bottom:34px; }
@@ -65,7 +73,8 @@
  .charge-info dd { overflow-wrap:anywhere; }
  .charge-chapter { margin-top:60px; }
  .charge-grid { gap:26px; }
- .charge-pair,.charge-three,.charge-motion-pair { grid-template-columns:1fr; }
+ .charge-pair,.charge-three,.charge-motion-pair,.charge-motion-gallery { grid-template-columns:1fr; }
+ .charge-motion-overview { margin-top:38px; padding:26px 18px; }
  .charge-three>figure:last-child { max-width:none; }
  .charge-stack>div { padding:20px 0; gap:10px; }
  .charge-stack dt { font-size:21px; }

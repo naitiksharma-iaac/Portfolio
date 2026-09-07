@@ -6,7 +6,7 @@
   <meta name="description" content="Charge Pavilion — a climate-responsive minimal-surface canopy designed by Naitik Sharma and Neil John Bersabe at IAAC.">
   <title>Charge Pavilion — Naitik Sharma</title>
   <link rel="stylesheet" href="../assets/css/style.css">
-  <link rel="stylesheet" href="../assets/css/charge-pavilion.css?v=20260907-motion">
+  <link rel="stylesheet" href="../assets/css/charge-pavilion.css?v=20260907-motion2">
   <script src="../assets/js/site.js" defer></script>
 <link rel="stylesheet" href="../assets/css/portfolio-review.css?v=20260907-final">
 </head>
@@ -20,7 +20,16 @@
       <div><dt>Nature</dt><dd>Academic group project</dd></div><div><dt>Programme</dt><dd>MaCAD · Complex Forming 1.S.3: Environmental + Structural Design</dd></div><div><dt>Term</dt><dd>Winter 2021</dd></div><div><dt>Location</dt><dd>Davao City, Philippines</dd></div><div><dt>Team</dt><dd>Naitik Sharma · Neil John Bersabe</dd></div><div><dt>Faculty</dt><dd>Rodrigo Aguirre · Assistant: Hesham Shawqy</dd></div>
     </dl></aside></div>
     <section class="charge-summary"><p class="charge-label">Project premise</p><div class="charge-copy"><p>The proposal combines two related systems. A 150 mm concrete thin shell provides the primary roof and column geometry. A lighter differential-growth layer filters sunlight above selected openings. Each transformation remains visible, from access routes and mesh construction to physical relaxation and structural testing.</p></div></section>
-    <nav class="charge-nav" aria-label="Project sections"><a href="#site">01 — Site</a><a href="#surface">02 — Surface</a><a href="#performance">03 — Performance</a><a href="#growth">04 — Shade layer</a><a href="#proposal">05 — Proposal</a></nav>
+    <section class="charge-motion-overview" id="motion">
+      <div class="charge-section-head"><p class="charge-label">Animated workflow</p><h2>Four simulations drive the pavilion from site rules to shade.</h2><div class="charge-copy"><p>These process films make the computational sequence explicit. Packing protects movement routes, Voronoi cells establish topology, Kangaroo finds the shell’s equilibrium, and differential growth develops the porous upper layer.</p></div></div>
+      <div class="charge-motion-gallery">
+        <figure><video src="../assets/projects/charge-pavilion/story/site-packing.mp4" muted playsinline autoplay loop controls preload="metadata" aria-label="Animated circular packing and circulation study"></video><figcaption><strong>01 · Circulation packing.</strong> Roof points move away from vehicle paths and access clearances.</figcaption></figure>
+        <figure><video src="../assets/projects/charge-pavilion/story/site-voronoi.mp4" muted playsinline autoplay loop controls preload="metadata" aria-label="Animated Voronoi roof subdivision"></video><figcaption><strong>02 · Voronoi topology.</strong> The remaining point field becomes the starting roof network.</figcaption></figure>
+        <figure><video src="../assets/projects/charge-pavilion/story/kangaroo-relaxation.mp4" muted playsinline autoplay loop controls preload="metadata" aria-label="Kangaroo relaxation of the pavilion roof mesh"></video><figcaption><strong>03 · Kangaroo relaxation.</strong> Anchors and physical goals settle the connected roof and supports into equilibrium.</figcaption></figure>
+        <figure><video src="../assets/projects/charge-pavilion/story/differential-growth.mp4" muted playsinline autoplay loop controls preload="metadata" aria-label="Differential growth spreading across the pavilion surface"></video><figcaption><strong>04 · Differential growth.</strong> Attraction, repulsion and alignment generate the surface-bound shade field.</figcaption></figure>
+      </div>
+    </section>
+    <nav class="charge-nav" aria-label="Project sections"><a href="#motion">Process films</a><a href="#site">01 — Site</a><a href="#surface">02 — Surface</a><a href="#performance">03 — Performance</a><a href="#growth">04 — Shade layer</a><a href="#proposal">05 — Proposal</a></nav>
 
     <section class="charge-chapter" id="site">
       <div class="charge-section-head"><p class="charge-label">01 — Davao City</p><h2>Designing shade from the site outward.</h2><div class="charge-copy"><p>Davao’s hot tropical climate makes protection from direct radiation a primary architectural requirement. The early studies trace the site boundary, vehicle movements and access paths before defining the pavilion footprint and its roof field.</p></div></div>
@@ -32,10 +41,6 @@
         <figure><a href="../assets/projects/charge-pavilion/story/site-circulation.webp" target="_blank" rel="noopener" aria-label="View image at full resolution"><img src="../assets/projects/charge-pavilion/story/site-circulation.webp" alt="Circular packing study for the pavilion footprint" width="2048" height="1045" loading="lazy" data-protected-media></a><figcaption>Point removal and circular packing articulate the footprint around circulation.</figcaption></figure>
         <figure><a href="../assets/projects/charge-pavilion/story/site-voronoi.webp" target="_blank" rel="noopener" aria-label="View image at full resolution"><img src="../assets/projects/charge-pavilion/story/site-voronoi.webp" alt="Voronoi roof-field study for Charge Pavilion" width="2048" height="1131" loading="lazy" data-protected-media></a><figcaption>A Voronoi roof field tests how a distributed canopy can organise the site.</figcaption></figure>
       </div>
-      <div class="charge-grid charge-motion-pair">
-        <figure><video src="../assets/projects/charge-pavilion/story/site-packing.mp4" muted playsinline autoplay loop preload="metadata" aria-label="Animated circular packing and circulation study"></video><figcaption>Animated study: circular packing removes roof points from vehicle paths and keeps the canopy clear of movement zones.</figcaption></figure>
-        <figure><video src="../assets/projects/charge-pavilion/story/site-voronoi.mp4" muted playsinline autoplay loop preload="metadata" aria-label="Animated Voronoi roof subdivision"></video><figcaption>Animated study: the remaining point field generates the Voronoi topology used for the roof mesh.</figcaption></figure>
-      </div>
     </section>
 
     <section class="charge-chapter" id="surface">
@@ -45,7 +50,6 @@
         <figure><a href="../assets/projects/charge-pavilion/story/mesh-over-site.webp" target="_blank" rel="noopener" aria-label="View image at full resolution"><img src="../assets/projects/charge-pavilion/story/mesh-over-site.webp" alt="Relaxed canopy mesh set over the Davao City site" width="2029" height="1006" loading="lazy" data-protected-media></a><figcaption>The initial mesh is placed across the site before form finding and boundary tuning.</figcaption></figure>
       </div>
       <figure class="charge-wide charge-grid"><a href="../assets/projects/charge-pavilion/story/continuous-surface.webp" target="_blank" rel="noopener" aria-label="View image at full resolution"><img src="../assets/projects/charge-pavilion/story/continuous-surface.webp" alt="Pink minimal-surface form study for Charge Pavilion" width="2048" height="1065" loading="lazy" data-protected-media></a><figcaption>Form finding produces a connected roof-and-column surface with a clear hierarchy of high points and supports.</figcaption></figure>
-      <figure class="charge-wide charge-grid charge-motion"><video src="../assets/projects/charge-pavilion/story/kangaroo-relaxation.mp4" muted playsinline autoplay loop preload="metadata" aria-label="Kangaroo relaxation of the pavilion roof mesh"></video><figcaption>Kangaroo relaxation in motion: anchors hold the support positions while planarisation, smoothing, rod and length goals bring the mesh into equilibrium.</figcaption></figure>
     </section>
 
     <section class="charge-chapter" id="performance">
@@ -65,7 +69,6 @@
         <figure><a href="../assets/projects/charge-pavilion/story/growth-pattern.webp" target="_blank" rel="noopener" aria-label="View image at full resolution"><img src="../assets/projects/charge-pavilion/story/growth-pattern.webp" alt="Differential-growth pattern iteration" width="1527" height="1020" loading="lazy" data-protected-media></a><figcaption>Iterative growth tests tune the opening size, collision behaviour and directionality.</figcaption></figure>
       </div>
       <figure class="charge-wide charge-grid"><a href="../assets/projects/charge-pavilion/story/growth-surface.webp" target="_blank" rel="noopener" aria-label="View image at full resolution"><img src="../assets/projects/charge-pavilion/story/growth-surface.webp" alt="Differential-growth pattern applied across the pavilion surface" width="1920" height="1080" loading="lazy" data-protected-media></a><figcaption>The resulting field becomes a porous shade layer that follows the roof's continuous curvature.</figcaption></figure>
-      <figure class="charge-wide charge-grid charge-motion"><video src="../assets/projects/charge-pavilion/story/differential-growth.mp4" muted playsinline autoplay loop preload="metadata" aria-label="Differential growth spreading across the pavilion surface"></video><figcaption>Animated study: attraction, repulsion and alignment rules densify a seed curve while an on-mesh goal keeps the evolving network attached to the roof.</figcaption></figure>
     </section>
 
     <section class="charge-chapter" id="proposal">
