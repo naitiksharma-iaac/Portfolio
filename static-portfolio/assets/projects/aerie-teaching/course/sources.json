@@ -1,0 +1,134 @@
+[
+  {
+    "source": "1.png",
+    "file": "twisted-tower.webp",
+    "width": 2600,
+    "height": 1458
+  },
+  {
+    "source": "2.png",
+    "file": "twisted-tower-top.webp",
+    "width": 2600,
+    "height": 1458
+  },
+  {
+    "source": "4.png",
+    "file": "twisted-tower-base.webp",
+    "width": 2505,
+    "height": 1782
+  },
+  {
+    "source": "1 (2).png",
+    "file": "cellular-shell.webp",
+    "width": 2420,
+    "height": 1358
+  },
+  {
+    "source": "2 (2).png",
+    "file": "cellular-plan.webp",
+    "width": 2420,
+    "height": 1358
+  },
+  {
+    "source": "5.png",
+    "file": "cellular-detail.webp",
+    "width": 2420,
+    "height": 1358
+  },
+  {
+    "source": "1.1.png",
+    "file": "tower-wireframe.webp",
+    "width": 1964,
+    "height": 1045
+  },
+  {
+    "source": "1.3.png",
+    "file": "tower-massing.webp",
+    "width": 1964,
+    "height": 1045
+  },
+  {
+    "source": "2.1.png",
+    "file": "tower-variation-wireframe.webp",
+    "width": 1964,
+    "height": 1045
+  },
+  {
+    "source": "2.5.png",
+    "file": "tower-variation.webp",
+    "width": 1964,
+    "height": 1045
+  },
+  {
+    "source": "3.3.png",
+    "file": "tower-context.webp",
+    "width": 2600,
+    "height": 1383
+  },
+  {
+    "source": "4.1.png",
+    "file": "facade-wireframe.webp",
+    "width": 1964,
+    "height": 1045
+  },
+  {
+    "source": "4.2.png",
+    "file": "facade-solid.webp",
+    "width": 1964,
+    "height": 1045
+  },
+  {
+    "source": "5.4.png",
+    "file": "facade-variation.webp",
+    "width": 2600,
+    "height": 1383
+  },
+  {
+    "source": "3 (3).png",
+    "file": "tower-components.webp",
+    "width": 2022,
+    "height": 1219
+  },
+  {
+    "source": "fdfdfd.png",
+    "file": "live-optimisation.webp",
+    "width": 1908,
+    "height": 1023
+  },
+  {
+    "source": "Homework-1.png",
+    "file": "list-patterns.webp",
+    "width": 1999,
+    "height": 232
+  },
+  {
+    "source": "Screenshot 2026-08-20 170551.pngxcvbxmn.png",
+    "file": "model-render-comparison.webp",
+    "width": 1464,
+    "height": 899
+  },
+  {
+    "source": "xfigura-eefdb0a9_2026-Aug-20_150620.jpg",
+    "file": "ai-facade.webp",
+    "width": 2600,
+    "height": 1384
+  },
+  {
+    "source": "xfigura-62a146a3_2026-Aug-20_161010.jpg",
+    "file": "ai-context.webp",
+    "width": 2600,
+    "height": 1382
+  },
+  {
+    "source": "xfigura-803419a0_2026-Aug-20_141747.jpg",
+    "file": "ai-dusk.webp",
+    "width": 2600,
+    "height": 2600
+  },
+  {
+    "source": "xfigura-26d60b2f_2026-Aug-20_161336.jpg",
+    "file": "ai-variation.webp",
+    "width": 2600,
+    "height": 2600
+  }
+]

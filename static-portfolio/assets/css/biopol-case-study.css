@@ -1,0 +1,19 @@
+.biopol-page .tectonics-hero { margin-top: 28px; }
+.biopol-page .tectonics-intro { margin: 38px 0 0 10%; font-size: 17px; line-height: 1.65; }
+.biopol-page .tectonics-descriptor { font-size: 16px; line-height: 1.5; max-width: 520px; }
+.biopol-page .tectonics-section-heading h2 { font-size: 16px; line-height: 1.4; }
+.biopol-page .tectonics-section-heading p { font-size: 13px; line-height: 1.5; }
+.biopol-page .tectonics-section-copy { font-size: 16px; line-height: 1.65; max-width: 680px; }
+.biopol-media { grid-column: 2; min-width: 0; }
+.biopol-pair { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px; }
+.biopol-page .tectonics-caption { font-size: 12px; line-height: 1.5; max-width: 640px; margin-top: 10px !important; }
+.biopol-page .tectonics-figure img { height: auto; object-fit: contain; }
+.biopol-contents { display:flex; flex-wrap:wrap; gap:14px 26px; margin-top:38px; padding:16px 0; border-block:1px solid #cccbc6; font-size:14px; }
+.biopol-contents a { color:inherit; text-decoration:none; }
+.biopol-contents a:hover { text-decoration:underline; }
+.biopol-page section { scroll-margin-top:28px; }
+.biopol-credits { max-width:780px; margin:80px 0 0 auto; border-top:1px solid #cccbc6; padding-top:24px; font-size:13px; line-height:1.6; }
+.biopol-credits h2 { font-size:14px; font-weight:400; text-transform:uppercase; margin-bottom:14px; }
+.biopol-credits p+p { margin-top:10px; }
+@media(max-width:760px) { .biopol-page .tectonics-section { grid-template-columns:1fr; gap:22px; } .biopol-media { grid-column:1; } .biopol-page .tectonics-intro { margin-left:0; } }
+@media(max-width:520px) { .biopol-pair { grid-template-columns:1fr; } }

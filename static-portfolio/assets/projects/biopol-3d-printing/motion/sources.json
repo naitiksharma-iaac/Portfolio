@@ -1,0 +1,347 @@
+[
+  {
+    "group": "biopol",
+    "slug": "biopol-01",
+    "input": "tmp/course-motion/biopol-01.mp4",
+    "sources": [
+      "project-references\\Biopol-3Dprinting_Workshop\\0001-0200.mp4"
+    ],
+    "sha256": "f072e9b689726b74a399fa6df47c5061653af279177aeac4d48c44224e2904f4",
+    "width": 1920,
+    "height": 1080,
+    "duration": 8.341,
+    "audio": true,
+    "file": "biopol-01.mp4",
+    "poster": "biopol-01.jpg",
+    "contexts": []
+  },
+  {
+    "group": "biopol",
+    "slug": "biopol-02",
+    "input": "tmp/course-motion/biopol-02.mp4",
+    "sources": [
+      "project-references\\Biopol-3Dprinting_Workshop\\0001-0794.mp4"
+    ],
+    "sha256": "d748334f97e12f7225596de1edb85766e5576eba327fc0918b2fa2cd829c0b46",
+    "width": 1920,
+    "height": 1080,
+    "duration": 12.992,
+    "audio": true,
+    "file": "biopol-02.mp4",
+    "poster": "biopol-02.jpg",
+    "contexts": []
+  },
+  {
+    "group": "biopol",
+    "slug": "biopol-03",
+    "input": "tmp/course-motion/biopol-03.mp4",
+    "sources": [
+      "project-references\\Biopol-3Dprinting_Workshop\\0001-1004.mp4",
+      "project-references\\Biopol-3Dprinting_Workshop\\Biopol Workshop.pptx!ppt/media/media1.mp4"
+    ],
+    "sha256": "04c512bbf93f11b337bdb837b3571e54d2cfdc735bb5114ed87a408f7921a94b",
+    "width": 1920,
+    "height": 1080,
+    "duration": 41.834,
+    "audio": true,
+    "file": "biopol-03.mp4",
+    "poster": "biopol-03.jpg",
+    "contexts": [
+      {
+        "deck": "Biopol Workshop.pptx",
+        "slide": "ppt/slides/slide10.xml",
+        "text": "Monday, 20 April 2026 Architecture, Design, Conservation 10 DESIGN  Vault Structure"
+      }
+    ]
+  },
+  {
+    "group": "biopol",
+    "slug": "biopol-04",
+    "input": "tmp/course-motion/biopol-04.gif",
+    "sources": [
+      "project-references\\Biopol-3Dprinting_Workshop\\ezgif.com-video-to-gif-converter (10).gif"
+    ],
+    "sha256": "86fc14264559a9680cae035243c8202535ea4e523507e302e85f1bfd60300a4a",
+    "width": 1280,
+    "height": 698,
+    "duration": 8.61,
+    "audio": false,
+    "originalGif": "biopol-04.gif",
+    "file": "biopol-04.mp4",
+    "poster": "biopol-04.jpg",
+    "contexts": []
+  },
+  {
+    "group": "biopol",
+    "slug": "biopol-05",
+    "input": "tmp/course-motion/biopol-05.gif",
+    "sources": [
+      "project-references\\Biopol-3Dprinting_Workshop\\Biopol Workshop.pptx!ppt/media/image39.gif"
+    ],
+    "sha256": "f16b9dd0979c83508d24bc9ae804093665218b5d19923df8df63d8cfd874b0e9",
+    "width": 1460,
+    "height": 1508,
+    "duration": 17.7,
+    "audio": false,
+    "originalGif": "biopol-05.gif",
+    "file": "biopol-05.mp4",
+    "poster": "biopol-05.jpg",
+    "contexts": [
+      {
+        "deck": "Biopol Workshop.pptx",
+        "slide": "ppt/slides/slide13.xml",
+        "text": "Monday, 20 April 2026 Architecture, Design, Conservation 13 Global geometry form-finding max displacement (cm): 1.4 0.9 1200mm 1500mm"
+      }
+    ]
+  },
+  {
+    "group": "biopol",
+    "slug": "biopol-06",
+    "input": "tmp/course-motion/biopol-06.gif",
+    "sources": [
+      "project-references\\Biopol-3Dprinting_Workshop\\Biopol Workshop.pptx!ppt/media/image63.gif"
+    ],
+    "sha256": "b6b4497673c687d8223e257fb47b41c76762e6496156b03de6bc2dad3c948cf7",
+    "width": 1280,
+    "height": 720,
+    "duration": 5.44,
+    "audio": false,
+    "originalGif": "biopol-06.gif",
+    "file": "biopol-06.mp4",
+    "poster": "biopol-06.jpg",
+    "contexts": [
+      {
+        "deck": "Biopol Workshop.pptx",
+        "slide": "ppt/slides/slide28.xml",
+        "text": "Monday, 20 April 2026 Architecture, Design, Conservation 28 Non-planar slicing"
+      }
+    ]
+  },
+  {
+    "group": "biopol",
+    "slug": "biopol-07",
+    "input": "tmp/course-motion/biopol-07.gif",
+    "sources": [
+      "project-references\\Biopol-3Dprinting_Workshop\\Biopol Workshop.pptx!ppt/media/image68.gif"
+    ],
+    "sha256": "356634bf779c07189ff862f449f9ce7bf7616245f143d8faa080b009c24bfb71",
+    "width": 7919,
+    "height": 4446,
+    "duration": 5.0,
+    "audio": false,
+    "originalGif": "biopol-07.gif",
+    "file": "biopol-07.mp4",
+    "poster": "biopol-07.jpg",
+    "contexts": [
+      {
+        "deck": "Biopol Workshop.pptx",
+        "slide": "ppt/slides/slide32.xml",
+        "text": "Monday, 20 April 2026 32 Architecture, Design, Conservation"
+      }
+    ]
+  },
+  {
+    "group": "biopol",
+    "slug": "biopol-08",
+    "input": "tmp/course-motion/biopol-08.mp4",
+    "sources": [
+      "project-references\\Biopol-3Dprinting_Workshop\\Biopol Workshop.pptx!ppt/media/media3.mp4"
+    ],
+    "sha256": "23bec1d6a8f690c18788e54da2115793f039e8640254c4a7d6c7b57b9b8fe6ed",
+    "width": 1920,
+    "height": 1080,
+    "duration": 34.048,
+    "audio": true,
+    "file": "biopol-08.mp4",
+    "poster": "biopol-08.jpg",
+    "contexts": [
+      {
+        "deck": "Biopol Workshop.pptx",
+        "slide": "ppt/slides/slide40.xml",
+        "text": "Monday, 20 April 2026 Architecture, Design, Conservation 40 Brick 7 Sagging"
+      }
+    ]
+  },
+  {
+    "group": "biopol",
+    "slug": "biopol-09",
+    "input": "tmp/course-motion/biopol-09.mp4",
+    "sources": [
+      "project-references\\Biopol-3Dprinting_Workshop\\Biopol Workshop.pptx!ppt/media/media4.mp4"
+    ],
+    "sha256": "2776893595006e0f354a55a1ba715857c4bcb402886c6bc3bf760531cdbcc3f9",
+    "width": 1920,
+    "height": 1080,
+    "duration": 16.618667,
+    "audio": true,
+    "file": "biopol-09.mp4",
+    "poster": "biopol-09.jpg",
+    "contexts": [
+      {
+        "deck": "Biopol Workshop.pptx",
+        "slide": "ppt/slides/slide42.xml",
+        "text": "Monday, 20 April 2026 Architecture, Design, Conservation 42 Overhang Brick 1"
+      },
+      {
+        "deck": "Biopol Workshop.pptx",
+        "slide": "ppt/slides/slide43.xml",
+        "text": "Monday, 20 April 2026 Architecture, Design, Conservation 43 Brick 1 Outer Layer Infill Outer Layer Infill Overhang Angle supported?"
+      }
+    ]
+  },
+  {
+    "group": "biopol",
+    "slug": "biopol-10",
+    "input": "tmp/course-motion/biopol-10.mp4",
+    "sources": [
+      "project-references\\Biopol-3Dprinting_Workshop\\Biopol Workshop.pptx!ppt/media/media2.mp4"
+    ],
+    "sha256": "4d7fd52858b45ed9f5dec2a3d31ebfea77083929b1f05d4c44aafb1b2fade255",
+    "width": 1920,
+    "height": 1080,
+    "duration": 23.104,
+    "audio": true,
+    "file": "biopol-10.mp4",
+    "poster": "biopol-10.jpg",
+    "contexts": [
+      {
+        "deck": "Biopol Workshop.pptx",
+        "slide": "ppt/slides/slide38.xml",
+        "text": "Monday, 20 April 2026 Architecture, Design, Conservation 38"
+      }
+    ]
+  },
+  {
+    "group": "biopol",
+    "slug": "biopol-11",
+    "input": "tmp/course-motion/biopol-11.gif",
+    "sources": [
+      "project-references\\Biopol-3Dprinting_Workshop\\Intro_Lecture.pptx!ppt/media/image59.gif"
+    ],
+    "sha256": "8de771404641216876a232fd1f700126144b0d470703f813185cfc9732098e14",
+    "width": 808,
+    "height": 506,
+    "duration": 1.84,
+    "audio": false,
+    "originalGif": "biopol-11.gif",
+    "file": "biopol-11.mp4",
+    "poster": "biopol-11.jpg",
+    "contexts": [
+      {
+        "deck": "Intro_Lecture.pptx",
+        "slide": "ppt/slides/slide21.xml",
+        "text": "Honesty time Monday, 16 February 2026 Architecture, Design, Conservation 21"
+      }
+    ]
+  },
+  {
+    "group": "biopol",
+    "slug": "biopol-12",
+    "input": "tmp/course-motion/biopol-12.mp4",
+    "sources": [
+      "project-references\\Biopol-3Dprinting_Workshop\\Intro_Lecture.pptx!ppt/media/media1.mp4"
+    ],
+    "sha256": "1157e71cbe3d014329e9e72aafd8db5e264bc571875f84bb35315314f72f5d9f",
+    "width": 1920,
+    "height": 1080,
+    "duration": 198.633333,
+    "audio": true,
+    "file": "biopol-12.mp4",
+    "poster": "biopol-12.jpg",
+    "contexts": [
+      {
+        "deck": "Intro_Lecture.pptx",
+        "slide": "ppt/slides/slide40.xml",
+        "text": "Action \u2013Observation - Reward - Environment Monday, 16 February 2026 Architecture, Design, Conservation 40 https://www.youtube.com/watch?v=Aut32pR5PQA&t=37s"
+      }
+    ]
+  },
+  {
+    "group": "biopol",
+    "slug": "biopol-13",
+    "input": "tmp/course-motion/biopol-13.mp4",
+    "sources": [
+      "project-references\\Biopol-3Dprinting_Workshop\\Intro_Lecture.pptx!ppt/media/media2.mp4"
+    ],
+    "sha256": "e20661b8f1620e4937e03d8503e4d5607cace04a2f4b9ba96f05bd6e9154320a",
+    "width": 1080,
+    "height": 720,
+    "duration": 2.0,
+    "audio": true,
+    "file": "biopol-13.mp4",
+    "poster": "biopol-13.jpg",
+    "contexts": [
+      {
+        "deck": "Intro_Lecture.pptx",
+        "slide": "ppt/slides/slide66.xml",
+        "text": "The  Biopol  RL Model Training Monday, 16 February 2026 Architecture, Design, Conservation 66"
+      }
+    ]
+  },
+  {
+    "group": "biopol",
+    "slug": "biopol-14",
+    "input": "tmp/course-motion/biopol-14.mp4",
+    "sources": [
+      "project-references\\Biopol-3Dprinting_Workshop\\Intro_Lecture.pptx!ppt/media/media3.mp4"
+    ],
+    "sha256": "fb5b65214aeac62589b64fa7ebfe7a18e3308d3fce60084cf88a81b4708d1649",
+    "width": 1080,
+    "height": 720,
+    "duration": 10.16,
+    "audio": true,
+    "file": "biopol-14.mp4",
+    "poster": "biopol-14.jpg",
+    "contexts": [
+      {
+        "deck": "Intro_Lecture.pptx",
+        "slide": "ppt/slides/slide66.xml",
+        "text": "The  Biopol  RL Model Training Monday, 16 February 2026 Architecture, Design, Conservation 66"
+      }
+    ]
+  },
+  {
+    "group": "biopol",
+    "slug": "biopol-15",
+    "input": "tmp/course-motion/biopol-15.mp4",
+    "sources": [
+      "project-references\\Biopol-3Dprinting_Workshop\\Intro_Lecture.pptx!ppt/media/media4.mp4"
+    ],
+    "sha256": "115f47009ab894f8e9106fffc5d9e600287b216cc09101f60fd392b6db53470f",
+    "width": 1080,
+    "height": 720,
+    "duration": 33.92,
+    "audio": true,
+    "file": "biopol-15.mp4",
+    "poster": "biopol-15.jpg",
+    "contexts": [
+      {
+        "deck": "Intro_Lecture.pptx",
+        "slide": "ppt/slides/slide66.xml",
+        "text": "The  Biopol  RL Model Training Monday, 16 February 2026 Architecture, Design, Conservation 66"
+      }
+    ]
+  },
+  {
+    "group": "biopol",
+    "slug": "biopol-16",
+    "input": "tmp/course-motion/biopol-16.mp4",
+    "sources": [
+      "project-references\\Biopol-3Dprinting_Workshop\\Intro_Lecture.pptx!ppt/media/media5.mp4"
+    ],
+    "sha256": "4740b35f42def961abb210f1c0a5b5d26a773ab7e7c979ee8add3af662a9609b",
+    "width": 1592,
+    "height": 776,
+    "duration": 23.52,
+    "audio": true,
+    "file": "biopol-16.mp4",
+    "poster": "biopol-16.jpg",
+    "contexts": [
+      {
+        "deck": "Intro_Lecture.pptx",
+        "slide": "ppt/slides/slide67.xml",
+        "text": "The  Biopol  RL Model Training Monday, 16 February 2026 Architecture, Design, Conservation 67"
+      }
+    ]
+  }
+]

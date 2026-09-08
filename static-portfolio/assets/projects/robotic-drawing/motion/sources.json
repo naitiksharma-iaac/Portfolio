@@ -1,0 +1,80 @@
+[
+  {
+    "group": "aerie",
+    "slug": "aerie-13",
+    "input": "tmp/course-motion/aerie-13.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/image67.gif"
+    ],
+    "sha256": "fcbbe0c13a87ed21ac8fcf4e7c781325d67a9d20ca01abde5aacc07b24fb7d19",
+    "width": 800,
+    "height": 450,
+    "duration": 8.55,
+    "audio": false,
+    "originalGif": "aerie-13.gif",
+    "file": "aerie-13.mp4",
+    "poster": "aerie-13.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide23.xml",
+        "text": "Robotics in Architecture Royal Danish Academy"
+      }
+    ],
+    "project": "robotic-drawing",
+    "destination": "physical-drawing",
+    "route": "projects/working-with-robots.html#drawing"
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-24",
+    "input": "tmp/course-motion/aerie-24.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/image65.gif"
+    ],
+    "sha256": "d04c05df275d955e126976bd1b1df8788676b3d3cb43ba82e2589b6a69a89e04",
+    "width": 800,
+    "height": 598,
+    "duration": 4.21,
+    "audio": false,
+    "originalGif": "aerie-24.gif",
+    "file": "aerie-24.mp4",
+    "poster": "aerie-24.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide23.xml",
+        "text": "Robotics in Architecture Royal Danish Academy"
+      }
+    ],
+    "project": "robotic-drawing",
+    "destination": "robot-simulation",
+    "route": "projects/working-with-robots.html#drawing"
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-25",
+    "input": "tmp/course-motion/aerie-25.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/image66.gif"
+    ],
+    "sha256": "d562669a1b018d3c0a01c00003a3d06f6e7652c2e3a6856a3011a41dcc7e4cd3",
+    "width": 800,
+    "height": 599,
+    "duration": 2.6,
+    "audio": false,
+    "originalGif": "aerie-25.gif",
+    "file": "aerie-25.mp4",
+    "poster": "aerie-25.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide23.xml",
+        "text": "Robotics in Architecture Royal Danish Academy"
+      }
+    ],
+    "project": "robotic-drawing",
+    "destination": "drawing-toolpath",
+    "route": "projects/working-with-robots.html#drawing"
+  }
+]

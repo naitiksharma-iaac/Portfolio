@@ -1,0 +1,44 @@
+.aerie-course { width:min(1180px,calc(100% - 48px)); margin:0 auto; padding:40px 0 100px; font-size:16px; line-height:1.65; color:#333; }
+.course-top { display:grid; grid-template-columns:minmax(0,1.65fr) minmax(250px,.7fr); gap:8%; }
+.course-eyebrow { font-size:12px; letter-spacing:.09em; text-transform:uppercase; color:#626262; }
+.aerie-course h1 { font-size:clamp(34px,4.6vw,62px); line-height:1.02; font-weight:400; letter-spacing:-.04em; text-transform:uppercase; margin:16px 0 24px; }
+.course-lead { font-size:22px; line-height:1.4; max-width:550px; }
+.course-intro { max-width:640px; margin:28px 0 0; }
+.course-institution { display:flex; gap:16px; align-items:center; margin-bottom:20px; font-size:16px; line-height:1.4; }
+.course-institution img { width:64px; height:64px; object-fit:contain; }
+.course-top dl>div { border-top:1px solid #d3d3d0; padding:10px 0; }
+.course-top dt { font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:#666; }
+.course-top dd { font-size:14px; line-height:1.5; margin-top:4px; }
+.course-opening,.course-gallery { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:24px; }
+.course-opening { margin-top:44px; }
+.aerie-course figure { min-width:0; }
+.aerie-course figure a { display:block; background:#f7f7f7; }
+.aerie-course figure img { width:100%; height:auto; object-fit:contain; }
+.aerie-course figcaption { font-size:13px; line-height:1.5; margin-top:10px; color:#626262; max-width:690px; }
+.course-opening img { aspect-ratio:1.6; object-fit:contain; background:#f7f7f7; }
+.course-nav { display:flex; flex-wrap:wrap; gap:10px 24px; padding:18px 0; border-block:1px solid #d3d3d0; margin-top:34px; font-size:14px; }
+.course-section { display:grid; grid-template-columns:minmax(160px,1fr) minmax(0,3fr); gap:5%; margin-top:88px; scroll-margin-top:30px; }
+.course-section h2 { font-size:22px; font-weight:400; line-height:1.25; margin:12px 0 16px; letter-spacing:-.02em; }
+.course-section header>p { font-size:14px; line-height:1.6; color:#666; }
+.course-content>p { max-width:760px; }
+.course-content>*+* { margin-top:28px; }
+.course-content h3 { font-size:17px; line-height:1.4; font-weight:400; margin-bottom:8px; }
+.course-method { display:grid; gap:24px; border-block:1px solid #d3d3d0; padding:24px 0; }
+.course-method p { font-size:15px; }
+.aerie-course .course-note { color:#666; font-size:13px; line-height:1.6; }
+.course-table-wrap { overflow-x:auto; }
+.aerie-course table { width:100%; border-collapse:collapse; font-size:14px; line-height:1.55; }
+.aerie-course th,.aerie-course td { text-align:left; vertical-align:top; border-bottom:1px solid #d3d3d0; padding:16px 14px 16px 0; }
+.aerie-course thead th { padding-top:0; font-size:12px; text-transform:uppercase; letter-spacing:.05em; color:#666; font-weight:400; }
+.aerie-course tbody th { width:23%; font-weight:400; }
+.aerie-course td { width:38%; }
+.course-assignments { list-style:none; counter-reset:brief; padding:0; }
+.course-assignments li { counter-increment:brief; border-top:1px solid #d3d3d0; padding:24px 0 24px 42px; position:relative; }
+.course-assignments li::before { content:counter(brief,decimal-leading-zero); position:absolute; left:0; top:26px; font-size:12px; color:#666; }
+.course-assignments span { display:block; font-size:13px; color:#666; margin-top:10px; }
+.course-footer { margin:88px 0 0 auto; width:75%; padding-top:30px; border-top:1px solid #d3d3d0; }
+.course-footer h2 { font-size:22px; font-weight:400; margin-bottom:20px; }
+.course-footer p+p { margin-top:22px; }
+.course-footer>a { display:inline-block; margin:24px 28px 0 0; font-size:14px; text-decoration:underline; }
+@media(max-width:760px) { .course-top,.course-section { grid-template-columns:1fr; gap:28px; } .course-top aside { margin-top:8px; } .course-section { margin-top:60px; } .course-section header>p { max-width:500px; } .course-footer { width:100%; } }
+@media(max-width:520px) { .aerie-course { width:calc(100% - 32px); padding-top:24px; } .course-opening,.course-gallery { grid-template-columns:1fr; gap:26px; } .course-lead { font-size:20px; } .aerie-course table { font-size:13px; } .aerie-course th,.aerie-course td { padding-right:8px; } }

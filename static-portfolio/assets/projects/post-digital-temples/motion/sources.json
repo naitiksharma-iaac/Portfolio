@@ -1,0 +1,158 @@
+[
+  {
+    "group": "aerie",
+    "slug": "aerie-17",
+    "input": "tmp/course-motion/aerie-17.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/image27.gif"
+    ],
+    "sha256": "a5bf05b757b74a5e389b425ace53557e52f2bc124ff2e03d8157dde9f3fb525f",
+    "width": 1740,
+    "height": 989,
+    "duration": 2.72,
+    "audio": false,
+    "originalGif": "aerie-17.gif",
+    "file": "aerie-17.mp4",
+    "poster": "aerie-17.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide15.xml",
+        "text": "15 Temple base (Stellate Plan) Temple base (Plan) Temple Elevation Temple base (Stellate Plan) IAAC (MACAD) Postdigital  Temples"
+      }
+    ],
+    "project": "post-digital-temples",
+    "destination": "temple-profile",
+    "route": "projects/post-digital-temples.html"
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-18",
+    "input": "tmp/course-motion/aerie-18.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/image28.gif"
+    ],
+    "sha256": "c63404fc4b1a3cc1d3a41f16f4570e99d6b9309067e681181428a6c1899b0314",
+    "width": 1273,
+    "height": 1020,
+    "duration": 5.13,
+    "audio": false,
+    "originalGif": "aerie-18.gif",
+    "file": "aerie-18.mp4",
+    "poster": "aerie-18.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide15.xml",
+        "text": "15 Temple base (Stellate Plan) Temple base (Plan) Temple Elevation Temple base (Stellate Plan) IAAC (MACAD) Postdigital  Temples"
+      }
+    ],
+    "project": "post-digital-temples",
+    "destination": "stepped-plan",
+    "route": "projects/post-digital-temples.html"
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-19",
+    "input": "tmp/course-motion/aerie-19.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/image29.gif"
+    ],
+    "sha256": "8842442744993b9b3843bd54ab27613014049827f3419c16df07409dacaf941b",
+    "width": 1740,
+    "height": 989,
+    "duration": 11.86,
+    "audio": false,
+    "originalGif": "aerie-19.gif",
+    "file": "aerie-19.mp4",
+    "poster": "aerie-19.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide15.xml",
+        "text": "15 Temple base (Stellate Plan) Temple base (Plan) Temple Elevation Temple base (Stellate Plan) IAAC (MACAD) Postdigital  Temples"
+      }
+    ],
+    "project": "post-digital-temples",
+    "destination": "plan-variation",
+    "route": "projects/post-digital-temples.html"
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-20",
+    "input": "tmp/course-motion/aerie-20.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/image30.gif"
+    ],
+    "sha256": "f7d06487200d164040314564b02bba2f5972c0a7e3d97cdb96853d4aa0a2576a",
+    "width": 726,
+    "height": 655,
+    "duration": 31.44,
+    "audio": false,
+    "originalGif": "aerie-20.gif",
+    "file": "aerie-20.mp4",
+    "poster": "aerie-20.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide15.xml",
+        "text": "15 Temple base (Stellate Plan) Temple base (Plan) Temple Elevation Temple base (Stellate Plan) IAAC (MACAD) Postdigital  Temples"
+      }
+    ],
+    "project": "post-digital-temples",
+    "destination": "temple-elevation",
+    "route": "projects/post-digital-temples.html"
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-21",
+    "input": "tmp/course-motion/aerie-21.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/image31.gif"
+    ],
+    "sha256": "7659fdeb151610f3e07579d2f8514d5747ef32e973d8ee1892d7872d8117b18b",
+    "width": 1578,
+    "height": 960,
+    "duration": 16.09,
+    "audio": false,
+    "originalGif": "aerie-21.gif",
+    "file": "aerie-21.mp4",
+    "poster": "aerie-21.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide15.xml",
+        "text": "15 Temple base (Stellate Plan) Temple base (Plan) Temple Elevation Temple base (Stellate Plan) IAAC (MACAD) Postdigital  Temples"
+      }
+    ],
+    "project": "post-digital-temples",
+    "destination": "design-family",
+    "route": "projects/post-digital-temples.html"
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-22",
+    "input": "tmp/course-motion/aerie-22.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/image32.gif"
+    ],
+    "sha256": "d9bd286a0f087c36238cd189ea28d41e68f9c366d43e81a1ad96ee4b9b8f0561",
+    "width": 1920,
+    "height": 1080,
+    "duration": 38.52,
+    "audio": false,
+    "originalGif": "aerie-22.gif",
+    "file": "aerie-22.mp4",
+    "poster": "aerie-22.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide16.xml",
+        "text": "16 THE MODEL DID LEARN ABOUT: THE SYMMETRY THE CASCADE STAGGERING COLUMNS THE FRONTAL VERANDA INTERESTING ORNAMENTAL FEATURES IAAC (MACAD) Postdigital  Temples"
+      }
+    ],
+    "project": "post-digital-temples",
+    "destination": "learned-form",
+    "route": "projects/post-digital-temples.html"
+  }
+]

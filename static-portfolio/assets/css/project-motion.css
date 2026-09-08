@@ -1,0 +1,18 @@
+.project-motion-span { grid-column:2; min-width:0; }
+.project-motion-span h3 { margin:36px 0 10px; font-size:18px; font-weight:400; }
+.project-motion-span .motion-gallery:first-child { grid-template-columns:1fr; }
+.motion-jump { margin:0 0 24px!important; font-size:14px; text-align:right; }
+.motion-jump a { text-decoration:underline; }
+#robotic-milling { scroll-margin-top:24px; }
+.project-motion-section h2 { font-size:22px; font-weight:400; line-height:1.3; margin-bottom:18px; }
+.project-motion-section>p { font-size:16px; line-height:1.65; }
+.home-robotics { border-block:1px solid #d2d2d2; padding:28px 0; }
+.home-robotics-heading { display:flex; align-items:end; justify-content:space-between; gap:20px; }
+.home-robotics-heading p { font-size:12px; text-transform:uppercase; letter-spacing:.08em; color:#666; margin-bottom:8px; }
+.home-robotics-heading h2 { font-size:24px; line-height:1.25; font-weight:400; }
+.home-robotics-heading>a { font-size:14px; line-height:1.5; text-decoration:underline; }
+.home-robotics .motion-gallery { margin:24px 0 0; }
+.home-robotics video { max-height:340px; }
+.home-robotics details { margin-top:24px; }
+.home-robotics summary { cursor:pointer; font-size:14px; line-height:1.5; }
+@media(max-width:760px) { .project-motion-span { grid-column:1; } .home-robotics-heading { display:block; } .home-robotics-heading>a { display:inline-block; margin-top:12px; } }

@@ -31,9 +31,7 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Prepare published pages
-        run: |
-          mkdir -p _site
-          rsync -a --exclude='/projects/the-dunes-udaipur.html' static-portfolio/ _site/
+        run: node scripts/prepare-github-pages.mjs
 
       - name: Upload portfolio
         uses: actions/upload-pages-artifact@v3

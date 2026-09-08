@@ -1,0 +1,103 @@
+[
+  {
+    "group": "aerie",
+    "slug": "aerie-23",
+    "input": "tmp/course-motion/aerie-23.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/image55.gif"
+    ],
+    "sha256": "8d9b9880f278f27facb5dd9aa76ba3d68d7ebdfbe55c7457c7ad8ac78bfa931b",
+    "width": 1080,
+    "height": 1920,
+    "duration": 8.07,
+    "audio": false,
+    "originalGif": "aerie-23.gif",
+    "file": "aerie-23.mp4",
+    "poster": "aerie-23.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide20.xml",
+        "text": "Tectonics of Stock Assemblies Royal Danish Academy 55 SCANNED TIMBER ELEMENTS"
+      }
+    ],
+    "project": "tectonics-of-stock-assemblies",
+    "destination": "physical-assembly",
+    "route": "projects/tectonics-of-stock-assemblies.html"
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-26",
+    "input": "tmp/course-motion/aerie-26.mp4",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/media2.mp4"
+    ],
+    "sha256": "702228dee3ed23eeb907d418cc89bb26205a529142a068fc6afe18c3dcea445f",
+    "width": 1920,
+    "height": 1080,
+    "duration": 6.698,
+    "audio": true,
+    "file": "aerie-26.mp4",
+    "poster": "aerie-26.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide22.xml",
+        "text": "Tectonics of Stock Assemblies Royal Danish Academy"
+      }
+    ],
+    "project": "tectonics-of-stock-assemblies",
+    "destination": "assembly-logic",
+    "route": "projects/tectonics-of-stock-assemblies.html"
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-27",
+    "input": "tmp/course-motion/aerie-27.mp4",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/media1.mp4"
+    ],
+    "sha256": "d1896767f0f16cfae73e5204972da627bef277b6d628624d51f615045e227fd3",
+    "width": 1920,
+    "height": 1080,
+    "duration": 6.698,
+    "audio": true,
+    "file": "aerie-27.mp4",
+    "poster": "aerie-27.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide22.xml",
+        "text": "Tectonics of Stock Assemblies Royal Danish Academy"
+      }
+    ],
+    "project": "tectonics-of-stock-assemblies",
+    "destination": "material-assembly",
+    "route": "projects/tectonics-of-stock-assemblies.html"
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-28",
+    "input": "tmp/course-motion/aerie-28.mp4",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/media3.mp4"
+    ],
+    "sha256": "023571f27c940a67ebc2419f68e1b33eb7a6a765c3731fd44680aaef827cd7cb",
+    "width": 4096,
+    "height": 2160,
+    "duration": 15.640625,
+    "audio": true,
+    "file": "aerie-28.mp4",
+    "poster": "aerie-28.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide23.xml",
+        "text": "Robotics in Architecture Royal Danish Academy"
+      }
+    ],
+    "project": "tectonics-of-stock-assemblies",
+    "destination": "robotic-timber-milling",
+    "route": "projects/tectonics-of-stock-assemblies.html"
+  }
+]

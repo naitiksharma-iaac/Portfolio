@@ -1,0 +1,1391 @@
+[
+  {
+    "group": "aerie",
+    "slug": "aerie-01",
+    "input": "tmp/course-motion/aerie-01.mp4",
+    "sources": [
+      "project-references\\TeachingatAerie\\0001-0121.mp4"
+    ],
+    "sha256": "8e619429c80380651f8b85a8fcf603c8226a8603531444b97c6072b00acb6a66",
+    "width": 1080,
+    "height": 1920,
+    "duration": 5.056,
+    "audio": true,
+    "file": "aerie-01.mp4",
+    "poster": "aerie-01.jpg",
+    "contexts": []
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-02",
+    "input": "tmp/course-motion/aerie-02.mp4",
+    "sources": [
+      "project-references\\TeachingatAerie\\0001-0202 (2).mp4",
+      "project-references\\TeachingatAerie\\Class-5.pptx!ppt/media/media1.mp4"
+    ],
+    "sha256": "0f590796a9d1cd33f0b4879779cefc63610bcb2618fb850755d1f5713f57e00f",
+    "width": 1920,
+    "height": 1080,
+    "duration": 8.085,
+    "audio": true,
+    "file": "aerie-02.mp4",
+    "poster": "aerie-02.jpg",
+    "contexts": [
+      {
+        "deck": "Class-5.pptx",
+        "slide": "ppt/slides/slide2.xml",
+        "text": "Domain Intervals Curve Parameter (t) Curve has One domain Interval \u201ct\u201d Curve Parameter (U, V) Surface has 2 domain intervals \u201cU\u201d & \u201cV\u201d U & V is not X & Y U V"
+      },
+      {
+        "deck": "Class-5.pptx",
+        "slide": "ppt/slides/slide5.xml",
+        "text": "Domains Surface Domain: U, V, W U V"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-03",
+    "input": "tmp/course-motion/aerie-03.mp4",
+    "sources": [
+      "project-references\\TeachingatAerie\\0001-0202 (3).mp4",
+      "project-references\\TeachingatAerie\\Class-5.pptx!ppt/media/media4.mp4"
+    ],
+    "sha256": "3c9b7d1a4c0b48b27f67e2c976327f8885e95f6e3040bdaf2d8b621308ef4d76",
+    "width": 1920,
+    "height": 1080,
+    "duration": 8.085,
+    "audio": true,
+    "file": "aerie-03.mp4",
+    "poster": "aerie-03.jpg",
+    "contexts": [
+      {
+        "deck": "Class-5.pptx",
+        "slide": "ppt/slides/slide4.xml",
+        "text": "Unrolling a Surface Surface has 2 domain intervals  U  and  V U V"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-04",
+    "input": "tmp/course-motion/aerie-04.mp4",
+    "sources": [
+      "project-references\\TeachingatAerie\\0001-0202.mp4",
+      "project-references\\TeachingatAerie\\Class-5.pptx!ppt/media/media2.mp4"
+    ],
+    "sha256": "cd6354672376c55f61751852bfe1cd92cb0dc0ffc791c868f029d3a48adccddc",
+    "width": 1920,
+    "height": 1080,
+    "duration": 8.426,
+    "audio": true,
+    "file": "aerie-04.mp4",
+    "poster": "aerie-04.jpg",
+    "contexts": [
+      {
+        "deck": "Class-5.pptx",
+        "slide": "ppt/slides/slide3.xml",
+        "text": "Domain not equals Length Curve Length: 336.14 mm Linear Length: 197.3 mm Curve Domain: -5 to 0 Normalised  Domain: 0 - 1 Surface Dimensions: 619, 1720 mm Linear Dimensions: 1600, 400 mm Surface Domain: u: {-400 to 0}, v: {0 to 1600} Normalised  Domain: u: {0 to 1.00}, v: {0 to 1.00} U V"
+      },
+      {
+        "deck": "Class-5.pptx",
+        "slide": "ppt/slides/slide2.xml",
+        "text": "Domain Intervals Curve Parameter (t) Curve has One domain Interval \u201ct\u201d Curve Parameter (U, V) Surface has 2 domain intervals \u201cU\u201d & \u201cV\u201d U & V is not X & Y U V"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-05",
+    "input": "tmp/course-motion/aerie-05.mp4",
+    "sources": [
+      "project-references\\TeachingatAerie\\0001-0242 (2).mp4",
+      "project-references\\TeachingatAerie\\Class-5.pptx!ppt/media/media5.mp4"
+    ],
+    "sha256": "5b713c5c7edad10e9bab90f34a34bf550c5002eb08bd5e0963aa8f548605cec3",
+    "width": 1920,
+    "height": 1080,
+    "duration": 4.842,
+    "audio": true,
+    "file": "aerie-05.mp4",
+    "poster": "aerie-05.jpg",
+    "contexts": [
+      {
+        "deck": "Class-5.pptx",
+        "slide": "ppt/slides/slide6.xml",
+        "text": "Drawing on Surface Surface Domain: U, V, W U V"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-06",
+    "input": "tmp/course-motion/aerie-06.mp4",
+    "sources": [
+      "project-references\\TeachingatAerie\\0001-0242.mp4",
+      "project-references\\TeachingatAerie\\Class-5.pptx!ppt/media/media6.mp4"
+    ],
+    "sha256": "81e020f07b9f81921e3b1923524068a2a2ffc943d8eb2ba003e7409335537e3c",
+    "width": 1920,
+    "height": 1080,
+    "duration": 4.842,
+    "audio": true,
+    "file": "aerie-06.mp4",
+    "poster": "aerie-06.jpg",
+    "contexts": [
+      {
+        "deck": "Class-5.pptx",
+        "slide": "ppt/slides/slide7.xml",
+        "text": "Surface Normal Normal at a given Point"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-07",
+    "input": "tmp/course-motion/aerie-07.mp4",
+    "sources": [
+      "project-references\\TeachingatAerie\\0001-0268.mp4",
+      "project-references\\TeachingatAerie\\Class-5.pptx!ppt/media/media7.mp4"
+    ],
+    "sha256": "ab3d9408717e19433fbf68ad7689898b35a1895f83b5e5521f63fbf967e0af72",
+    "width": 1920,
+    "height": 1080,
+    "duration": 5.376,
+    "audio": true,
+    "file": "aerie-07.mp4",
+    "poster": "aerie-07.jpg",
+    "contexts": [
+      {
+        "deck": "Class-5.pptx",
+        "slide": "ppt/slides/slide8.xml",
+        "text": "Curve on Surface Surface Domain: U, V, W"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-08",
+    "input": "tmp/course-motion/aerie-08.mp4",
+    "sources": [
+      "project-references\\TeachingatAerie\\0001-0324.mp4"
+    ],
+    "sha256": "b39354db1473eec06160461527e71c8515763317d3ee848e5b2d899ec93adb67",
+    "width": 1920,
+    "height": 1080,
+    "duration": 13.504,
+    "audio": true,
+    "file": "aerie-08.mp4",
+    "poster": "aerie-08.jpg",
+    "contexts": []
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-09",
+    "input": "tmp/course-motion/aerie-09.mp4",
+    "sources": [
+      "project-references\\TeachingatAerie\\0001-0417.mp4"
+    ],
+    "sha256": "48f8b49f7a46d2d060405fddac6c54ed416994bb468b9137a821ca08e655c09a",
+    "width": 1920,
+    "height": 1080,
+    "duration": 17.386,
+    "audio": true,
+    "file": "aerie-09.mp4",
+    "poster": "aerie-09.jpg",
+    "contexts": []
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-10",
+    "input": "tmp/course-motion/aerie-10.mp4",
+    "sources": [
+      "project-references\\TeachingatAerie\\0001-0425.mp4"
+    ],
+    "sha256": "db0862e94985b822a311f2415f23ce8cadb23b60d2398a274c51250202b8a992",
+    "width": 1920,
+    "height": 1080,
+    "duration": 7.104,
+    "audio": true,
+    "file": "aerie-10.mp4",
+    "poster": "aerie-10.jpg",
+    "contexts": []
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-11",
+    "input": "tmp/course-motion/aerie-11.mp4",
+    "sources": [
+      "project-references\\TeachingatAerie\\xfigura_xfigura-76190e29-d00f-419e-a5c.mp4"
+    ],
+    "sha256": "cc0d66aaee0b2daceea1d64b74f057f87657ca897f4d9290640d76903a7f7ac3",
+    "width": 1280,
+    "height": 720,
+    "duration": 5.041667,
+    "audio": false,
+    "file": "aerie-11.mp4",
+    "poster": "aerie-11.jpg",
+    "contexts": []
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-12",
+    "input": "tmp/course-motion/aerie-12.mp4",
+    "sources": [
+      "project-references\\TeachingatAerie\\xfigura_xfigura-ea619d7d-d965-4e01-8a2.mp4"
+    ],
+    "sha256": "0851dcda1196cf515b332bc2bab25a0ec3a6941c2b1534925b45b03b60abe637",
+    "width": 1248,
+    "height": 704,
+    "duration": 5.041667,
+    "audio": false,
+    "file": "aerie-12.mp4",
+    "poster": "aerie-12.jpg",
+    "contexts": []
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-13",
+    "input": "tmp/course-motion/aerie-13.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/image67.gif"
+    ],
+    "sha256": "fcbbe0c13a87ed21ac8fcf4e7c781325d67a9d20ca01abde5aacc07b24fb7d19",
+    "width": 800,
+    "height": 450,
+    "duration": 8.55,
+    "audio": false,
+    "originalGif": "aerie-13.gif",
+    "file": "aerie-13.mp4",
+    "poster": "aerie-13.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide23.xml",
+        "text": "Robotics in Architecture Royal Danish Academy"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-14",
+    "input": "tmp/course-motion/aerie-14.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/image8.gif"
+    ],
+    "sha256": "664152c3a86389c3b0e7e3a77119332efa2bbe25ba33ff4606d2ae4781d65dda",
+    "width": 800,
+    "height": 450,
+    "duration": 4.1,
+    "audio": false,
+    "originalGif": "aerie-14.gif",
+    "file": "aerie-14.mp4",
+    "poster": "aerie-14.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide7.xml",
+        "text": "STUDIO SYMBIOSIS: FORM DEVELOPMENT OF THE BANDS Hilton Hotel, Kathmandu"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-15",
+    "input": "tmp/course-motion/aerie-15.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/image7.gif"
+    ],
+    "sha256": "fbbae9bc956aeefa29a41b76042fb50a3934eaad268118dac0495c1dea1282b2",
+    "width": 800,
+    "height": 450,
+    "duration": 4.2,
+    "audio": false,
+    "originalGif": "aerie-15.gif",
+    "file": "aerie-15.mp4",
+    "poster": "aerie-15.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide7.xml",
+        "text": "STUDIO SYMBIOSIS: FORM DEVELOPMENT OF THE BANDS Hilton Hotel, Kathmandu"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-16",
+    "input": "tmp/course-motion/aerie-16.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/image9.gif"
+    ],
+    "sha256": "f62bf5d384906eb6c2ad0aa81fa5169d5a34862e7250b5675a7ddd903ded0163",
+    "width": 800,
+    "height": 450,
+    "duration": 1.3,
+    "audio": false,
+    "originalGif": "aerie-16.gif",
+    "file": "aerie-16.mp4",
+    "poster": "aerie-16.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide8.xml",
+        "text": "STUDIO SYMBIOSIS: FORM DEVELOPMENT OF THE BANDS Hilton Hotel, Kathmandu"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-17",
+    "input": "tmp/course-motion/aerie-17.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/image27.gif"
+    ],
+    "sha256": "a5bf05b757b74a5e389b425ace53557e52f2bc124ff2e03d8157dde9f3fb525f",
+    "width": 1740,
+    "height": 989,
+    "duration": 2.72,
+    "audio": false,
+    "originalGif": "aerie-17.gif",
+    "file": "aerie-17.mp4",
+    "poster": "aerie-17.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide15.xml",
+        "text": "15 Temple base (Stellate Plan) Temple base (Plan) Temple Elevation Temple base (Stellate Plan) IAAC (MACAD) Postdigital  Temples"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-18",
+    "input": "tmp/course-motion/aerie-18.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/image28.gif"
+    ],
+    "sha256": "c63404fc4b1a3cc1d3a41f16f4570e99d6b9309067e681181428a6c1899b0314",
+    "width": 1273,
+    "height": 1020,
+    "duration": 5.13,
+    "audio": false,
+    "originalGif": "aerie-18.gif",
+    "file": "aerie-18.mp4",
+    "poster": "aerie-18.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide15.xml",
+        "text": "15 Temple base (Stellate Plan) Temple base (Plan) Temple Elevation Temple base (Stellate Plan) IAAC (MACAD) Postdigital  Temples"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-19",
+    "input": "tmp/course-motion/aerie-19.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/image29.gif"
+    ],
+    "sha256": "8842442744993b9b3843bd54ab27613014049827f3419c16df07409dacaf941b",
+    "width": 1740,
+    "height": 989,
+    "duration": 11.86,
+    "audio": false,
+    "originalGif": "aerie-19.gif",
+    "file": "aerie-19.mp4",
+    "poster": "aerie-19.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide15.xml",
+        "text": "15 Temple base (Stellate Plan) Temple base (Plan) Temple Elevation Temple base (Stellate Plan) IAAC (MACAD) Postdigital  Temples"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-20",
+    "input": "tmp/course-motion/aerie-20.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/image30.gif"
+    ],
+    "sha256": "f7d06487200d164040314564b02bba2f5972c0a7e3d97cdb96853d4aa0a2576a",
+    "width": 726,
+    "height": 655,
+    "duration": 31.44,
+    "audio": false,
+    "originalGif": "aerie-20.gif",
+    "file": "aerie-20.mp4",
+    "poster": "aerie-20.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide15.xml",
+        "text": "15 Temple base (Stellate Plan) Temple base (Plan) Temple Elevation Temple base (Stellate Plan) IAAC (MACAD) Postdigital  Temples"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-21",
+    "input": "tmp/course-motion/aerie-21.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/image31.gif"
+    ],
+    "sha256": "7659fdeb151610f3e07579d2f8514d5747ef32e973d8ee1892d7872d8117b18b",
+    "width": 1578,
+    "height": 960,
+    "duration": 16.09,
+    "audio": false,
+    "originalGif": "aerie-21.gif",
+    "file": "aerie-21.mp4",
+    "poster": "aerie-21.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide15.xml",
+        "text": "15 Temple base (Stellate Plan) Temple base (Plan) Temple Elevation Temple base (Stellate Plan) IAAC (MACAD) Postdigital  Temples"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-22",
+    "input": "tmp/course-motion/aerie-22.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/image32.gif"
+    ],
+    "sha256": "d9bd286a0f087c36238cd189ea28d41e68f9c366d43e81a1ad96ee4b9b8f0561",
+    "width": 1920,
+    "height": 1080,
+    "duration": 38.52,
+    "audio": false,
+    "originalGif": "aerie-22.gif",
+    "file": "aerie-22.mp4",
+    "poster": "aerie-22.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide16.xml",
+        "text": "16 THE MODEL DID LEARN ABOUT: THE SYMMETRY THE CASCADE STAGGERING COLUMNS THE FRONTAL VERANDA INTERESTING ORNAMENTAL FEATURES IAAC (MACAD) Postdigital  Temples"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-23",
+    "input": "tmp/course-motion/aerie-23.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/image55.gif"
+    ],
+    "sha256": "8d9b9880f278f27facb5dd9aa76ba3d68d7ebdfbe55c7457c7ad8ac78bfa931b",
+    "width": 1080,
+    "height": 1920,
+    "duration": 8.07,
+    "audio": false,
+    "originalGif": "aerie-23.gif",
+    "file": "aerie-23.mp4",
+    "poster": "aerie-23.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide20.xml",
+        "text": "Tectonics of Stock Assemblies Royal Danish Academy 55 SCANNED TIMBER ELEMENTS"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-24",
+    "input": "tmp/course-motion/aerie-24.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/image65.gif"
+    ],
+    "sha256": "d04c05df275d955e126976bd1b1df8788676b3d3cb43ba82e2589b6a69a89e04",
+    "width": 800,
+    "height": 598,
+    "duration": 4.21,
+    "audio": false,
+    "originalGif": "aerie-24.gif",
+    "file": "aerie-24.mp4",
+    "poster": "aerie-24.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide23.xml",
+        "text": "Robotics in Architecture Royal Danish Academy"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-25",
+    "input": "tmp/course-motion/aerie-25.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/image66.gif"
+    ],
+    "sha256": "d562669a1b018d3c0a01c00003a3d06f6e7652c2e3a6856a3011a41dcc7e4cd3",
+    "width": 800,
+    "height": 599,
+    "duration": 2.6,
+    "audio": false,
+    "originalGif": "aerie-25.gif",
+    "file": "aerie-25.mp4",
+    "poster": "aerie-25.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide23.xml",
+        "text": "Robotics in Architecture Royal Danish Academy"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-26",
+    "input": "tmp/course-motion/aerie-26.mp4",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/media2.mp4"
+    ],
+    "sha256": "702228dee3ed23eeb907d418cc89bb26205a529142a068fc6afe18c3dcea445f",
+    "width": 1920,
+    "height": 1080,
+    "duration": 6.698,
+    "audio": true,
+    "file": "aerie-26.mp4",
+    "poster": "aerie-26.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide22.xml",
+        "text": "Tectonics of Stock Assemblies Royal Danish Academy"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-27",
+    "input": "tmp/course-motion/aerie-27.mp4",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/media1.mp4"
+    ],
+    "sha256": "d1896767f0f16cfae73e5204972da627bef277b6d628624d51f615045e227fd3",
+    "width": 1920,
+    "height": 1080,
+    "duration": 6.698,
+    "audio": true,
+    "file": "aerie-27.mp4",
+    "poster": "aerie-27.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide22.xml",
+        "text": "Tectonics of Stock Assemblies Royal Danish Academy"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-28",
+    "input": "tmp/course-motion/aerie-28.mp4",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-1.pptx!ppt/media/media3.mp4"
+    ],
+    "sha256": "023571f27c940a67ebc2419f68e1b33eb7a6a765c3731fd44680aaef827cd7cb",
+    "width": 4096,
+    "height": 2160,
+    "duration": 15.640625,
+    "audio": true,
+    "file": "aerie-28.mp4",
+    "poster": "aerie-28.jpg",
+    "contexts": [
+      {
+        "deck": "Class-1.pptx",
+        "slide": "ppt/slides/slide23.xml",
+        "text": "Robotics in Architecture Royal Danish Academy"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-29",
+    "input": "tmp/course-motion/aerie-29.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-2.pptx!ppt/media/image24.gif"
+    ],
+    "sha256": "35914e893f828d9da5fb5abd8f6c3c6965e548bc3937fafc1b6a9792ec073f33",
+    "width": 1304,
+    "height": 587,
+    "duration": 8.87,
+    "audio": false,
+    "originalGif": "aerie-29.gif",
+    "file": "aerie-29.mp4",
+    "poster": "aerie-29.jpg",
+    "contexts": [
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide6.xml",
+        "text": "Mesh vs Surface Geometry NURBS Surface Mesh NURBS = continuous geometry Mesh = discrete geometry"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-30",
+    "input": "tmp/course-motion/aerie-30.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-2.pptx!ppt/media/image27.gif"
+    ],
+    "sha256": "c02dd15a91e4431bb74f54cdd128a0325222ece848f0d498fa4c3d48f8ccc230",
+    "width": 500,
+    "height": 200,
+    "duration": 2.54,
+    "audio": false,
+    "originalGif": "aerie-30.gif",
+    "file": "aerie-30.mp4",
+    "poster": "aerie-30.jpg",
+    "contexts": [
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide7.xml",
+        "text": "Anatomy of a Mesh Geometric Data Topological Data Texture Unwrapping Vertex list 0 \u2192 (0, 0, 0) 1 \u2192 (1, 0, 0) 2 \u2192 (1, 1, 0) 3 \u2192 (0, 1, 0) Face list Face A \u2192 vertices 0, 1, 2 Face B \u2192 vertices 0, 2, 3 UV data 3D mesh points \u2192 2D texture position MeshFace MeshVertices MeshEdges Triangular  MeshFace Quad  MeshFace Ngon  MeshFace Face Normals Face list Face A \u2192 vertices 0, 1, 2 Face B \u2192 vertices 0, 2, 3"
+      },
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide8.xml",
+        "text": "Triangle, Quads & Ngons Triangular Mesh Quad Mesh Ngon Mesh Stable, always planar, good for fabrication and simulation. Good for  SubD , smoothing, edge loops, and controlled deformation Useful sometimes, but can create unpredictable topology."
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-31",
+    "input": "tmp/course-motion/aerie-31.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-2.pptx!ppt/media/image51.gif"
+    ],
+    "sha256": "cefb4c4a8adc884b3b5cc0f65c82b338d03684f40f2406a9716268986126df95",
+    "width": 200,
+    "height": 189,
+    "duration": 2.5,
+    "audio": false,
+    "originalGif": "aerie-31.gif",
+    "file": "aerie-31.mp4",
+    "poster": "aerie-31.jpg",
+    "contexts": [
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide19.xml",
+        "text": "SubD  Edit Commands SubDCrease SubDBridge Slide SubDBevel SubDStitch ExtrudeSubD Fill Inset SubDReflect  / Radiate InsertEdge SubDLoft QuadRemesh"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-32",
+    "input": "tmp/course-motion/aerie-32.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-2.pptx!ppt/media/image53.gif"
+    ],
+    "sha256": "7905d1d769b22a51796ba4e84aa4966597d2432a22ad87162cc69541f62dca6b",
+    "width": 200,
+    "height": 150,
+    "duration": 8.82,
+    "audio": false,
+    "originalGif": "aerie-32.gif",
+    "file": "aerie-32.mp4",
+    "poster": "aerie-32.jpg",
+    "contexts": [
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide19.xml",
+        "text": "SubD  Edit Commands SubDCrease SubDBridge Slide SubDBevel SubDStitch ExtrudeSubD Fill Inset SubDReflect  / Radiate InsertEdge SubDLoft QuadRemesh"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-33",
+    "input": "tmp/course-motion/aerie-33.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-2.pptx!ppt/media/image55.gif"
+    ],
+    "sha256": "edaa570e1fd147156f38132e3d5de504b2cab60994eff92dbf65178848289a7d",
+    "width": 200,
+    "height": 200,
+    "duration": 3.09,
+    "audio": false,
+    "originalGif": "aerie-33.gif",
+    "file": "aerie-33.mp4",
+    "poster": "aerie-33.jpg",
+    "contexts": [
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide20.xml",
+        "text": "SubD  Selection Commands SubDFaceLoop SubDEdgeRing SubDEdgeLoop"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-34",
+    "input": "tmp/course-motion/aerie-34.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-2.pptx!ppt/media/image33.gif"
+    ],
+    "sha256": "e6a3e2744c13f7fc1263f59c7c725536d5850b0762a1ea16ad1fa9728bf40cc7",
+    "width": 150,
+    "height": 150,
+    "duration": 2.5,
+    "audio": false,
+    "originalGif": "aerie-34.gif",
+    "file": "aerie-34.mp4",
+    "poster": "aerie-34.jpg",
+    "contexts": [
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide18.xml",
+        "text": "SubD  Primitives SubDEllipsoid SubDPlane SubDTorus SubDSphere SubDTruncatedCone SubDCylinder SubDBox SubDCone 3DFace MultiPipe"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-35",
+    "input": "tmp/course-motion/aerie-35.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-2.pptx!ppt/media/image34.gif"
+    ],
+    "sha256": "f5940070f3f0545417d2daecf03cea56eee2dc7cccb2adadf660de8bce85c997",
+    "width": 300,
+    "height": 200,
+    "duration": 2.99,
+    "audio": false,
+    "originalGif": "aerie-35.gif",
+    "file": "aerie-35.mp4",
+    "poster": "aerie-35.jpg",
+    "contexts": [
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide18.xml",
+        "text": "SubD  Primitives SubDEllipsoid SubDPlane SubDTorus SubDSphere SubDTruncatedCone SubDCylinder SubDBox SubDCone 3DFace MultiPipe"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-36",
+    "input": "tmp/course-motion/aerie-36.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-2.pptx!ppt/media/image35.gif"
+    ],
+    "sha256": "0ed87273f9632154f0300c747ef3e562ccbe5c9d9be8626fb0c3c92d24db2b9c",
+    "width": 200,
+    "height": 200,
+    "duration": 4.06,
+    "audio": false,
+    "originalGif": "aerie-36.gif",
+    "file": "aerie-36.mp4",
+    "poster": "aerie-36.jpg",
+    "contexts": [
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide18.xml",
+        "text": "SubD  Primitives SubDEllipsoid SubDPlane SubDTorus SubDSphere SubDTruncatedCone SubDCylinder SubDBox SubDCone 3DFace MultiPipe"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-37",
+    "input": "tmp/course-motion/aerie-37.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-2.pptx!ppt/media/image36.gif"
+    ],
+    "sha256": "14c8fdde9e2667b3cc41fac20574abe3da4fc58433912f8f2b7778e4fb850b08",
+    "width": 200,
+    "height": 200,
+    "duration": 4.34,
+    "audio": false,
+    "originalGif": "aerie-37.gif",
+    "file": "aerie-37.mp4",
+    "poster": "aerie-37.jpg",
+    "contexts": [
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide18.xml",
+        "text": "SubD  Primitives SubDEllipsoid SubDPlane SubDTorus SubDSphere SubDTruncatedCone SubDCylinder SubDBox SubDCone 3DFace MultiPipe"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-38",
+    "input": "tmp/course-motion/aerie-38.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-2.pptx!ppt/media/image37.gif"
+    ],
+    "sha256": "6a7593900e83cd57487b442699b18b8ef56555875da2618adaab499aa56b03a7",
+    "width": 200,
+    "height": 200,
+    "duration": 4.83,
+    "audio": false,
+    "originalGif": "aerie-38.gif",
+    "file": "aerie-38.mp4",
+    "poster": "aerie-38.jpg",
+    "contexts": [
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide18.xml",
+        "text": "SubD  Primitives SubDEllipsoid SubDPlane SubDTorus SubDSphere SubDTruncatedCone SubDCylinder SubDBox SubDCone 3DFace MultiPipe"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-39",
+    "input": "tmp/course-motion/aerie-39.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-2.pptx!ppt/media/image38.gif"
+    ],
+    "sha256": "8c38759b102654d2a298efb222d70bcabd20910d4081495066a1e018bc611804",
+    "width": 200,
+    "height": 200,
+    "duration": 5.32,
+    "audio": false,
+    "originalGif": "aerie-39.gif",
+    "file": "aerie-39.mp4",
+    "poster": "aerie-39.jpg",
+    "contexts": [
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide18.xml",
+        "text": "SubD  Primitives SubDEllipsoid SubDPlane SubDTorus SubDSphere SubDTruncatedCone SubDCylinder SubDBox SubDCone 3DFace MultiPipe"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-40",
+    "input": "tmp/course-motion/aerie-40.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-2.pptx!ppt/media/image39.gif"
+    ],
+    "sha256": "8a5efd78618606e787f45aa47c33913444be8ed0dd95e5d4dc8086af6953c613",
+    "width": 200,
+    "height": 200,
+    "duration": 4.27,
+    "audio": false,
+    "originalGif": "aerie-40.gif",
+    "file": "aerie-40.mp4",
+    "poster": "aerie-40.jpg",
+    "contexts": [
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide18.xml",
+        "text": "SubD  Primitives SubDEllipsoid SubDPlane SubDTorus SubDSphere SubDTruncatedCone SubDCylinder SubDBox SubDCone 3DFace MultiPipe"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-41",
+    "input": "tmp/course-motion/aerie-41.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-2.pptx!ppt/media/image40.gif"
+    ],
+    "sha256": "9da7427a886c8fc54a0e1c5b2d92a705a3d08a9aa6f5e9d5e5aeb2f9b0ca8af1",
+    "width": 250,
+    "height": 200,
+    "duration": 4.54,
+    "audio": false,
+    "originalGif": "aerie-41.gif",
+    "file": "aerie-41.mp4",
+    "poster": "aerie-41.jpg",
+    "contexts": [
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide18.xml",
+        "text": "SubD  Primitives SubDEllipsoid SubDPlane SubDTorus SubDSphere SubDTruncatedCone SubDCylinder SubDBox SubDCone 3DFace MultiPipe"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-42",
+    "input": "tmp/course-motion/aerie-42.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-2.pptx!ppt/media/image41.gif"
+    ],
+    "sha256": "ceb9a89e6da6b6ea4b9fe8204e323fb5a39f261505efabc16e552e4e331581b7",
+    "width": 200,
+    "height": 200,
+    "duration": 7.0,
+    "audio": false,
+    "originalGif": "aerie-42.gif",
+    "file": "aerie-42.mp4",
+    "poster": "aerie-42.jpg",
+    "contexts": [
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide18.xml",
+        "text": "SubD  Primitives SubDEllipsoid SubDPlane SubDTorus SubDSphere SubDTruncatedCone SubDCylinder SubDBox SubDCone 3DFace MultiPipe"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-43",
+    "input": "tmp/course-motion/aerie-43.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-2.pptx!ppt/media/image52.gif"
+    ],
+    "sha256": "63be2c80d7039047821bee22626391ebb1ee13846a691e40e905d9ac4f7c7238",
+    "width": 300,
+    "height": 150,
+    "duration": 5.39,
+    "audio": false,
+    "originalGif": "aerie-43.gif",
+    "file": "aerie-43.mp4",
+    "poster": "aerie-43.jpg",
+    "contexts": [
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide19.xml",
+        "text": "SubD  Edit Commands SubDCrease SubDBridge Slide SubDBevel SubDStitch ExtrudeSubD Fill Inset SubDReflect  / Radiate InsertEdge SubDLoft QuadRemesh"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-44",
+    "input": "tmp/course-motion/aerie-44.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-2.pptx!ppt/media/image42.gif"
+    ],
+    "sha256": "9528a0e679cf1526fb58d8de26c24c476c16edb5224d66116dbe9484045e3528",
+    "width": 200,
+    "height": 150,
+    "duration": 5.58,
+    "audio": false,
+    "originalGif": "aerie-44.gif",
+    "file": "aerie-44.mp4",
+    "poster": "aerie-44.jpg",
+    "contexts": [
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide18.xml",
+        "text": "SubD  Primitives SubDEllipsoid SubDPlane SubDTorus SubDSphere SubDTruncatedCone SubDCylinder SubDBox SubDCone 3DFace MultiPipe"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-45",
+    "input": "tmp/course-motion/aerie-45.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-2.pptx!ppt/media/image56.gif"
+    ],
+    "sha256": "f7add0fe1969706358a3dae5e6bad3ce6531cad8aa744919d1ce071175692a0d",
+    "width": 200,
+    "height": 200,
+    "duration": 3.21,
+    "audio": false,
+    "originalGif": "aerie-45.gif",
+    "file": "aerie-45.mp4",
+    "poster": "aerie-45.jpg",
+    "contexts": [
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide20.xml",
+        "text": "SubD  Selection Commands SubDFaceLoop SubDEdgeRing SubDEdgeLoop"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-46",
+    "input": "tmp/course-motion/aerie-46.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-2.pptx!ppt/media/image57.gif"
+    ],
+    "sha256": "35f0b6878d2f91217fd476ff3e9cb7b6ffb9e1f0ec86c7e7b4d7bde5b44b4118",
+    "width": 200,
+    "height": 200,
+    "duration": 3.44,
+    "audio": false,
+    "originalGif": "aerie-46.gif",
+    "file": "aerie-46.mp4",
+    "poster": "aerie-46.jpg",
+    "contexts": [
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide20.xml",
+        "text": "SubD  Selection Commands SubDFaceLoop SubDEdgeRing SubDEdgeLoop"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-47",
+    "input": "tmp/course-motion/aerie-47.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-2.pptx!ppt/media/image43.gif"
+    ],
+    "sha256": "2e229ca1b1c2cd1e7ce4a84ad677ea7d78c0988f6306f62144e002e0e06dbca8",
+    "width": 400,
+    "height": 200,
+    "duration": 6.3,
+    "audio": false,
+    "originalGif": "aerie-47.gif",
+    "file": "aerie-47.mp4",
+    "poster": "aerie-47.jpg",
+    "contexts": [
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide19.xml",
+        "text": "SubD  Edit Commands SubDCrease SubDBridge Slide SubDBevel SubDStitch ExtrudeSubD Fill Inset SubDReflect  / Radiate InsertEdge SubDLoft QuadRemesh"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-48",
+    "input": "tmp/course-motion/aerie-48.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-2.pptx!ppt/media/image44.gif"
+    ],
+    "sha256": "0fd109f7f335c3e04e358bde3ccd65af47937c57dd7b9f886c1458b2c8d8d425",
+    "width": 300,
+    "height": 150,
+    "duration": 5.99,
+    "audio": false,
+    "originalGif": "aerie-48.gif",
+    "file": "aerie-48.mp4",
+    "poster": "aerie-48.jpg",
+    "contexts": [
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide19.xml",
+        "text": "SubD  Edit Commands SubDCrease SubDBridge Slide SubDBevel SubDStitch ExtrudeSubD Fill Inset SubDReflect  / Radiate InsertEdge SubDLoft QuadRemesh"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-49",
+    "input": "tmp/course-motion/aerie-49.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-2.pptx!ppt/media/image45.gif"
+    ],
+    "sha256": "a8871b122a91813c1eb86dd2ab0a8f94e586d41ff661a7f53bae6bc0e7e0456a",
+    "width": 200,
+    "height": 200,
+    "duration": 7.35,
+    "audio": false,
+    "originalGif": "aerie-49.gif",
+    "file": "aerie-49.mp4",
+    "poster": "aerie-49.jpg",
+    "contexts": [
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide19.xml",
+        "text": "SubD  Edit Commands SubDCrease SubDBridge Slide SubDBevel SubDStitch ExtrudeSubD Fill Inset SubDReflect  / Radiate InsertEdge SubDLoft QuadRemesh"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-50",
+    "input": "tmp/course-motion/aerie-50.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-2.pptx!ppt/media/image46.gif"
+    ],
+    "sha256": "d65022ea696b45180e26a315fd622e5c7e84ba4f5132c10145e1bb1603c21f6d",
+    "width": 300,
+    "height": 200,
+    "duration": 8.52,
+    "audio": false,
+    "originalGif": "aerie-50.gif",
+    "file": "aerie-50.mp4",
+    "poster": "aerie-50.jpg",
+    "contexts": [
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide19.xml",
+        "text": "SubD  Edit Commands SubDCrease SubDBridge Slide SubDBevel SubDStitch ExtrudeSubD Fill Inset SubDReflect  / Radiate InsertEdge SubDLoft QuadRemesh"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-51",
+    "input": "tmp/course-motion/aerie-51.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-2.pptx!ppt/media/image47.gif"
+    ],
+    "sha256": "fe14fef3339535c238ba7c0c52643506bd3084c9341a6fd99a3847a2ab5d4eb4",
+    "width": 200,
+    "height": 200,
+    "duration": 9.8,
+    "audio": false,
+    "originalGif": "aerie-51.gif",
+    "file": "aerie-51.mp4",
+    "poster": "aerie-51.jpg",
+    "contexts": [
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide19.xml",
+        "text": "SubD  Edit Commands SubDCrease SubDBridge Slide SubDBevel SubDStitch ExtrudeSubD Fill Inset SubDReflect  / Radiate InsertEdge SubDLoft QuadRemesh"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-52",
+    "input": "tmp/course-motion/aerie-52.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-2.pptx!ppt/media/image48.gif"
+    ],
+    "sha256": "795279da2b140351d017dd3451212e99cb084aaa66601231ee738dea1230174b",
+    "width": 200,
+    "height": 200,
+    "duration": 12.5,
+    "audio": false,
+    "originalGif": "aerie-52.gif",
+    "file": "aerie-52.mp4",
+    "poster": "aerie-52.jpg",
+    "contexts": [
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide19.xml",
+        "text": "SubD  Edit Commands SubDCrease SubDBridge Slide SubDBevel SubDStitch ExtrudeSubD Fill Inset SubDReflect  / Radiate InsertEdge SubDLoft QuadRemesh"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-53",
+    "input": "tmp/course-motion/aerie-53.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-2.pptx!ppt/media/image49.gif"
+    ],
+    "sha256": "5f22dc79faa785e32a0284c41e5d27f3fda98b4fc22e38c3fc2d42de250ac8a0",
+    "width": 200,
+    "height": 200,
+    "duration": 8.1,
+    "audio": false,
+    "originalGif": "aerie-53.gif",
+    "file": "aerie-53.mp4",
+    "poster": "aerie-53.jpg",
+    "contexts": [
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide19.xml",
+        "text": "SubD  Edit Commands SubDCrease SubDBridge Slide SubDBevel SubDStitch ExtrudeSubD Fill Inset SubDReflect  / Radiate InsertEdge SubDLoft QuadRemesh"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-54",
+    "input": "tmp/course-motion/aerie-54.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-2.pptx!ppt/media/image50.gif"
+    ],
+    "sha256": "d418aa188e5d9304347870b0e600a5f4c2bc36567f5c9f8d0b5814455915dc90",
+    "width": 200,
+    "height": 200,
+    "duration": 7.0,
+    "audio": false,
+    "originalGif": "aerie-54.gif",
+    "file": "aerie-54.mp4",
+    "poster": "aerie-54.jpg",
+    "contexts": [
+      {
+        "deck": "Class-2.pptx",
+        "slide": "ppt/slides/slide19.xml",
+        "text": "SubD  Edit Commands SubDCrease SubDBridge Slide SubDBevel SubDStitch ExtrudeSubD Fill Inset SubDReflect  / Radiate InsertEdge SubDLoft QuadRemesh"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-55",
+    "input": "tmp/course-motion/aerie-55.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-3.pptx!ppt/media/image32.gif"
+    ],
+    "sha256": "4ea4d74052d8a8d1bd48cef5e56357eb319568e7f58413e85d8eb7c04e41374e",
+    "width": 1908,
+    "height": 1080,
+    "duration": 7.3,
+    "audio": false,
+    "originalGif": "aerie-55.gif",
+    "file": "aerie-55.mp4",
+    "poster": "aerie-55.jpg",
+    "contexts": [
+      {
+        "deck": "Class-3.pptx",
+        "slide": "ppt/slides/slide27.xml",
+        "text": "Getting started with Grasshopper Grasshopper started its life as a plugin for Rhino which you had to download and install separately. Since version 6, Rhino now has Grasshopper built-in, so if you are using Rhino 6 or later, you don\u2019t need to install any additional software to use Grasshopper. You can start Grasshopper either by clicking the Grasshopper button in the toolbar or by typing Grasshopper in the Command line."
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-56",
+    "input": "tmp/course-motion/aerie-56.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-3.pptx!ppt/media/image29.gif"
+    ],
+    "sha256": "aa1978387c857feb4b8d1ffd39b0c28674bb6be4c3474a4bded48bbb1d43648d",
+    "width": 1908,
+    "height": 1080,
+    "duration": 4.8,
+    "audio": false,
+    "originalGif": "aerie-56.gif",
+    "file": "aerie-56.mp4",
+    "poster": "aerie-56.jpg",
+    "contexts": [
+      {
+        "deck": "Class-3.pptx",
+        "slide": "ppt/slides/slide25.xml",
+        "text": "Designing with algorithms When you first learned how to model geometry in a CAD software, you probably used a visual UI to perform many of the operations. For example, if you wanted to make a box, you would run the \u201cbox\u201d command, which would give you a series of instructions to follow for making the box. First, you would click on a point in space to specify the first corner of the box, then click another point to specify the other corner of the base, and finally use your mouse to visually define the height of the box. This is a very visual and intuitive way of making geometry in the computer, and matches the traditional way of working with physical materials by hand to create form."
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-57",
+    "input": "tmp/course-motion/aerie-57.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-3.pptx!ppt/media/image31.gif"
+    ],
+    "sha256": "4364156a94d240697b7ca5ea7eab134008e474f32d2ea7cd431f5e2fb9fe4afd",
+    "width": 1908,
+    "height": 1080,
+    "duration": 3.8,
+    "audio": false,
+    "originalGif": "aerie-57.gif",
+    "file": "aerie-57.mp4",
+    "poster": "aerie-57.jpg",
+    "contexts": [
+      {
+        "deck": "Class-3.pptx",
+        "slide": "ppt/slides/slide26.xml",
+        "text": "Computational Design Thinking When you first learned how to model geometry in a CAD software, you probably used a visual UI to perform many of the operations. For example, if you wanted to make a box, you would run the \u201cbox\u201d command, which would give you a series of instructions to follow for making the box. First, you would click on a point in space to specify the first corner of the box, then click another point to specify the other corner of the base, and finally use your mouse to visually define the height of the box. This is a very visual and intuitive way of making geometry in the computer, and matches the traditional way of working with physical materials by hand to create form."
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-58",
+    "input": "tmp/course-motion/aerie-58.mp4",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-5.pptx!ppt/media/media3.mp4"
+    ],
+    "sha256": "78eb3794817d35356533c8f81f95e0d1b27087e6624974613fceb4e2fa69b0ac",
+    "width": 1920,
+    "height": 1080,
+    "duration": 8.426,
+    "audio": true,
+    "file": "aerie-58.mp4",
+    "poster": "aerie-58.jpg",
+    "contexts": [
+      {
+        "deck": "Class-5.pptx",
+        "slide": "ppt/slides/slide3.xml",
+        "text": "Domain not equals Length Curve Length: 336.14 mm Linear Length: 197.3 mm Curve Domain: -5 to 0 Normalised  Domain: 0 - 1 Surface Dimensions: 619, 1720 mm Linear Dimensions: 1600, 400 mm Surface Domain: u: {-400 to 0}, v: {0 to 1600} Normalised  Domain: u: {0 to 1.00}, v: {0 to 1.00} U V"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-59",
+    "input": "tmp/course-motion/aerie-59.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-7.pptx!ppt/media/image12.gif",
+      "project-references\\TeachingatAerie\\Class-8.pptx!ppt/media/image16.gif"
+    ],
+    "sha256": "cf12cb828536c20d5659bea6400ce7490519a71244e0a7552e18b2b4a8ca203f",
+    "width": 490,
+    "height": 639,
+    "duration": 0.0,
+    "audio": false,
+    "originalGif": "aerie-59.gif",
+    "file": "aerie-59.mp4",
+    "poster": "aerie-59.jpg",
+    "contexts": [
+      {
+        "deck": "Class-7.pptx",
+        "slide": "ppt/slides/slide6.xml",
+        "text": "An age old problem Fermat Lagrange Newton Gauss Dantzig Kantorovic Von Neumann"
+      },
+      {
+        "deck": "Class-8.pptx",
+        "slide": "ppt/slides/slide9.xml",
+        "text": "An age old problem Fermat Lagrange Newton Gauss Dantzig Kantorovic Von Neumann"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-60",
+    "input": "tmp/course-motion/aerie-60.gif",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-7.pptx!ppt/media/image22.gif",
+      "project-references\\TeachingatAerie\\Class-8.pptx!ppt/media/image26.gif"
+    ],
+    "sha256": "d92ce0a3ce7c64b75f3b94908babb2a1a275276cdb70935fd642dc5d137d3b6b",
+    "width": 400,
+    "height": 600,
+    "duration": 0.1,
+    "audio": false,
+    "originalGif": "aerie-60.gif",
+    "file": "aerie-60.mp4",
+    "poster": "aerie-60.jpg",
+    "contexts": [
+      {
+        "deck": "Class-7.pptx",
+        "slide": "ppt/slides/slide15.xml",
+        "text": "Evolutionary Solvers"
+      },
+      {
+        "deck": "Class-8.pptx",
+        "slide": "ppt/slides/slide18.xml",
+        "text": "Evolutionary Solvers"
+      }
+    ]
+  },
+  {
+    "group": "aerie",
+    "slug": "aerie-61",
+    "input": "tmp/course-motion/aerie-61.mp4",
+    "sources": [
+      "project-references\\TeachingatAerie\\Class-7.pptx!ppt/media/media1.mp4",
+      "project-references\\TeachingatAerie\\Class-8.pptx!ppt/media/media1.mp4"
+    ],
+    "sha256": "f9a7defd255a0574a4fec02107c1d870e5320c4d2d2648d8aa461b744f1c4a31",
+    "width": 1920,
+    "height": 1072,
+    "duration": 129.322646,
+    "audio": true,
+    "file": "aerie-61.mp4",
+    "poster": "aerie-61.jpg",
+    "contexts": [
+      {
+        "deck": "Class-7.pptx",
+        "slide": "ppt/slides/slide24.xml",
+        "text": "Optimisation U V"
+      },
+      {
+        "deck": "Class-8.pptx",
+        "slide": "ppt/slides/slide2.xml",
+        "text": "Optimisation U V"
+      }
+    ]
+  }
+]

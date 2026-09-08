@@ -1,0 +1,122 @@
+{
+  "arch-components": {
+    "source": "project-references/Biopol-3Dprinting_Workshop/5.jpg",
+    "width": 2600,
+    "height": 1291
+  },
+  "arch-series-small": {
+    "source": "project-references/Biopol-3Dprinting_Workshop/1.jpg",
+    "width": 2600,
+    "height": 1290
+  },
+  "arch-series-large": {
+    "source": "project-references/Biopol-3Dprinting_Workshop/10 (2).jpg",
+    "width": 2600,
+    "height": 1290
+  },
+  "prototype-dimensions": {
+    "source": "project-references/Biopol-3Dprinting_Workshop/proto1.jpg",
+    "width": 2600,
+    "height": 1290
+  },
+  "prototype-parts": {
+    "source": "project-references/Biopol-3Dprinting_Workshop/proto8.jpg",
+    "width": 2600,
+    "height": 1290
+  },
+  "slicing-surface": {
+    "source": "project-references/Biopol-3Dprinting_Workshop/proto10.jpg",
+    "width": 2600,
+    "height": 1290
+  },
+  "slicing-toolpath": {
+    "source": "project-references/Biopol-3Dprinting_Workshop/proto11.jpg",
+    "width": 2600,
+    "height": 1290
+  },
+  "infill-plan": {
+    "source": "project-references/Biopol-3Dprinting_Workshop/plan_brick7.png",
+    "width": 2600,
+    "height": 1290
+  },
+  "infill-perspective": {
+    "source": "project-references/Biopol-3Dprinting_Workshop/perspective_view_brick7.png",
+    "width": 2600,
+    "height": 1290
+  },
+  "velocity": {
+    "source": "project-references/Biopol-3Dprinting_Workshop/printVelocities.png",
+    "width": 2600,
+    "height": 1290
+  },
+  "bead-width": {
+    "source": "project-references/Biopol-3Dprinting_Workshop/beadWidth.png",
+    "width": 2600,
+    "height": 1290
+  },
+  "displacement": {
+    "source": "project-references/Biopol-3Dprinting_Workshop/displacement.png",
+    "width": 2600,
+    "height": 1290
+  },
+  "collapse": {
+    "source": "project-references/Biopol-3Dprinting_Workshop/Collapse Prediction.png",
+    "width": 2600,
+    "height": 1290
+  },
+  "learning": {
+    "source": "project-references/Biopol-3Dprinting_Workshop/learning.png",
+    "width": 2600,
+    "height": 1290
+  },
+  "vault-form": {
+    "source": "tmp/biopol-evidence/slide-14-image41.png",
+    "width": 2600,
+    "height": 1588
+  },
+  "form-finding": {
+    "source": "tmp/biopol-evidence/slide-13-image40.png",
+    "width": 1600,
+    "height": 1200
+  },
+  "printed-count": {
+    "source": "tmp/biopol-evidence/slide-30-image65.png",
+    "width": 2600,
+    "height": 1462
+  },
+  "speed-test": {
+    "source": "tmp/biopol-evidence/slide-39-image70.jpeg",
+    "width": 2600,
+    "height": 1950
+  },
+  "robot-printing": {
+    "source": "tmp/biopol-evidence/slide-42-image73.png",
+    "width": 1920,
+    "height": 1080
+  },
+  "brick-eight-test": {
+    "source": "tmp/biopol-evidence/slide-49-image91.jpeg",
+    "width": 2600,
+    "height": 1950
+  },
+  "brick-seven-test": {
+    "source": "tmp/biopol-evidence/slide-52-image106.jpeg",
+    "width": 2600,
+    "height": 1950
+  },
+  "team-rewards": {
+    "source": "tmp/biopol-evidence/slide-46-image78.png",
+    "width": 1634,
+    "height": 1423
+  },
+  "framework-rewards": {
+    "source": "tmp/biopol-evidence/slide-46-image77.png",
+    "width": 1656,
+    "height": 1437
+  },
+  "vault-visualisation": {
+    "source": "tmp/biopol-evidence/slide-54-image107.png",
+    "width": 1536,
+    "height": 1024
+  }
+}
