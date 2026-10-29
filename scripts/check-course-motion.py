@@ -23,7 +23,7 @@ for group,route in routes:
     url='http://localhost:8081/'+route
     html=urlopen(url).read().decode();page=Page();page.feed(html)
     if group=='biopol':expected={x['slug'] for x in items if x['group']==group}
-    elif group=='aerie':expected={x['slug'] for x in items if x['group']==group}-moved-{'aerie-12'}-{f'aerie-{n}' for n in range(29,58)}
+    elif group=='aerie':expected={x['slug'] for x in items if x['group']==group}-moved-{'aerie-12','aerie-59','aerie-60'}-{f'aerie-{n}' for n in range(29,58)}
     elif group=='home':expected=set()
     elif group=='robots':expected={'aerie-13','aerie-24','aerie-25','aerie-28','biopol-01','biopol-08','biopol-09','biopol-10'}
     else:expected={x['slug'] for x in placements if x['project']==group}
